@@ -2,7 +2,18 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-fetch_summary.json
 node_modules/
 dist/
+
+# Scripts & temp files (not part of the documentation)
+resolve-*.js
+download-*.js
+test-*.js
 clean-mdx.js
+*.py
+
+# Resolve/image temp data
+resolve-progress.json
+uuid-mapping.json
+uuid-filename.json
+page.html

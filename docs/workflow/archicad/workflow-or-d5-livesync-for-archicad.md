@@ -22,7 +22,7 @@ Supports Archicad 21 to 28, including Archicad Solo and Archicad SE
 
 ## Features 
 
-<div align="left"><img src="https://usa-forum.d5cdn.com/original/3X/9/4/947ac03e0c716a1074eacda8c9f40fb89ac640d6.png" alt="BF196162-B412-46f0-B717-1483B7A05C08" height="34" width="295"></div>
+<div align="left"><img src="/947ac03e0c716a1074eacda8c9f40fb89ac640d6.png" alt="BF196162-B412-46f0-B717-1483B7A05C08" height="34" width="295"></div>
 
 ### **One-click to launch D5 Render in Archicad**
 

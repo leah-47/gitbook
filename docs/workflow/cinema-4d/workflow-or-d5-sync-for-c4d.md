@@ -78,7 +78,7 @@ Unzip the file after downloading it and run the installer following the instruct
 * Method 2\
   Go to Control Panel > Programs and Features > Uninstall a program, and then run the uninstaller.<br>
 
-  [i](https://usa-forum.d5cdn.com/original/2X/1/159d76cec5570196623a059229989ef549a74e8e.png)
+  [i](/159d76cec5570196623a059229989ef549a74e8e.png)
 
   
 

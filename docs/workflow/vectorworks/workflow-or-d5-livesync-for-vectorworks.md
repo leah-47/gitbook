@@ -30,7 +30,7 @@ fetched: 2026-06-07
 
 #### Features 
 
-<img src="https://usa-forum.d5cdn.com/original/3X/c/1/c1e86b0a82416c2ddb1b1f8d28d79767c8001dc4.png" alt="" height="40" width="239">
+<img src="/c1e86b0a82416c2ddb1b1f8d28d79767c8001dc4.png" alt="" height="40" width="239">
 
 **Connect to the D5 Render**
 
