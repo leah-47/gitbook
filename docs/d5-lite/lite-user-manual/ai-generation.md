@@ -6,8 +6,6 @@ fetched: 2026-06-07
 
 # AI Generation
 
-
-
 ### Capture
 
 1. Capture from SketchUp
@@ -26,8 +24,6 @@ D5 Lite offers multiple parameters to control the image generation effect.
 2. Each category corresponds to different project types, such as commercial, office, villa, residential, etc., in the architecture category.
 3. Each project type further specifies design styles, including aspects like perspective, environment, season, and materials, allowing you to choose corresponding generation styles.
 
-
-
 ### Structure Weight
 
 Used to adjust the similarity between the generated image and the input image structure, affecting the balance between creative freedom and structural consistency.
@@ -41,22 +37,18 @@ Used to adjust the similarity between the generated image and the input image st
 
 |                                                                                                                                                                                                                                                           | Creative                                                                                                                                                                                                                                                  | Default                                                                                                                                                                                                                                                 | Precise                                                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><br></p>                                                                                                                                                                                                                                               | <p></p><p><br></p>                                                                                                                                                                                          | <p></p><p><br></p>                                                                                                                                                                                        | ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXds86Yg2doONt9NcEsCCmTMIJ1k2atcBGHtza2zS56P9YVv4GJoaY0TZ9EzuSoGga6ZFHYFoeGnGvFpYO0aT7mxgWkKbFBs3qoDEKUGbYuiIZuQCGEr7JHxwjFqGthwEQObkLCC?key=aSAS5uWlhWzlvc3M8Jr3hct-)                                 |
-| <p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6EzYEQasQfKksE4vlssuT8eCMTtgtvoOxigRygI3-k5rMNjJa56Yv70xwnCy_DdtzClctr8N4neW4FfeGDvBWGu_FFOviNKV0QqkTjdZ56LqEHdwMXHcepA8ng1WJDE3hcGRH?key=aSAS5uWlhWzlvc3M8Jr3hct-" alt=""></p><p><br></p> | <p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfEN41vuV9OJRtVddHSw7JG1mdIsXOV6y-GOie9rollRElgzWCIZ61BmXDjLZnagAi-7NF3cRjk73BwARcmdIPa5O28Yyx6n3dZvs-cHDLoGRj18Tt6U5uww8l3cnTy169oV-RD?key=aSAS5uWlhWzlvc3M8Jr3hct-" alt=""></p><p><br></p> | <p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkmIt3_BEpsnuIL7HsO7kqWZfIWwq5sEalNtdLVe4cP-kZUx5wX2okRB4wQ5oIQjHsNVr7mkKGqXttIdaEzmyu2p80ucGm1f9Z5Cq7h9ESO-fbrqNp83i5r6ySmO0uUsKIsA?key=aSAS5uWlhWzlvc3M8Jr3hct-" alt=""></p><p><br></p> | <p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOXCg0huMp_f20mSXtRDlkFnbFac94eOWoy0MawrUqvCgC9QNjJv75jaRzViyNtZ-3LKzvi_Y2RJB6THQBWl0GxRulJcskVdhqs8DOX9dAmzXZ5e_KxWrCn8PSLaDlaU3PyeaT?key=aSAS5uWlhWzlvc3M8Jr3hct-" alt=""></p><p><br></p> |
+| <p></p>                                                                                                                                                                                                                                               | <p></p><p></p>                                                                                                                                                                                          | <p></p><p></p>                                                                                                                                                                                        | ![](/d5-ai-generation.png)                                 |
+| <p></p> | <p></p> | <p></p> | <p></p> |
 
 ### Inspiration Description
 
 1. By inputting a custom prompt, users can more accurately control the content of the generated images to meet specific design needs.
 2. Up to 300 characters are supported.
 
-
-
 ### Reference Image
 
 1. Supports custom reference image upload. The AI analyzes the style, color, and atmosphere of the uploaded image to generate corresponding results.
 2. You can upload any image directly from the toolbar, with support for up to 50M.
-
-
 
 ### Image Generation Settings
 
@@ -70,11 +62,7 @@ Used to adjust the similarity between the generated image and the input image st
 3. Number of Generated Images
    1. You can generate up to 4 images at a time for quick comparison of design schemes.
 
-
-
 ### Generate, Re-generate, and Iterative Generate
-
-
 
 1. Generation Process:
    1. Generate:
@@ -89,8 +77,6 @@ Used to adjust the similarity between the generated image and the input image st
 3. Viewing the image in larger detail initiates the iterative generation process. You can return to the previous step from the top left corner of the interface.
 4. While viewing the larger version of the generated image, you can compare it with the original via the option in the top-right corner, making it easier to evaluate differences and improvements.
 
-
-
 ### Save and Delete Image
 
 1. After generating, you can click the save button at the bottom right corner to save the generated image locally.
@@ -103,6 +89,5 @@ Used to adjust the similarity between the generated image and the input image st
 3. Support switching between “**All**” and “**Current Item**”
    1. “**All**” shows all the generated image records under the current login account.
    2. “**Current Project**" filters out the images corresponding to the current SketchUp file.
-
 
 ---

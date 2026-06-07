@@ -10,11 +10,7 @@ fetched: 2026-06-07
 
 [**Hardware and Solution** (prompts 'Unknown Graphics Card')](#hardware-and-solution)
 
-
-
 [**Software and Solution** ('Driver Version' or 'System' column is greyed out)](#software-and-solution)
-
-
 
 [**Checklist Overview**](#checklist)
 
@@ -23,8 +19,6 @@ fetched: 2026-06-07
 ## Hardware and Solution
 
 ***Prompt: You did not meet the minimum requirements, please upgrade your current hardware.***
-
-
 
 ### 1. The graphics card does not meet the requirements to run D5.
 
@@ -76,8 +70,6 @@ D5 only supports Discrete Graphics Card (GPU), not integrated graphics Card (GPU
 
 ***Prompt: The current graphics card driver cannot support D5 Render due to compatibility issues. Please upgrade the driver to the latest version.***
 
-
-
 ### 1. The driver version is too low/out-of-date
 
 **Description:**
@@ -111,6 +103,5 @@ Open Settings → Windows Update → Check for updates or use the [Update Assist
 * The 'Discrete' GPU has been configured as the default properly.
 * Graphics card driver has been updated to an appropriate version,
 * Windows system version is 21H2 or higher.
-
 
 ---

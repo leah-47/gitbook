@@ -8,25 +8,17 @@ fetched: 2026-06-07
 
 D5 Widget is a customized extension module of D5 Render, aiming to provide advanced features while keeping the simplicity. (learn more about [D5 Widget](https://www.d5render.com/post/d5-render-widget)) It contains 6 major functions: advanced video rendering, VR (virtual reality) beta, stage lighting, projector, color correction, and merge projects.
 
-Go to ****Menu > Preference > Widget**** , and you can check what you installed, switch on/off with one click to manage your widgets.
-
-
+Go to <mark style="background-color:purple;">**Menu > Preference > Widget**</mark> , and you can check what you installed, switch on/off with one click to manage your widgets.
 
 ### Advanced Image Rendering
 
 * Select .png .jpg .tga .tif .exr when rendering images, with channel selection enabled.
 
-
-
-### Advanced Video Rendering 
+### Advanced Video Rendering <a href="#toc-h3-2-advanced-video-rendering" id="toc-h3-2-advanced-video-rendering"></a>
 
 * Select .mp4 or .avi when rendering videos.
 
-
-
 * Sequence of frames supports .png and .exr with channel selection enabled.
-
-
 
 ### VR beta
 
@@ -40,8 +32,6 @@ Navigation Bar > Add Lights > Stage Light.
 
 The stage lighting is designed to simulate professional dynamic lighting effects.
 
-
-
 * **Pattern :**&#x73;elect a preset pattern or upload a custom pattern&#x20;
 * **Brightness**：The luminous intensity of the light source in cd (candela, candela), the maximum brightness can be entered 8000000.&#x20;
 * **Aperture:**&#x43;ontrol the size of the radius of the stage light cone, the larger the aperture, the larger the radius of light.
@@ -53,15 +43,11 @@ The stage lighting is designed to simulate professional dynamic lighting effects
 * **Colors**：Control the light color.
 * **Pattern**：select a preset pattern or upload a custom pattern .
 
-The stage lighting is designed to simulate professional dynamic lighting effects.![](https://dimension5.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjQ5YTdhODBmYWY0YjllYjNmZmU0MjcyNjE3ZjBkMTFfMWhnZEkyYkQ5Sk83VUl5bHlmaHFWcENtclVWempvZEdfVG9rZW46Ym94Y25vWmc0a2MyM2VibUtKYjVoZ0xBQ3pjXzE2NTA0MzM2MzA6MTY1MDQzNzIzMF9WNA)
+The stage lighting is designed to simulate professional dynamic lighting effects.<!-- [Image: stage lighting] -->
 
 ### Projector
 
-
-
 Go to Menu > Preference > Widget to activate Projector, then it can be inserted into scenes from the Navigation bar > Add lights. Projector is a new type of light source, which has a rectangular projection effect. It supports image formats including jpg/png/bmp and video formats including mp4/avi/wmv.
-
-
 
 * **Video**：select a preset pattern or upload a custom pattern to determine the projection screen.
 * **Brightness**：The luminous intensity of the light source in cd (candela, candela), the maximum brightness can be entered 8000000.&#x20;
@@ -71,8 +57,6 @@ Go to Menu > Preference > Widget to activate Projector, then it can be inserted 
 * **Haze Effect :**&#x54;o create a haze effect, we need to turn on the "Volume Light" in "Environment" - > "Weather" - > "Fog" in advance.
 
 ### Color Grading
-
-
 
 Precisely control the tonal values of Midtones, Shadows, Highlights, Global in the scene with Effect panel.
 
@@ -86,11 +70,7 @@ Go to Menu > Preference > Widget, and activate Merge Projects (beta) there. You 
 
 2\. Right click on a project in the Recent page, select Merge Project&#x20;
 
-
-
 3\. While editing files, go to Menu > File > Merge project
-
-
 
 #### **Conditions of Merge project**
 
@@ -118,6 +98,5 @@ Project merging will be carried out in the order of adding projects: the first a
 #### **Merger Logic**
 
 To merge projects, we need to select at least 2 files, then choose whether to combine their models, light objects, scenes, etc. The checked items will be retained in the merged result; while unchecked ones will be removed.If we check the same option for multiple projects at the same time, only one copy of the identical parts of the scene will be retained; different parts will be added automatically. For example, the same light exists in both projects. If the light is checked in the merge option, adding the parameters of the light in the project will overwrite the light parameters in the previous project.If we check the same option for multiple projects at the same time, different parts will be added automatically.
-
 
 ---

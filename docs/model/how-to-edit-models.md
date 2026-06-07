@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to edit models?
 
-**D5 Render primarily supports two methods to move, rotate and scale objects.**
+<mark style="background-color:purple;">D5 Render primarily supports two methods to move, rotate and scale objects.</mark>
 
 ### 1. Scene Tools
 
@@ -31,7 +31,7 @@ The "Basic" parameter in the right sidebar also supports adjusting the "Location
 
 For multi-selected objects, you can enter values to unify the coordinates. Or hover and drag the mouse over the input box to move the model uniformly to a certain direction.
 
-![](https://saas.bk-cdn.com/t/18217684-957c-4109-9021-5866cc58cc60/u/b2b089df-cb81-4043-b79c-df8b2dc9bba1/1675066114049/8870a17f-5095-4963-8065-3840e5f1aa0e.gif)
+<!-- [Image: model editing step 1] -->
 
 ### Rotate Models
 
@@ -43,19 +43,17 @@ You can rotate the model by clicking on the upper semicircle on the coordinate a
    * A line from the gizmo center to the mouse position will appear on the screen. The greater the distance between the mouse and the gizmo center, the more precise the rotation adjustment becomes.
 2. **Basic Parameter** : The information of the model will be displayed in the "Basic" column of the right sidebar, and you can adjust the value of "Rotation".
 
-![](https://saas.bk-cdn.com/t/18217684-957c-4109-9021-5866cc58cc60/u/b2b089df-cb81-4043-b79c-df8b2dc9bba1/1675066117833/9f93be79-e490-4204-bab8-024117c3d9a2.gif)<br>
+<!-- [Image: model editing step 2] --><br>
 
 ### Scale Models
 
 1. **Scene Tools** : Select the "Scale" tool (shortcut \* V toggle) and drag any of the axes to change the size of the model.
 2. **Basic Parameter** : The "Size" parameter in the right sidebar shows the actual size of the current object in millimeters (mm).
 
-> **In combination with the locking function of the "Size" parameter, adjustments can be made simultaneously or in one direction only:**
+> <mark style="background-color:purple;">In combination with the locking function of the "Size" parameter, adjustments can be made simultaneously or in one direction only:</mark>
 
 * When locked, the model is scaled up and down proportionally.
 * When unlocked, the model is scaled in each individual direction.
-
-
 
 ***
 
@@ -72,6 +70,5 @@ Some models only support scaling of flat surfaces, such as surface light models,
 The 2D character is a plane model material that always faces the currently viewed camera viewport and does not support rotation.
 
 <br>
-
 
 ---
