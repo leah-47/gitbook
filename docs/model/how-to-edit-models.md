@@ -31,7 +31,7 @@ The "Basic" parameter in the right sidebar also supports adjusting the "Location
 
 For multi-selected objects, you can enter values to unify the coordinates. Or hover and drag the mouse over the input box to move the model uniformly to a certain direction.
 
-<!-- [Image: model editing step 1] -->
+![](/d5-edit-model-1.gif)
 
 ### Rotate Models
 
@@ -43,7 +43,6 @@ You can rotate the model by clicking on the upper semicircle on the coordinate a
    * A line from the gizmo center to the mouse position will appear on the screen. The greater the distance between the mouse and the gizmo center, the more precise the rotation adjustment becomes.
 2. **Basic Parameter** : The information of the model will be displayed in the "Basic" column of the right sidebar, and you can adjust the value of "Rotation".
 
-<!-- [Image: model editing step 2] --><br>
 
 ### Scale Models
 

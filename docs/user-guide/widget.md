@@ -43,7 +43,8 @@ The stage lighting is designed to simulate professional dynamic lighting effects
 * **Colors**：Control the light color.
 * **Pattern**：select a preset pattern or upload a custom pattern .
 
-The stage lighting is designed to simulate professional dynamic lighting effects.<!-- [Image: stage lighting] -->
+![](/d5-stage-lighting-1.png)
+![](/d5-stage-lighting-2.png)
 
 ### Projector
 
