@@ -1,0 +1,137 @@
+---
+title: "How to use AI Post-Processing?"
+source_url: https://docs.d5render.com/user-guide/ai/how-to-use-ai-post-processing
+fetched: 2026-06-07
+---
+
+# How to use AI Post-Processing?
+
+To enhance details of rendered images (lighting, materials, characters, vehicles, vegetation, etc.).&#x20;
+
+> **Info:** **Note**
+
+1. AI Post-Processing features only support <mark style="background-color:green;">‘Rendered images’</mark> within 6K resolution (no more than 6200 pixels on any side) in the <mark style="background-color:green;">‘Saved archives’</mark>.
+2. To enhance images for many times, please iterate over the original rather than the enhanced images.
+
+
+> Note:
+>
+> 1. Generated content and generation records will follow D5 accounts.
+> 2. AI Enhancer Service is deployed in the cloud and closing the client will not affect the calculation.
+> 3. Results of AI Enhancer are stored in D5 Studio.
+> 4. AI features related benefits can refer to [Account Access to AI features](./account-access-to-ai-features.md)
+
+* Click the 'AI Post-Processing' feature from the navigation bar.
+
+<figure><img src="/files/MJcE5wLeA9BPKuK5rp8T" alt=""><figcaption></figcaption></figure>
+
+
+
+## AI Enhancer
+
+<mark style="background-color:purple;">Enhance the details of lighting, materials, characters, vehicles, and plants in rendered images.</mark>
+
+### 1. Enhance Content
+
+Supports selecting specific regions of an image to be enhanced, keeping the remaining unselected parts unchanged. By default, the entire image is enhanced if no specific region is selected.
+
+### 2. Enhancement Weight
+
+Users can drag the slider bar according to their needs to select different processing effects.
+
+<figure><img src="/files/iPsOtpaYxr99h18EldhO" alt=""><figcaption><p>Enhancement Weight</p></figcaption></figure>
+
+### 3. Texture Strength
+
+Users can freely adjust the enhancement strength of the texture according to their creative needs.
+
+<figure><img src="/files/W0b3DcTSVf2vy6phpPH2" alt=""><figcaption><p>Texture Strength</p></figcaption></figure>
+
+### 4. Adjust Content
+
+Choose 'Enhance Content', adjust the relevant parameters, and click to save the partition. This allows you to assign different weights to various areas, addressing the enhancement needs of different materials simultaneously.
+
+<figure><img src="/files/33abQOIP2p4szEKxvrpS" alt=""><figcaption></figcaption></figure>
+
+***
+
+## AI Style Transfer
+
+<mark style="background-color:purple;">Select the desired post style, adjust the AI settings, and click the AI Style Transfer button to complete the style transfer.</mark>
+
+* **Stylized:** Supports one-click transfer to watercolor/cartoon/scale model/pen sketch/pencil sketch/voxel styles without material or model adjustments.
+* **Realistic:** Supports rapid transfer to photorealistic sunset/night/spring/summer/autumn/winter styles. Supports adapting to reference image styles.
+
+<figure><img src="/files/n8lKr2nqR7WCwDiw0VbT" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Inpainting
+
+Added new local inpainting feature to automatically recognize and inpaint sky, water, or vegetation for images rendered with AI Post channel.
+
+* **Best practice:** Leave specific areas, such as a flower garden, empty without the need for manual layout; AI will automatically populate them to enhance the visual appeal.
+* **Inpaint the original image:** Allows AI to intelligently inpaint based on the original image structure to align with the creative intention.
+
+> **Note:**
+>
+> D5 supports auto recognition for the **Sky** area. **Other categories** (Water and Vegetation) require manual selection.
+>
+> **Seed:** A seed is an integer between 1 and 2147483648. When you use the same prompt and seed, you will get the same result.
+
+<figure><img src="/files/J1sCmwges6cw3FahELxv" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Effect
+
+### Post-production
+
+<mark style="background-color:purple;">Select the area to be adjusted, then adjust the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**sharpening, denoising and transparency**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">parameters, and click the Save button to save the effect.</mark>
+
+* **Sharpening:** Improves image clarity by amplifying high-frequency details, enhancing edges and contours to highlight critical features and details.
+* **Denoising**: Reduces noise in the generated image to improve overall quality while maintaining the integrity of the original image’s key characteristics.
+* **Transparency:** Controls the opacity of the AI-enhanced image, determining the visual blending ratio between the enhanced elements and the original content.
+
+> Note:
+>
+> 1. 2.10 AI post-processing support images with either side of the image less than or equal to 6200.
+> 2. Currently, the 'Transparency' effect is not supported for images generated through AI style transfer. (Only supports images generated by AI Enhancer). Therefore, the Opacity parameter is not displayed in Effect of images after AI Style Transfer.
+
+### Motion Blur
+
+Supports adding Motion Blur to characters and vehicles with one click.
+
+* Supports customization of angle and intensity.
+* Supports setting taillights for vehicles.
+
+> **Warning:** Note:
+
+'Tail Light' option appears only if the following conditions are met:
+
+* The image contains the Car (must be from D5 Assets Library).
+* The current image needs to have been rendered with 'AI Post Channel'.
+* Clicked to select regions for processing
+
+
+<figure><img src="/files/HEr7vDYh9QMykB2y5nKi" alt=""><figcaption></figcaption></figure>
+
+***
+
+## AI Post Channel
+
+The **AI Post Channel** in the channels improves the accuracy of region selection during AI Enhancer.
+
+<figure><img src="/files/6gTNjZA8kfvufxQdXO1Y" alt=""><figcaption></figcaption></figure>
+
+> **Info:** Note:
+
+AI Enhancer & AI Enhancer Channel only support **rendered images within 6K resolution (no more than 6200 pixels on any side)** in saved archives.&#x20;
+
+*Over-sized images can't be ticked with “AI Post Channel” and won't show the 'AI Post-Processing' entrance after rendering.*
+
+![](/files/DRj2f0vhDkoEVAzG1Yf5)  ![](/files/wAG1swhRF4ufk8ITFWcH)
+
+
+
+---

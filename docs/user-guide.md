@@ -1,0 +1,221 @@
+---
+title: "User Guide"
+source_url: https://docs.d5render.com/user-guide
+fetched: 2026-06-07
+---
+
+# User Guide
+
+- [Material](./user-guide/material.md)
+- [How to achieve caustics effect](./user-guide/material/how-to-achieve-caustics-effect.md)
+- [How to select material in the scene?](./user-guide/material/how-to-select-material-in-the-scene.md)
+- [How to adjust the material map?](./user-guide/material/how-to-adjust-the-material-map.md)
+- [How to control the reflection effect of a material?](./user-guide/material/how-to-control-the-reflection-effect-of-a-material.md)
+- [How to control the bump effect of the material?](./user-guide/material/how-to-control-the-bump-effect-of-the-material.md)
+- [How to make the emissive effect of the material?](./user-guide/material/how-to-make-the-emissive-effect-of-the-material.md)
+- [What is the AO parameter of material?](./user-guide/material/what-is-the-ao-parameter-of-material.md)
+- [What is "Invisible in Raytracing"?](./user-guide/material/what-is-invisible-in-raytracing.md)
+- [How to achieve round corner?](./user-guide/material/how-to-achieve-round-corner.md): There is no need to make bevels on the edges of the model in the modeling process, you can achieve rounded corners in D5 through materials.
+- [What if there is colour bleeding in a scene?](./user-guide/material/what-if-there-is-colour-bleeding-in-a-scene.md)
+- [What materials are the Flowing water templates suitable for? What are the special parameters?](./user-guide/material/what-materials-are-the-flowing-water-templates-suitable-for-what-are-the-special-parameters.md): Flowing water template automatically generates flowing water animation based on base colour/base colour mapping to better simulate waterfalls, running water, streams and etc. materials.
+- [What materials are the Transparent templates suitable for? What are the special parameters?](./user-guide/material/transparent.md)
+- [What materials are the Water templates suitable for? What are the special parameters?](./user-guide/material/water.md)
+- [What materials are the Car Paint templates suitable for? What are the special parameters?](./user-guide/material/car-paint.md): The Car Paint material template is suitable for making car paint and other materials with varnish coating.
+- [What materials are the Displacement templates suitable for? What are the special parameters?](./user-guide/material/displacement.md)
+- [What materials are the Cloth templates suitable for? What are the special parameters?](./user-guide/material/cloth.md): Cloth material templates are used to simulate fabric materials.
+- [What materials are the Custom Alpha templates suitable for? What are the special parameters?](./user-guide/material/custom-alpha.md): Custom Alpha material templates specifically used to create hollow effects.
+- [What materials are the Subsurface scattering templates suitable for? What are the special parameters](./user-guide/material/what-materials-are-the-subsurface-scattering-templates-suitable-for-what-are-the-special-parameters.md): Subsurface scattering templates are mainly used to represent translucent materials such as jade, wax, and skin.
+- [How to use the Multimedia Material?](./user-guide/material/video.md): Use video/image to control transparency and emissive effects of the material, simulating the semi-transparent dynamic glow effect of transparent LED screens, transparent TVs.
+- [What materials are the Foliage templates suitable for? What are the special parameters?](./user-guide/material/foliage.md)
+- [How to set grass? How to grow grass with one click?](./user-guide/material/grass.md)
+- [What is the difference between a material template and a library preset material?](./user-guide/material/what-is-the-difference-between-a-material-template-and-a-library-preset-material.md)
+- [What are the material tools? What are they used for?](./user-guide/material/what-are-the-material-tools-what-are-they-used-for.md)
+- [What is the correct naming convention when importing PBR maps with one click?](./user-guide/material/what-is-the-correct-naming-convention-when-importing-pbr-maps-with-one-click.md)
+- [How do I adjust the material UV and why does adjusting the UV have no effect?](./user-guide/material/how-do-i-adjust-the-material-uv-and-why-does-adjusting-the-uv-have-no-effect.md)
+- [Why is the base colour map all black after import?](./user-guide/material/why-is-the-base-colour-map-all-black-after-import.md)
+- [Why is the effect of the glass material not obvious/anomalous?](./user-guide/material/why-is-the-effect-of-the-glass-material-not-obvious-anomalous.md)
+- [How to create a velvet effect？](./user-guide/material/how-to-create-a-velvet-effect.md)
+- [Why is the file location option disabled?](./user-guide/material/why-is-the-file-location-option-disabled.md)
+- [Tool](./user-guide/tool.md)
+- [How to use Ocean?](./user-guide/tool/how-to-use-ocean.md)
+- [How to use Cesium?](./user-guide/tool/how-to-use-cesium.md)
+- [How to use City Generator?](./user-guide/tool/how-to-use-city-generator.md): Key words: Tool | City Generator
+- [How to use Terrain?](./user-guide/tool/how-to-use-terrain.md): Key words: Tool | Terrain
+- [How to use D5 Scatter?](./user-guide/tool/how-to-use-d5-scatter.md): Key words: Tool | D5 Scatter
+- [How to use Advanced Brush?](./user-guide/tool/how-to-use-advanced-brush.md)
+- [How to generate a vine with one click?](./user-guide/tool/how-to-generate-a-vine-with-one-click.md)
+- [How to batch adjust the parameters of the objects?](./user-guide/tool/how-to-batch-adjust-the-parameters-of-the-objects.md)
+- [How to fill hedge leaves with one click?](./user-guide/tool/how-to-fill-hedge-leaves-with-one-click.md)
+- [How to save and reuse presets for the Path tool?](./user-guide/tool/how-to-save-and-reuse-presets-for-the-path-tool.md)
+- [How to save and reuse presets for the Brush tool?](./user-guide/tool/how-to-save-and-reuse-presets-for-the-brush-tool.md)
+- [How to efficiently use the path tool to place plants?](./user-guide/tool/how-to-efficiently-use-the-path-tool-to-place-plants.md)
+- [How to efficiently draw/scatter/place plants?](./user-guide/tool/how-to-efficiently-draw-scatter-place-plants.md)
+- [How to erase/clear plants？](./user-guide/tool/how-to-erase-clear-plants.md)
+- [How to edit plants created by brushes](./user-guide/tool/how-to-edit-plants-created-by-brushes.md)
+- [How to create a lawn effect?](./user-guide/tool/how-to-create-a-lawn-effect.md)
+- [Other common issues](./user-guide/tool/other-common-issues.md)
+- [View](./user-guide/view.md)
+- [Camera and Views](./user-guide/view/camera.md)
+- [How to use full screen mode?](./user-guide/view/how-to-use-full-screen-mode.md)
+- [What is the difference between different preview qualities?](./user-guide/view/what-is-the-difference-between-different-preview-qualities.md)
+- [How to move the viewpoint freely?](./user-guide/view/navigation.md)
+- [What are the different display options for?](./user-guide/view/what-are-the-different-display-options-for.md)
+- [What are the different display modes for?](./user-guide/view/display.md)
+- [How to set the 'Depth of Field' effect?](./user-guide/view/how-to-set-the-depth-of-field-effect.md)
+- [How to use Parallel Projection?](./user-guide/view/how-to-use-parallel-projection.md)
+- [What is the feature of horizontal and vertical FOV?](./user-guide/view/what-is-the-feature-of-horizontal-and-vertical-fov.md)
+- [How to set section/render section diagram?](./user-guide/view/how-to-set-section-render-section-diagram.md)
+- [How to adjust the view rotation rate of the right and middle mouse buttons？](./user-guide/view/how-to-adjust-the-view-rotation-rate-of-the-right-and-middle-mouse-buttons.md)
+- [Sky and Weather](./user-guide/environment.md)
+- [How to adjust parameters of Sky Light?](./user-guide/environment/sky.md): The Sky Light panel consists of three parts: "Geo Sky" "Custom" and "HDRI".
+- [How to adjust the weather in D5?](./user-guide/environment/weather.md)
+- [How to adjust the weather in D5?backup](./user-guide/environment/how-to-adjust-the-weather-in-d5-backup.md): Key words: Import model | File format | Workflow
+- [How to add a custom outro in D5?](./user-guide/environment/how-to-add-a-custom-outro-in-d5.md): Key words: Sky and Weather
+- [Other common issues](./user-guide/environment/other-common-issues.md)
+- [Render](./user-guide/render.md)
+- [What is 'Real-time Path Tracing'?](./user-guide/render/what-is-real-time-path-tracing.md)
+- [What is the 'FPS Booster for Complex Geometry'?](./user-guide/render/what-is-the-fps-booster-for-complex-geometry.md)
+- [Why there are white grids when outputting specific resolution images, but the preview is normal?](./user-guide/render/why-there-are-white-grids-when-outputting-specific-resolution-images-but-the-preview-is-normal.md)
+- [Where can I activate Frame Generation? Why can't I find the option for Frame Generation?](./user-guide/render/where-can-i-activate-frame-generation-why-cant-i-find-the-option-for-frame-generation.md)
+- [Why does the scene made with 2.6 or previous versions look different in version 2.7?](./user-guide/render/why-does-the-scene-made-with-2.6-or-previous-versions-look-different-in-version-2.7.md)
+- [How to render a scene?](./user-guide/render/how-to-render-a-scene.md)
+- [How to render a video clip?](./user-guide/render/how-to-render-a-video-clip.md)
+- [What is D5 SR?](./user-guide/render/what-is-d5-sr.md)
+- [Why is the dark side of the video darker compared to the output single frame?](./user-guide/render/why-is-the-dark-side-of-the-video-darker-compared-to-the-output-single-frame.md)
+- [Why is there noticeable noise in the output still frames?](./user-guide/render/why-is-there-noticeable-noise-in-the-output-still-frames.md)
+- [How to render channel maps? Which channel maps are supported?](./user-guide/render/how-to-render-channel-maps-which-channel-maps-are-supported.md)
+- [How to turn off D5 after the render is finished?](./user-guide/render/how-to-turn-off-d5-after-the-render-is-finished.md)
+- [Why are there stripes in the rendered output video?](./user-guide/render/why-are-there-stripes-in-the-rendered-output-video.md)
+- [What is FSR Frame Generation?](./user-guide/render/what-is-fsr-frame-generation.md)
+- [D5 Virtual Tour](./user-guide/d5-virtual-tour.md)
+- [D5 Showreel](./user-guide/d5-virtual-tour/d5-showreel.md)
+- [Panorama Tour](./user-guide/d5-virtual-tour/panorama-tour.md)
+- [Spatial Tour](./user-guide/d5-virtual-tour/spatial-tour.md)
+- [XR Tour](./user-guide/d5-virtual-tour/xr-tour.md)
+- [D5 XR Open Workflow](./user-guide/d5-virtual-tour/xr-tour/d5-xr-open-workflow.md)
+- [D5 Render Tour Editor](./user-guide/d5-virtual-tour/d5-render-tour-editor.md)
+- [Lights](./user-guide/lights.md)
+- [Why is there a distinct boundary between light and dark in the scene after using rect/strip lights?](./user-guide/lights/why-is-there-a-distinct-boundary-between-light-and-dark-in-the-scene-after-using-rect-strip-lights.md)
+- [What types of light sources are offered by D5?](./user-guide/lights/what-types-of-light-sources-are-offered-by-d5.md)
+- [How to edit multiple lights at once?](./user-guide/lights/how-to-edit-multiple-lights-at-once.md)
+- [How to make a light invisible in the reflection?](./user-guide/lights/how-to-make-a-light-invisible-in-the-reflection.md)
+- [Why does the effect of lights change when the camera moves?](./user-guide/lights/why-does-the-effect-of-lights-change-when-the-camera-moves.md)
+- [What are the meanings of each parameter in the light panel?](./user-guide/lights/what-are-the-meanings-of-each-parameter-in-the-light-panel.md)
+- [Other FAQs](./user-guide/lights/other-faqs.md)
+- [Assets](./user-guide/assets.md)
+- [How to Use Lowpoly Assets?](./user-guide/assets/how-to-use-lowpoly-assets.md)
+- [How to Use Volumetric Lighting Assets?](./user-guide/assets/how-to-use-volumetric-lighting-assets.md)
+- [Why are the assets not displayed in the assets library?](./user-guide/assets/why-are-the-assets-not-displayed-in-the-assets-library.md)
+- [What's in the D5 online assets library?](./user-guide/assets/whats-in-the-d5-online-assets-library.md)
+- [How to add materials to local?](./user-guide/assets/how-to-add-materials-to-local.md)
+- [How to add models to local?](./user-guide/assets/how-to-add-models-to-local.md)
+- [Which folder are assets saved in? How to move them to another path?](./user-guide/assets/which-folder-are-assets-saved-in-how-to-move-them-to-another-path.md)
+- [How to manage resources in Local Library?](./user-guide/assets/how-to-manage-resources-in-local-library.md)
+- [FAQs](./user-guide/assets/faqs.md)
+- [Studio](./user-guide/studio.md)
+- [What is Studio Cloud Space?](./user-guide/studio/what-is-studio-cloud-space.md)
+- [AI](./user-guide/ai.md)
+- [Account Access to AI features](./user-guide/ai/account-access-to-ai-features.md)
+- [AI Agent](./user-guide/ai/ai-agent.md)
+- [How to use the AI model generation feature?](./user-guide/ai/how-to-use-the-ai-model-generation-feature.md)
+- [How to use AI Post-Processing?](./user-guide/ai/how-to-use-ai-post-processing.md)
+- [How to use AI Atmosphere Match?](./user-guide/ai/how-to-use-ai-atmosphere-match.md)
+- [How to use AI Ultra HD Texture?](./user-guide/ai/how-to-use-ai-ultra-hd-texture.md)
+- [How to use AI Make Seamless?](./user-guide/ai/how-to-use-ai-make-seamless.md)
+- [How to use AI Material Match?](./user-guide/ai/how-to-use-ai-material-match.md)
+- [How to use AI-generated Texture Maps?](./user-guide/ai/how-to-use-ai-generated-texture-maps.md)
+- [How to use AI Material Snap?](./user-guide/ai/how-to-use-ai-material-snap.md)
+- [Resource Management](./user-guide/resource.md)
+- [Why doesn't the model show up when imported directly into D5?](./user-guide/resource/why-doesnt-the-model-show-up-when-imported-directly-into-d5.md)
+- [Why does the operation lag when previewing?](./user-guide/resource/why-does-the-operation-lag-when-previewing.md)
+- [How to clean up a D5 project occupying too much space?](./user-guide/resource/how-to-clean-up-a-d5-project-occupying-too-much-space.md)
+- [What is a drs file?](./user-guide/resource/drs.md)
+- [Where is the Auto Save feature? How do the backup files work?](./user-guide/resource/where-is-the-auto-save-feature-how-do-the-backup-files-work.md)
+- [How to move D5 project files to another computer?](./user-guide/resource/how-to-move-d5-project-files-to-another-computer.md)
+- [What is the Scene List?](./user-guide/resource/what-is-the-scene-list.md)
+- [Why the scene parameters are not saved after switching shots?](./user-guide/resource/why-the-scene-parameters-are-not-saved-after-switching-shots.md)
+- [What is the object list? How to manage the resources in a scene?](./user-guide/resource/what-is-the-object-list-how-to-manage-the-resources-in-a-scene.md)
+- [What is the difference between locking and unlocking models in the object list?](./user-guide/resource/what-is-the-difference-between-locking-and-unlocking-models-in-the-object-list.md)
+- [How to only select lights/models/plants/paths/etc. in a scene?](./user-guide/resource/how-to-only-select-lights-models-plants-paths-etc.-in-a-scene.md)
+- [What are layers? How to manage resources through layers?](./user-guide/resource/what-are-layers-how-to-manage-resources-through-layers.md)
+- [How to switch the layer on which an object is located?](./user-guide/resource/how-to-switch-the-layer-on-which-an-object-is-located.md)
+- [What is the imported list?](./user-guide/resource/what-is-the-imported-list.md)
+- [How to quickly delete imported models and auto-saved backup files for the current project?](./user-guide/resource/how-to-quickly-delete-imported-models-and-auto-saved-backup-files-for-the-current-project.md)
+- [Effect](./user-guide/effect.md)
+- [How to save and reuse environment and post-effect presets?](./user-guide/effect/how-to-save-and-reuse-environment-and-post-effect-presets.md)
+- [How is Z Depth used in Style?](./user-guide/effect/how-is-z-depth-used-in-style.md)
+- [How to use lut？](./user-guide/effect/how-to-use-lut.md): Use the LUT (Look-Up-Table) colour look-up table to calibrate or adjust the screen colours.
+- [Why does custom lut not work?](./user-guide/effect/why-does-custom-lut-not-work.md)
+- [How is AO used in Style? What effects can be achieved?](./user-guide/effect/how-is-ao-used-in-style-what-effects-can-be-achieved.md)
+- [How to use Outline mode in Style? What effects can be achieved?](./user-guide/effect/how-to-use-outline-mode-in-style-what-effects-can-be-achieved.md)
+- [What effects can each of the parameters in post-processing achieve?](./user-guide/effect/what-effects-can-each-of-the-parameters-in-post-processing-achieve.md)
+- [Why does adjusting the parameters of the Effect panel not have any effect?](./user-guide/effect/why-does-adjusting-the-parameters-of-the-effect-panel-not-have-any-effect.md)
+- [How to set custom background color?](./user-guide/effect/how-to-set-custom-background-color.md)
+- [Preference](./user-guide/preference.md)
+- [Save Compressed Project](./user-guide/preference/save-compressed-project.md): Key words: Preference | Save Compressed Project
+- [Use with High Resolution Screen](./user-guide/preference/use-with-high-resolution-screen.md): Key words: Preference | High Resolution Screen
+- [How to set up the web proxy?](./user-guide/preference/how-to-set-up-the-web-proxy.md): Key words: Preference | Web Proxy
+- [What's the difference between different video encoding formats? How to use QSV encoding?](./user-guide/preference/whats-the-difference-between-different-video-encoding-formats-how-to-use-qsv-encoding.md): Key words: Preference | Video Encoding
+- [Why models with smaller sizes in the distance not shown when previewing or exporting?](./user-guide/preference/why-models-with-smaller-sizes-in-the-distance-not-shown-when-previewing-or-exporting.md): Key words: Preference | Cull Distance
+- [How to turn on the Action Tips panel?](./user-guide/preference/how-to-turn-on-the-action-tips-panel.md): Key words: Preference | Action Tips
+- [How to view and change the default shortcuts?](./user-guide/preference/how-to-view-and-change-the-default-shortcuts.md): Key words: Preference | Shortcuts
+- [How to change the default language?](./user-guide/preference/how-to-change-the-default-language.md): Key words: Preference | Language
+- [Widget](./user-guide/widget.md)
+- [How to use the D5 SR Image Rendering (beta) Widget ?](./user-guide/widget/how-to-use-the-d5-sr-image-rendering-beta-widget.md): Key words: Widget | SR
+- [How to use the Section Tools Widget?](./user-guide/widget/how-to-use-the-section-tools-widget.md): Key words: Widget | Section Tools
+- [How to use Advanced Camera Tool (beta) Widget?](./user-guide/widget/how-to-use-advanced-camera-tool-beta-widget.md): Key words: Widget | Advanced Camera Tool
+- [Hot to use Frame Rate Widget?](./user-guide/widget/hot-to-use-frame-rate-widget.md): Key words: Preference | Frame Rate
+- [How to use Advanced Image Rendering Widget?](./user-guide/widget/how-to-use-advanced-image-rendering-widget.md): Key words: Widget |  Advanced Image Rendering
+- [How to use Advanced Video Rendering Widget?](./user-guide/widget/how-to-use-advanced-video-rendering-widget.md): Key words: Widget | Advanced Video Rendering
+- [How to use VR (beta) Widget?](./user-guide/widget/how-to-use-vr-beta-widget.md): Key words: Widget | VR (beta)
+- [How to use Stage Light Widget?](./user-guide/widget/how-to-use-stage-light-widget.md): Key words: Widget | Stage Light
+- [How to use Projector Widget?](./user-guide/widget/how-to-use-projector-widget.md): Key words: Widget | Projector
+- [How to use Color Grading Widget?](./user-guide/widget/how-to-use-color-grading-widget.md): Key words: Widget | Color Grading
+- [How to use Merge Project beta Widget？](./user-guide/widget/how-to-use-merge-project-beta-widget.md): Key words: Widget | Merge Project beta
+- [Hardware](./user-guide/hardware.md)
+- [What graphic cards does D5 support? And what's the difference?](./user-guide/hardware/what-graphic-cards-does-d5-support-and-whats-the-difference.md): Key words: Hardware | Graphic Card
+- [How to do if the device fails D5 Render's test?](./user-guide/hardware/how-to-do-if-the-device-fails-d5-renders-test.md): Key words: Hardware | Software | Graphic Card
+- [System Requirements for D5 Render](./user-guide/hardware/system-requirements-for-d5-render.md): Key words: Hardware | System Requirements
+- [How to use Support Tool?](./user-guide/hardware/how-to-use-support-tool.md): Key words: Hardware | Support Tool
+- [How to check memory usage, graphics memory usage, and graphics card driver version?](./user-guide/hardware/how-to-check-memory-usage-graphics-memory-usage-and-graphics-card-driver-version.md): Key words: Hardware
+- [Does the CPU have a big impact on D5?](./user-guide/hardware/does-the-cpu-have-a-big-impact-on-d5.md): In general, different CPUs have little effect on D5. However, it is recommended to turn off CPU overclocking for stable performance.
+- [What is the hardware test tool (Benchmark)?](./user-guide/hardware/what-is-the-hardware-test-tool-benchmark.md): Key words: Hardware | Benchmark
+- [What is Hardware testing?](./user-guide/hardware/what-is-hardware-testing.md): Key words: Hardware | Hardware Test
+- [What do the parameters in the Statistics represent?](./user-guide/hardware/what-do-the-parameters-in-the-statistics-represent.md): Key words: Hardware | Statistics
+- [Why is D5 not working properly when remote?](./user-guide/hardware/why-is-d5-not-working-properly-when-remote.md): Key words: Hardware | Remote
+- [Why need to wait a long time to open a D5 scene?](./user-guide/hardware/why-need-to-wait-a-long-time-to-open-a-d5-scene.md): Key words: Hardware | Initializing
+- [How to choose the right computer power for Graphic Cards?](./user-guide/hardware/how-to-choose-the-right-computer-power-for-graphic-cards.md): Key words: Hardware | Power
+- [How to view and upgrade graphics card driver?](./user-guide/hardware/how-to-view-and-upgrade-graphics-card-driver.md): Key words: Hardware | Driver
+- [How to view and optimize memory usage?](./user-guide/hardware/how-to-view-and-optimize-memory-usage.md): Key words: Hardware | Memory Usage
+- [How to view and optimize graphics card usage?](./user-guide/hardware/how-to-view-and-optimize-graphics-card-usage.md): Key words: Hardware | Graphics card usage
+- [Why are close textures clearer but distant textures blurry in modeling software/D5?](./user-guide/hardware/why-are-close-textures-clearer-but-distant-textures-blurry-in-modeling-software-d5.md)
+- [How to Use the 3Dconnexion® SpaceMouse in D5 Render?](./user-guide/hardware/how-to-use-the-3dconnexion-r-spacemouse-in-d5-render.md): Key words: Hardware | 3Dconnexion® SpaceMouse
+- [Common Pop-Up Windows](./user-guide/common-pop-up-windows.md)
+- [Why prompts "Insufficient permissions. Please retry the operation with administrator permissions''?](./user-guide/common-pop-up-windows/why-prompts-insufficient-permissions.-please-retry-the-operation-with-administrator-permissions.md)
+- [Why prompt 'The program cannot be launched because of DLL errors...' or 'Program Startup Failed'?](./user-guide/common-pop-up-windows/why-prompt-the-program-cannot-be-launched-because-of-dll-errors...-or-program-startup-failed.md): Key words: Common Pop-Up Windows | DLL
+- [Why prompt 'Lights cannot exceed 4096'?](./user-guide/common-pop-up-windows/why-prompt-lights-cannot-exceed-4096.md): Key words: Common Pop-Up Windows | Number of lights
+- [Why prompt 'The number of caustic lights cannot exceed 64'?](./user-guide/common-pop-up-windows/why-prompt-the-number-of-caustic-lights-cannot-exceed-64.md): Key words: Common Pop-Up Windows | Number of Caustic Lights
+- [Why prompt 'The material of model cannot be reused'?](./user-guide/common-pop-up-windows/why-prompt-the-material-of-model-cannot-be-reused.md): Key words: Common Pop-Up Windows | Reuse materials
+- [Why prompt 'The number of devices exceeds the login limit'?](./user-guide/common-pop-up-windows/why-prompt-the-number-of-devices-exceeds-the-login-limit.md): Key words: Common Pop-Up Windows | Login limit
+- [Why prompt 'Self-illumination in the scene has reached its limit'?](./user-guide/common-pop-up-windows/why-prompt-self-illumination-in-the-scene-has-reached-its-limit.md): Key words: Common Pop-Up Windows | Self-illumination
+- [Why prompt 'The number of Vegetation in the scene has reached its limit'?](./user-guide/common-pop-up-windows/why-prompt-the-number-of-vegetation-in-the-scene-has-reached-its-limit.md): Key words: Common Pop-Up Windows | Vegetation
+- [When first run D5, why prompt 'Cannot continue executing code because Qt5Core.dll was not found.'](./user-guide/common-pop-up-windows/when-first-run-d5-why-prompt-cannot-continue-executing-code-because-qt5core.dll-was-not-found..md): Key words: Common Pop-Up Windows | Qt5Core.dll
+- [How to do when a low TDR is detected?](./user-guide/common-pop-up-windows/how-to-do-when-a-low-tdr-is-detected.md): Key words: Common Pop-Up Windows | TDR
+- [Why prompt 'The application could not start normally (0xc000007b)'?](./user-guide/common-pop-up-windows/why-prompt-the-application-could-not-start-normally-0xc000007b.md): Key words: Common Pop-Up Windows | 0xc000007b
+- [Why prompt 'DX12 is not supported on your system. '?](./user-guide/common-pop-up-windows/why-prompt-dx12-is-not-supported-on-your-system..md): Key words: Common Pop-Up Windows | DX12
+- [Why prompt 'Save Failed' when saving a file?](./user-guide/common-pop-up-windows/why-prompt-save-failed-when-saving-a-file.md): Key words: Common Pop-Up Windows | Save Failed
+- [Model](./user-guide/model.md)
+- [Import](./user-guide/model/import.md): There are several different ways to add models to your D5 project.
+- [Edit](./user-guide/model/edit.md)
+- [Action](./user-guide/model/action.md)
+- [Animation Path](./user-guide/animation-path.md)
+- [Draw Path](./user-guide/animation-path/draw-path.md)
+- [Character Path](./user-guide/animation-path/character-path.md)
+- [Vehicle Path](./user-guide/animation-path/vehicle-path.md)
+- [Vegetation Tool](./user-guide/vegetation-tool.md)
+- [Brush and Scatter](./user-guide/vegetation-tool/brush-and-scatter.md)
+- [Eraser and Clean](./user-guide/vegetation-tool/eraser-and-clean.md)
+- [Vegetation Path](./user-guide/vegetation-tool/vegetation-path.md)
+
+
+---
