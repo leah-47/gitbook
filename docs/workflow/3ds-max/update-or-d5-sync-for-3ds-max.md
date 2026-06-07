@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Update | D5 Sync for 3ds Max
 
-## Ver. 3.4.1.0030 <a href="#toc-h3-ver-3410030" id="toc-h3-ver-3410030"></a>
+## Ver. 3.4.1.0030 
 
 Release Date 20230824
 
@@ -15,7 +15,7 @@ Release Date 20230824
 1. Compatible with D5 Render version 2.5
 2. Optimized synchronization pop-up method and description.
 
-### Ver. 3.3.1.0049 <a href="#toc-h3-ver-3310049" id="toc-h3-ver-3310049"></a>
+### Ver. 3.3.1.0049 
 
 Release Date 20230320
 
@@ -42,7 +42,7 @@ For details, please read this topic: [Light group changes and different versions
 2. For imported .d5a models saved in D5 Render 2.3, if we open them in 2.4, import models again and sync coordinate, the model will rotate 90°.\
    Workaround: swap the X and Y values in the model position and add “-”(minus) to the Y value. Then it will be aligned correctly with the .d5a file imported in D5 Render 2.3.
 
-## Ver. 3.2.0.0001 <a href="#toc-h3-ver-3200001" id="toc-h3-ver-3200001"></a>
+## Ver. 3.2.0.0001 
 
 Release Date 20220901
 
@@ -50,7 +50,7 @@ Release Date 20220901
 
 1. Keep group hierarchy: export a 3ds Max project and keep its group hierarchy (one tier). This feature needs D5 Render 2.3 and higher versions.
 
-<div align="left"><figure><img src="/files/6DjAcGNbTOxYckKBtZMH" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 2. Export selected group hierarchy
 3. Quick ProOptimize (reduce faces)
@@ -86,7 +86,7 @@ Release Date 20220725
 3. Normal panel disappeared in D5 for some models exported from 3ds Max.
 4. The “can not call proc” error appears when installing and selecting the file path.
 
-## Ver. 3.0.1.0394 <a href="#toc-h3-ver-3010394" id="toc-h3-ver-3010394"></a>
+## Ver. 3.0.1.0394 
 
 Release Date 20220704
 

@@ -12,7 +12,7 @@ In "Preferences" - "Rendering", you can set whether the live preview window scal
 
 > Caution: On 4K and other high-resolution devices, turning on this option will increase the rendering performance overhead, which may cause operation lag and other problems. The resolution of the software interface is not affected by this option.
 
-<figure><img src="/files/4j3NlEzxttEUAkMO2tNR" alt=""><figcaption><p>Adaptive System Scaling</p></figcaption></figure>
+
 
 
 ---

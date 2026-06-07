@@ -16,7 +16,7 @@ fetched: 2026-06-07
 
 In D5 render, the axis of the model will be placed at the bottom center of the model by default.&#x20;
 
-<mark style="background-color:purple;">You can't modify the axis position directly, but you can combine the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**"Sync Pivot"**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">and keyframe function to create the door opening/closing animation.</mark>&#x20;
+**You can't modify the axis position directly, but you can combine the** ********"Sync Pivot"**** ******and keyframe function to create the door opening/closing animation.**&#x20;
 
 Please refer to the following method:
 

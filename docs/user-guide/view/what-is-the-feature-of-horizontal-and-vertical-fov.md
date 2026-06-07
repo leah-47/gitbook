@@ -6,14 +6,14 @@ fetched: 2026-06-07
 
 # What is the feature of horizontal and vertical FOV?
 
-<mark style="background-color:purple;">In the camera parameters in the upper right corner of the window, the FOV parameter is used to adjust the size of the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Field of View (FOV)**</mark><mark style="background-color:purple;">.</mark>&#x20;
+**In the camera parameters in the upper right corner of the window, the FOV parameter is used to adjust the size of the** ********Field of View (FOV)******.**&#x20;
 
 * The default FOV is 90° horizontal.&#x20;
 * You can switch between horizontal and vertical field of view with the button to the right of FOV.
 
-<div align="left"><figure><img src="/files/YInN2cjiFzkIwGaakaTd" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/3H8dS5GltQ5cuMoJjsFv" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## FOV (Horizontal)
 
@@ -38,7 +38,7 @@ Matching real and rendered cameras in D5 can be done by adjusting the "Camera" -
 
 The focal length parameter corresponds to the 35mm film equivalent. You can get the same field of view by entering the meta-information focal length of a real photo into the D5 and matching it to the equivalent parameters of a real-world lens.
 
-<div align="left"><figure><img src="/files/v1TbjI5eekpc2l3RZtia" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Similar issue: What is the difference between horizontal and vertical FOV? How to switch?
 

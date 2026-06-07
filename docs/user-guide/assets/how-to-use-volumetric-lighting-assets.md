@@ -8,9 +8,9 @@ fetched: 2026-06-07
 
 Added Volumetric Lighting assets to "Particle" > “Smoke”, which can be used after enabling the "Volume Light" feature in "Environment" > “Fog”. Tyndall effect can be adjusted via the range parameter.
 
-<div align="left"><figure><img src="/files/Uc1vQLKe2f71d1QhFIoI" alt=""><figcaption><p>Parameter Panel</p></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/CUbQSAL5qWa6K7kcy9dH" alt=""><figcaption><p>Parameter Panel</p></figcaption></figure></div>
+<div align="left"></div>
 
 > **Info:** Note：
 

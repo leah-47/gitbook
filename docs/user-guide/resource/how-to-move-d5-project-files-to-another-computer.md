@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 The complete D5 file is a whole folder where the drs file is located.
 
-<figure><img src="/files/LmPy232J2LJywZRKyNN4" alt=""><figcaption></figcaption></figure>
+
 
 Just go back to the drs upper directory and move the whole file with compression.
 

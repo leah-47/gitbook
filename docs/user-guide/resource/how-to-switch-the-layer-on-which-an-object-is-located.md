@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 When selecting an object in the scene or the scene list, it will show the layer where the object is located under the object name in the right sidebar, and you can switch the layer where the object is located in the drop-down list.
 
-<figure><img src="/files/k4r88JX2Y6qbDiFin33Q" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -19,7 +19,7 @@ In **Scene > Colour Management**, if the render space is set to **anything other
 
 > e.g.: When the render space is set to **ACEScg**, the base color values defined in C4D cannot **maintain a 1:1 correspondence** with the base color values in the renderer, potentially causing colour difference.
 
-<figure><img src="/files/uoF9c8obS62QSLuhTLcU" alt=""><figcaption></figcaption></figure>
+
 
 Notes:
 

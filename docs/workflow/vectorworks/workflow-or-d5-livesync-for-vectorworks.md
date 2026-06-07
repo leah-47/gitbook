@@ -9,12 +9,12 @@ fetched: 2026-06-07
 > **Info:** #### Supports LiveSync for Vectorworks to bring projects with models, materials, and other data in Vectorworks to D5 in real-time.
 
 
-#### Supported Version <a href="#toc-h3-supported-version" id="toc-h3-supported-version"></a>
+#### Supported Version 
 
 * Vectorworks 2024\~2026
 * D5 Render 2.7 and later versions
 
-#### Download and Installation <a href="#download-and-installation-2" id="download-and-installation-2"></a>
+#### Download and Installation 
 
 * [Download D5 LiveSync for Vectorworks](https://usa-plugin.d5cdn.com/installer/VectorWorks_livesync/latest/D5_Live_Sync_VectorWorks_usa_latest.exe)
 * Installation Steps
@@ -23,12 +23,12 @@ fetched: 2026-06-07
   * After installation, open VectorWorks - Tools - Workspaces - Edit Current Workspace.
   * Select ‘D5 LiveSync’ in Rendering and drag it to the Palettes panel on the right side, under ‘Basic’ > ‘View/Draw’ - click OK.
 
-  <figure><img src="/files/RtThVYmzeIMNAQQDc2ne" alt=""><figcaption></figcaption></figure>
+  
 
   * Click D5 Livesync Tool icon in the Basic panel, and the operation panel of D5 LiveSync Tool will appear on the toolbar above.
   * Click on the ‘Settings’ button of the D5 LiveSync Tool to verify that the installed version number is correct.
 
-#### Features <a href="#features-3" id="features-3"></a>
+#### Features 
 
 <img src="https://usa-forum.d5cdn.com/original/3X/c/1/c1e86b0a82416c2ddb1b1f8d28d79767c8001dc4.png" alt="" height="40" width="239">
 

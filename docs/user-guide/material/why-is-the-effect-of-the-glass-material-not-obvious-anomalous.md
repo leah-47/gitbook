@@ -19,7 +19,7 @@ There may be the following reasons:
 5. **Glass-to-glass reflections are not shown in the preview** and are only calculated when out of the picture/video;
 6. **If the current glass has no thickness**, you need to give the glass model a certain thickness in the modelling software or turn on the thickness switch in the transparent material template of D5.
 
-<div align="center"><figure><img src="/files/0E705XfORrW9c0M9yLOt" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 ***
 
@@ -27,11 +27,11 @@ There may be the following reasons:
 
 1. **Streaks of flickering**
 
-<mark style="background-color:purple;">The coordinates of the glass model are too far away from the world coordinate origin (0,0,0)</mark> to cause this anomaly.
+**The coordinates of the glass model are too far away from the world coordinate origin (0,0,0)** to cause this anomaly.
 
 Solution: Select the model in the scene resource list and zero the model coordinates in the right sidebar.
 
-<div align="center"><figure><img src="/files/V06UwTkcNls0N3DX2iHD" alt="" width="251"><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 2. **There is a difference in the effect of the glass when it is moving and when it is stationary**
 
@@ -42,14 +42,14 @@ Therefore, the preview is closer to the actual image when the FPS is stable.
 
 3. **Refraction/ Reflection effect is not correct**
 
-<mark style="background-color:purple;">Single sided models</mark> imported into D5 and given a transparent material will have incorrect refraction and reflection effects.&#x20;
+**Single sided models** imported into D5 and given a transparent material will have incorrect refraction and reflection effects.&#x20;
 
 Solution:&#x20;
 
 * It is recommended to regulate **double-sided modelling** to avoid such problems.&#x20;
 * Or turn on the **"Thickness"** parameter in the glass material template parameter, which can simulate the plate glass with thickness, and the single-sided glass can get the correct refraction effect.
 
-<figure><img src="/files/hcHTToWtstmnYe2Hq0I9" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -72,9 +72,9 @@ The following reference values are the distances from **the camera position** to
 
 This issue can be solved by increasing the **Cull Distance of Outside the Viewport** since version 3.0.
 
-<figure><img src="/files/hfmlgUX6LvyP2nOAwAjZ" alt=""><figcaption></figcaption></figure>
 
-**Please note, Cull Distance of Outside the Viewport now only works for trees.** If you want it to also work for grass, you can set it to treat grass as trees by adjusting the <mark style="color:red;">`Engine.ini`</mark> file, adding the following fields to it.↓
+
+**Please note, Cull Distance of Outside the Viewport now only works for trees.** If you want it to also work for grass, you can set it to treat grass as trees by adjusting the **`Engine.ini`** file, adding the following fields to it.↓
 
 ```
 [/Script/Engine.RendererSettings]
@@ -83,13 +83,13 @@ r.RayTracing.Geometry.InstancedStaticMeshes.LowScaleRadiusThreshold=1
 
 Steps:
 
-1. ( No need to open D5 ) Find the file <mark style="color:red;">`C:\Users\XXXX\AppData\Local\d5_immerse\Saved\Config\Windows\Engine.ini`</mark>
-2. Add the appropriate fields in the <mark style="color:red;">`Engine.ini`</mark> file, modify the parameters and save.
+1. ( No need to open D5 ) Find the file **`C:\Users\XXXX\AppData\Local\d5_immerse\Saved\Config\Windows\Engine.ini`**
+2. Add the appropriate fields in the **`Engine.ini`** file, modify the parameters and save.
 3. Restart D5, the relevant configuration changes will take effect.
 
 Refer to the illustration below ↓
 
-<figure><img src="/files/20axC2SDJbsKXa8etaRn" alt=""><figcaption><p>Left: Location of the Engine.ini file Right: Relevant fields for modification</p></figcaption></figure>
+
 
 
 ---

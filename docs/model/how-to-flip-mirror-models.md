@@ -12,7 +12,7 @@ fetched: 2026-06-07
 
 Select the target model in the "Object" list or in the scene, and the information of the model will be displayed in the "Inspector" panel on the right. Then choose "Flip" in the operation panel.
 
-<div align="left"><figure><img src="/files/KcCkEMu7fXSLmDojMBv5" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Right sidebar size parameter
 

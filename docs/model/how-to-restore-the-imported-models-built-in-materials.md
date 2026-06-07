@@ -14,7 +14,7 @@ fetched: 2026-06-07
 
 If it is a directly imported model, right-click on the model in the resource list and select "Reload" from the menu bar.
 
-<div align="left"><figure><img src="/files/iC6Pir8J3jI5xLJzFIL1" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### The logic of sync materials
 

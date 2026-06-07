@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to make the material drop with one click?
 
-<mark style="background-color:purple;">When the model on which the placed footage is placed changes, you can use the "Drop" feature to make the model fall to the surface closest to it.</mark>&#x20;
+**When the model on which the placed footage is placed changes, you can use the "Drop" feature to make the model fall to the surface closest to it.**&#x20;
 
 The landing function includes two types of functions:&#x20;
 
@@ -15,7 +15,7 @@ The landing function includes two types of functions:&#x20;
 
 > This drop function is not supported for path, brush, and scatter materials.
 
-<figure><img src="/files/FeSGSZRZnW7IJGwRTD3D" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

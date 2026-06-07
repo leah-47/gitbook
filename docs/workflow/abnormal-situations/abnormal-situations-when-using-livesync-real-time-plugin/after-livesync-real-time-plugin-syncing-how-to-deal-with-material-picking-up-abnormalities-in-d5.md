@@ -27,15 +27,15 @@ We will fix the issue in subsequent releases.
 
 > * Path of config.ini file: Search for %appdata% in the Windows taskbar and enter to display the D5Config folder, and find the config.ini file under the folder with the most recent modification time.&#x20;
 >
-> &#x20;      For example <mark style="color:red;">`C:\Users\Administrator\AppData\Roaming\D5Config`</mark>
+> &#x20;      For example **`C:\Users\Administrator\AppData\Roaming\D5Config`**
 >
 > * Corresponding fields needed to be added:&#x20;
 >
-> &#x20;     <mark style="color:red;">`[Debug]`</mark>&#x20;
+> &#x20;     **`[Debug]`**&#x20;
 >
-> &#x20;     <mark style="color:red;">`VerySmallScale=1`</mark>
+> &#x20;     **`VerySmallScale=1`**
 
-<figure><img src="/files/Fj8hTJWhQkIt3JUJX1Rb" alt=""><figcaption><p>Path to config.ini file to be modified and fields to be added</p></figcaption></figure>
+
 
 
 ---

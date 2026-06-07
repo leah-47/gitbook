@@ -36,11 +36,11 @@ Since the SketchUp installer used is missing the D5 Converter runtime dependency
 
 **Solution:** Open this skp file in SketchUp, hide all the light source by D5 Converter - SketchUp with one click, save the skp file, and then import it into D5 render directly.
 
-<div align="left"><figure><img src="/files/rWWV1c3RRv7QGX2rcm7C" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-### <mark style="color:orange;">The light source tool of D5 Converter - SketchUp is only applicable to the workflow of plugin synchronization.</mark>
+### **The light source tool of D5 Converter - SketchUp is only applicable to the workflow of plugin synchronization.**
 
-<mark style="color:orange;">Under the direct read workflow, the D5 light source added through the plugin will become an entity model and the light source be read directly. Under the workflow of plugin synchronization, the D5 light source added in SketchUp is hidden by default, and the light source is displayed in the scene of the D5 Render.</mark>
+**Under the direct read workflow, the D5 light source added through the plugin will become an entity model and the light source be read directly. Under the workflow of plugin synchronization, the D5 light source added in SketchUp is hidden by default, and the light source is displayed in the scene of the D5 Render.**
 
 ## 6. Why are some models not displayed when imported into D5 directly or linked through the D5 Converter - SketchUp?
 

@@ -8,14 +8,14 @@ fetched: 2026-06-07
 
 ## 1. Why is the imported HDRI blurry?
 
-<mark style="background-color:purple;">High-definition HDRI takes up more resources when previewing, so the HDRI is compressed to 2k by the D5 when previewing to ensure that accurate lighting is provided.</mark>
+**High-definition HDRI takes up more resources when previewing, so the HDRI is compressed to 2k by the D5 when previewing to ensure that accurate lighting is provided.**
 
 * The image output is based on the actual size of the imported HDRI.&#x20;
 * The HDRI is also compressed to 2K/4K/8K for video.
 
 ## 2. Why does it prompt " Failed to load HDRI"?
 
-<mark style="background-color:purple;">Custom HDRIs imported into the D5 renderer need to be standard size files.</mark>
+**Custom HDRIs imported into the D5 renderer need to be standard size files.**
 
 Common sizes:
 
@@ -28,7 +28,7 @@ Common sizes:
 
 ## 3. Why are there two angles of shadow in the scene?
 
-In some HDRIs the sun is visible and already produces clear shadows. <mark style="background-color:purple;">If</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**"Sun-Direction-Custom" is ticked**</mark><mark style="background-color:purple;">, it is possible to have this "heavy shadow" problem in certain cases, because there is already a sun in the original HDRI.</mark>
+In some HDRIs the sun is visible and already produces clear shadows. **If** ********"Sun-Direction-Custom" is ticked******, it is possible to have this "heavy shadow" problem in certain cases, because there is already a sun in the original HDRI.**
 
 The following is recommended for adjusting the sky:
 
@@ -38,9 +38,9 @@ The following is recommended for adjusting the sky:
 
 ## 4. How to adjust the Tyndall effect/volume light?
 
-<mark style="background-color:purple;">In the second item of the "Environment" panel on the right sidebar, find</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**"Weather" > select "Fog" > enable the "Volume Light" button**</mark><mark style="background-color:purple;">.</mark>
+**In the second item of the "Environment" panel on the right sidebar, find** ********"Weather" > select "Fog" > enable the "Volume Light" button******.**
 
-<div align="center"><figure><img src="/files/8fOTrDHuTBnl3xcZ4uCt" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 * Volume Light: The Tyndall effect is a phenomenon in which light is scattered by particles in the air, allowing pathways of light to be seen.
 * Scattering: Controls the scattering distribution of the Volume Light scattering effect. The default value is 0 for a uniformly light fog, adjusting it to 1 will make the fog brighter from the direction of the light source.
@@ -52,18 +52,18 @@ The following is recommended for adjusting the sky:
 If you get ‘stripes of light’ when creating the Tyndall effect/Volume Light, this is a known issue with the current 2.9 version. Please try giving the one-sided wall a certain thickness (or placing a plane outside the wall).
 
 
-<figure><img src="/files/cUMVcXlBKB334MjY8JCn" alt=""><figcaption><p>stripes of ligh &#x26; placing a plane outside the wall</p></figcaption></figure>
+
 
 ## 5. How do I achieve the effect of no precipitation but having standing water/snow?
 
-1. <mark style="background-color:purple;">**Precipitation:**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">Turn on precipitation in Environment - Weather, adjust the precipitation strength to 0, and then increase the puddle parameter appropriately.</mark>
+1. ****Precipitation:**** ******Turn on precipitation in Environment - Weather, adjust the precipitation strength to 0, and then increase the puddle parameter appropriately.**
 2. **Decals:** The effect of water on the ground can also be achieved with a custom transparency map.
 
-<div align="center"><figure><img src="/files/MADz6TVpKFWDMX44ZVIR" alt=""><figcaption><p>adjust the Precipitation strength to 0, and increase the Puddle</p></figcaption></figure></div>
+<div align="center"></div>
 
 ## 6. Why is the custom HDRI/LUT file import not working?
 
-<mark style="background-color:purple;">This will occur if the file path of the custom HDRI/LUT file contains special characters.</mark>&#x20;
+**This will occur if the file path of the custom HDRI/LUT file contains special characters.**&#x20;
 
 It is recommended that the HDRI/LUT file be placed under an English path.
 
@@ -74,17 +74,17 @@ There are two cases that can occur in the current version:
 * Load an old archive and that archive uses the D5 inbuilt HDRI - Pure White;
 * Download the HDRI from the D5 Assets Library - HDRI and import its local cache.
 
-<div align="left"><figure><img src="/files/cT5mAccDZYq3lT3AkRJw" alt="" width="334"><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## 8. When keyframing the environment (Geo and Sky/HDRI), why does the scene flicker/have white spots?
 
-<mark style="background-color:purple;">It's a current KNOWN ISSUE.</mark>
+**It's a current KNOWN ISSUE.**
 
-<mark style="background-color:purple;">It is relatively difficult to downsample in this case (when the scene environment changes), thus white spots/scene flickering may occur during preview or output.</mark>
+**It is relatively difficult to downsample in this case (when the scene environment changes), thus white spots/scene flickering may occur during preview or output.**
 
 Suggestion: When keyframing the environment in animations, if white spots/flickering occurs, it is recommended to output in two separate times and merge them in the post-production software.
 
-<figure><img src="/files/SRioe8m760aJRa8hwZLp" alt=""><figcaption></figcaption></figure>
+
 
 ## 9. Why do scenes created in version 3.0 appear different when opened in previous versions?
 

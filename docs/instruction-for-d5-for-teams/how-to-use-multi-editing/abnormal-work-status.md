@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 If D5 Render is shut down abnormally for some reason after a workset or central file is opened, the project will remain in editing. If this happens, please contact the team administrator to enable "Forced quit of editing status" for the project.
 
-<figure><img src="/files/RPt9dyEtPtFjv6GbgKzh" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # What do the parameters in the Statistics represent?
 
-<figure><img src="/files/urTFiHOC3Tpcz5Wr1oMc" alt=""><figcaption><p>Statistics</p></figcaption></figure>
+
 
 In "Menu" → "View", click "Menu - View - Show Statistics" to open the statistics of the resources in the scene. This includes GPU, VRAM, RAM, FPS, the number of lights in the scene, the number of models and the number of faces.
 

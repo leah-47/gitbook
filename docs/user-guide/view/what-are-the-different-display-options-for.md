@@ -8,9 +8,9 @@ fetched: 2026-06-07
 
 ## Option
 
-<mark style="background-color:purple;">The options contain 6 settings, the first five control the display of carriers in the scene and the last one is used to display the composition lines.</mark>
+**The options contain 6 settings, the first five control the display of carriers in the scene and the last one is used to display the composition lines.**
 
-<figure><img src="/files/989GB9jSbURlh66UioKZ" alt=""><figcaption></figcaption></figure>
+
 
 The carriers in the scene are: **Light Source, Assets, Paths, Sections, Cameras**.&#x20;
 

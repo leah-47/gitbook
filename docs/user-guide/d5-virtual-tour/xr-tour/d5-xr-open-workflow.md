@@ -16,17 +16,17 @@ Please refer to this guidance:&#x20;
 
 [XR Tour](../xr-tour.md)
 
-<figure><img src="/files/fBfIyWacHTvmfGBPEoiY" alt=""><figcaption></figcaption></figure>
+
 
 After rendering is completed, upload the project to the **MySpace Cloud Project Management Platform** and submit it for **3D Gaussian Splatting (3D GS) training**.
 
 2. After the training is completed, open the editor to adjust the PLY orientation.You can use the **Crop Editor** to trim the edges of the PLY file into a rectangular or circular shape.Once adjustments are complete, click **Save** and exit.
 
-<figure><img src="/files/y9wKvsDBxgjAAbyymfIF" alt=""><figcaption></figcaption></figure>
+
 
 3. Return to the **MySpace Cloud Project Management Platform**, go to **Project → Download PLY File**, and download the PLY file to your local machine.
 
-<figure><img src="/files/jL2DoiLePiNBzbF9Nkbg" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -38,31 +38,31 @@ After rendering is completed, upload the project to the **MySpace Cloud Project 
 
 1. Open the [Cesium Ion](https://cesium.com/) platform and create a **Cesium Story** project.
 
-<figure><img src="/files/ffK1f4ufa5pgajHwKSVo" alt=""><figcaption></figcaption></figure>
+
 
 2. Locate the project’s real-world geographic position and enable the data layers required for display.
 
-<figure><img src="/files/XSyLbBDc1bq1bJiOQZrz" alt=""><figcaption></figcaption></figure>
+
 
 3. Click **Upload**, select the D5 XR PLY file from your local machine, and upload it to Cesium Ion as a data source.
 
-<figure><img src="/files/uRwLvVkiyV5tIpeR6RhP" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/Vdi3n3l4UZKaeB5aMArX" alt=""><figcaption></figcaption></figure>
+
+
 
 4. After the upload is completed, click **“Adjust Tileset Location”**, then click **“Click position”**.Click in the browser’s 3D viewport to place the PLY model at the current geographic location.
 
-<figure><img src="/files/VOTkPiZnV0CFYlRaQKjS" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/hvlV5drGEyRWH4JAnPjT" alt=""><figcaption></figcaption></figure>
+
+
 
 5. The added PLY file can be adjusted using **Gizmos** to fine-tune position and rotation so it matches the terrain.
 
-<figure><img src="/files/Y5JC7I4ZxkmPahhm3RSv" alt=""><figcaption></figcaption></figure>
+
 
 6. Add multiple **slides** to showcase different viewing angles of the project, and share the completed Cesium Story with clients via a link.
 
-<figure><img src="/files/jTGxlhikKOq0UELRRYOB" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -74,30 +74,30 @@ After rendering is completed, upload the project to the **MySpace Cloud Project 
 
 1. Open the [Spline](https://spline.design/) platform and create a new Spline project.
 
-<figure><img src="/files/HXBgZKM50Xo5BYrnyLDB" alt=""><figcaption></figcaption></figure>
+
 
 2. Upload the D5 XR PLY file from your local machine into the Spline project. Wait for the file to finish loading (large files may take some time).
 
-<figure><img src="/files/T0fu8nOrwt3J6P5Mzjgo" alt=""><figcaption></figcaption></figure>
+
 
 3. After loading is complete, switch the view mode from **Orthographic** to **Perspective**.
 
-<figure><img src="/files/5OEci23sn8X0lgdKrSGV" alt=""><figcaption></figcaption></figure>
+
 
 4. Adjust the viewing angle as needed.You may refer to official [Spline tutorials](https://spline.design/tutorials) to add interactive events.
 
-<figure><img src="/files/XbxxLZqTfFJ6ABycP4QE" alt=""><figcaption></figcaption></figure>
+
 
 5. After editing is complete, you can either:
 
 * Share the project directly via URL
 * Embed it into your personal website using embed code.
 
-<figure><img src="/files/bBmnwZW0Lp2gZPXujO1C" alt=""><figcaption></figcaption></figure>
+
 
 6. If the website is built with **Webflow**, select the **Spline Scene** component in Elements, and paste the Spline scene’s **viewer link** into the component settings.
 
-| ![](/files/w3ahWQin9HCjKuc8xr7W) | ![](/files/whJI558LELyQ7dfAYZQ4) |
+|  |  |
 | -------------------------------- | -------------------------------- |
 
 ***
@@ -110,7 +110,7 @@ After rendering is completed, upload the project to the **MySpace Cloud Project 
 
 1. Open [**Google AI St**udio](https://aistudio.google.com/apps). You can use a D5 XR online link or a locally exported PLY file to create a custom **3D digital twin** presentation application.
 
-<figure><img src="/files/ogTgE5o9Uvt7Z6xEc09i" alt=""><figcaption></figcaption></figure>
+
 
 2. You may refer to the following **initial prompt example:**
 
@@ -151,7 +151,7 @@ Appropriate use of: Subtle animations, CSS visual effects, Smooth transitions. T
 
 3. After refining the UI through multiple conversation iterations and achieving a satisfactory result, deploy your project using **Google AI Studio**.
 
-<figure><img src="/files/1ahvZQ5wX4VWGXVwpYdZ" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

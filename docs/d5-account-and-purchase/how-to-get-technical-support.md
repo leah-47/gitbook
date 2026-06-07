@@ -11,11 +11,11 @@ fetched: 2026-06-07
 * You can contact us by posting on [Facebook](https://www.facebook.com/groups/D5RenderCommunity), [Forum](https://forum.d5render.com/c/get-help/36), [Discord](https://discord.gg/9GQmjzE7ys), or you can [email ](mailto:undefined)us directly for the technical support.
 * D5 Launcher - Help - Get Support
 
-<figure><img src="/files/58CW2ZgSLWbXc0DBVuvd" alt=""><figcaption></figcaption></figure>
+
 
 * D5 Render Main page - Help - Get Support
 
-<figure><img src="/files/ABanLOGHVjJ3nkGyYuOf" alt=""><figcaption></figcaption></figure>
+
 
 ## Contact us
 

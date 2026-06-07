@@ -11,7 +11,7 @@ You can find the corresponding virtual tour files within the D5 Showreel in MySp
 * After uploading a virtual tour to D5 Showreel, you can make further editings to the virtual tour using D5 Panorama Editor.
 * Any member of the team can upload a virtual tour file to the corresponding cloud project. Please note that virtual tour cannot be edited by different members simultaneously. When one person is editing the virtual tour, the project will be locked.
 
-<figure><img src="/files/trMisuQzUghQuhA3mPfx" alt=""><figcaption><p>Click 'Edit' to enter Panorama Editor</p></figcaption></figure>
+
 
 ***
 
@@ -23,7 +23,7 @@ Global settings affect the presentation of all panoramas in a virtual tour.
 
 The project information contains the 'project name' and 'project introduction'. When visiting the virtual tour, viewers can check its detailed info in the upper left corner. For now, links cannot be added into the project introduction.
 
-<figure><img src="/files/39LYzEPn5IyiaIkWh6dN" alt=""><figcaption></figcaption></figure>
+
 
 * **Rotation setting:**
 
@@ -53,11 +53,11 @@ Users have control to disable rotation of the panorama in a certain direction.
 
 ***
 
-#### **Hotspot Settings** <a href="#header-8" id="header-8"></a>
+#### **Hotspot Settings** 
 
 In Hotspot Settings, users can add customized hotspots to the scene, and the following types of hotspots are currently supported.
 
-<figure><img src="/files/3ESw6FqR2P7SwFGtzZGD" alt=""><figcaption></figcaption></figure>
+
 
 **Anchor Hotspot**
 
@@ -71,17 +71,17 @@ Support editing a rich text, users can add images, videos and hyperlinks. After 
 
 After adding a hotspot to a position in the scene, select the scene to jump
 
-<figure><img src="/files/lVsCSmNMS9T9X0G2b3jX" alt=""><figcaption></figcaption></figure>
+
 
 After the addition is completed, click the icon in the preview to jump.
 
 2. **Rich Media Hotspot**
 
-<figure><img src="/files/4aDGJvnVDhaxsEggLTic" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/hxSYBZeD2LQtOVoe53rT" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:purple;">**Pop-up Content**</mark>
+
+
+****Pop-up Content****
 
 Video: You need to add the iframe link to the video. Select "Share" on the video website and click "Embed Code" to get the iframe link of the video.
 
@@ -91,7 +91,7 @@ Hyperlink: Supports entering a valid URL beginning with http/https&#x20;
 
 Text: Support free input plain text (Chinese and English, numbers, symbols and other conventional characters),Support for pasting text. Upper text limit: 1000.
 
-<mark style="color:purple;">**Hotspot Settings**</mark>
+****Hotspot Settings****
 
 **Hotspot size:** Slide to adjust the size of the hotspot icon in the scene&#x20;
 
@@ -106,7 +106,7 @@ Normal direction: I .e. the direction of the surface of the object \
 
 After editing, click Back to save automatically. After adding, click the preview button at the bottom of the lower right corner of the edit bar to open the pop-up window to view the effect. Click the icon in the preview to open the pop-up window.
 
-<figure><img src="/files/wDRmL40wLtfwDbA86CFd" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -141,30 +141,30 @@ In Floor Plan Navigation, users can upload a png or jpg floor plan as a navigati
 
 1. Click on upload, select the image in jpg or png format and upload it
 
-<figure><img src="/files/kM9GK6xqYQDAOxIckvUv" alt=""><figcaption></figcaption></figure>
+
 
 2. After uploading and clicking on preview, the flat floor plan navigation will appear in the top left corner of the panoramic view
 
-<figure><img src="/files/TbhvXEzzvnBiVSiqXtRm" alt=""><figcaption></figcaption></figure>
+
 
 3. Click Edit Floor Plan to enter the floor plan editing status.
 
 * After selecting a panorama, double-click on the corresponding position in the map on the left to add a camera to the map.&#x20;
 * The direction of the camera will follow the rotation of the corresponding panorama and rotate accordingly.
 
-<figure><img src="/files/rMdNNjGULJJ1MwNIcBRV" alt=""><figcaption></figcaption></figure>
+
 
 4. If the default camera orientation does not match the actual orientation of the current panorama, you can click on the corresponding camera and a rotation component will appear. Using the Rotation component, you can unilaterally adjust the orientation of the camera without changing the current orientation of the panorama.
 
-<figure><img src="/files/9VbdkRHfGoBcJKKnoHLI" alt=""><figcaption></figcaption></figure>
+
 
 5. After adding a camera and saving the project, you can see the camera you just added in the map in the official preview link of the panorama, and support switching to the corresponding panorama by clicking on the camera in the floor plan map.
 
-<figure><img src="/files/tabg9nKAwlPzhgsK29Zc" alt=""><figcaption></figcaption></figure>
+
 
 6. If your project is a multi-storey building, you can create floor plan navigation layers, and in the panorama link, the being shared person can switch between floors by toggling the different floors with a drop-down selector in the map navigation component.
 
-<figure><img src="/files/q73PTaXJtk5sO3VpUidU" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -174,15 +174,15 @@ It supports users in uploading two different panoramas in the same location to a
 
 1. Users need to render two panoramas with different effects in the same location in the client (as shown in the images below, one before the lights are turned on and one after).
 
-<figure><img src="/files/tRRWOxqlXOVBz1wIWWhy" alt=""><figcaption></figcaption></figure>
+
 
 2. After uploading a panorama as a base state, click 'Edit multiple statuses' to open the upload pop up window.
 
-<figure><img src="/files/Ys3hEER3Ggok7DXp2r0R" alt=""><figcaption></figcaption></figure>
+
 
 3. After uploading another panorama, system will automatically create a state switcher for this location, allowing the user to switch between different displays.
 
-<figure><img src="/files/f8dkritJOGWp7yHmyPKr" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -198,11 +198,11 @@ Panorama Comment feature allows D5 account users to make real-time comments on o
 
 Enable 'Allow Comment' in Global Settings of Panorama Editor (enabled by default).
 
-<figure><img src="/files/RmWnbHBRkqJt2wL77jUI" alt=""><figcaption></figcaption></figure>
+
 
 When the comment function is enabled, a comment icon will appear in the upper right corner. Click to open the comment section.
 
-<figure><img src="/files/V134sWKpbhcQaNuL5uB2" alt=""><figcaption></figcaption></figure>
+
 
 2.2 Post comment
 
@@ -221,7 +221,7 @@ Comments support the following attachment types:
 > 1. Record the current scene when commenting. Switch between viewing comments for the current scene or all scenes in the tab bar above the comment section.
 > 2. Supports @team members (only available for members within the team).
 
-<figure><img src="/files/grQfm3UwzNYFgvpJI2y6" alt=""><figcaption></figcaption></figure>
+
 
 2.3 Reply comment
 
@@ -229,7 +229,7 @@ Click on a comment to go to the reply page where you can reply to it.
 
 Replies to comments do not support adding anchors.
 
-| <img src="/files/aZAaehL3cdlY6xwEvivL" alt="" data-size="original"> | <img src="/files/hMhFQoaHWuq77iBX4U9k" alt="" data-size="original"> |
+|  |  |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
 
 2.4 Anchor interaction
@@ -241,7 +241,7 @@ When clicking on the comment content, if the anchor is not in the current scene,
 > **Info:** **Note:** Anchors will only be displayed in the panoramic when the comment section is expanded.
 
 
-<figure><img src="/files/NVeYYFmZpOVRZRwMPWBN" alt=""><figcaption></figcaption></figure>
+
 
 2.5 Comment deletion permissions
 
@@ -259,7 +259,7 @@ Comments displayed in cloud projects support jumping back to the original virtua
 
 Users commenting from external accounts will be marked as ‘external’ for distinction.
 
-<figure><img src="/files/UEhASrWjWi6rmFOlGmmK" alt=""><figcaption></figcaption></figure>
+
 
 4. **Email notification**
 

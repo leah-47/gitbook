@@ -8,13 +8,13 @@ fetched: 2026-06-07
 
 When an unlocked model is selected, the relevant parameters are displayed on the right for adjustment.
 
-![](/files/a4AxYuLM6NQy5EAaCsYQ)
+
 
 ## Duplicate
 
 When you click "Duplicate", an identical model will be created at the cursor and will follow the mouse movement.
 
-![](/files/-MkebjxW84jJoJq7Op5H)
+
 
 When using the shortcut `Ctrl+D` to duplicate, materials are associated with each other by default. That is, if you adjust the material on any model, the other model will follow the change. If you want to duplicate without association, you can use `Alt+D` to duplicate.
 
@@ -22,19 +22,19 @@ When using the shortcut `Ctrl+D` to duplicate, materials are associated with eac
 
 If you need to unassociate a material from a model that was created by a duplicate operation, click on "Make Unique" to unassociate it.
 
-![](/files/-Mked5wV_G2m5sAwjfFT)
+
 
 ## Flip
 
 The "Flip" function mirrors the model along the red axis (X axis).
 
-![](/files/-MkedCXkAMY34uIL_mI9)
+
 
 ## Focus on
 
 Select the object and move the camera to the front of the object so that the object is fully displayed in the main view.
 
-![](/files/-MkedxMlDYNKVdbU7aNo)
+
 
 ## Align
 
@@ -45,7 +45,7 @@ When aligning, the first selected model is used as the reference and its positio
 > **Success:** For example, if there are three models A, B and C, and the selected order is B, C and A, then B remains in the same position when aligning, and C and A models are aligned to B with the original modeling coordinates.
 
 
-![](/files/-Mkedsf_1sYEi9-Gz32s)
+
 
 ## **Sync coordinates**
 
@@ -53,7 +53,7 @@ For imported models, when clicked "Sync Coordinates", the model will move to the
 
 After clicking the "Replace from Assets" button, select a model from the Asset library to replace the selected model in the current scene.
 
-![](/files/QaR4RhUIDQunaTXUIX1L)
+
 
 ## Replace from Local Folder
 

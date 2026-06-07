@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why is the file location option disabled?
 
-<div align="left"><figure><img src="/files/7ag2ijYRssbsMSwnV7h1" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 In the current version, the "file location" function only works for locally imported maps. Currently, the following texture paths are not supported:
 

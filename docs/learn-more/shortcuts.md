@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Shortcuts
 
-### Basic Operation <a href="#basic" id="basic"></a>
+### Basic Operation 
 
 |         |                  |
 | ------- | ---------------- |
@@ -16,7 +16,7 @@ fetched: 2026-06-07
 | Redo    | Shift + Ctrl + Z |
 | Delete  | Delete           |
 
-### Fly Mode <a href="#fly" id="fly"></a>
+### Fly Mode 
 
 |             |           |
 | ----------- | --------- |
@@ -25,9 +25,9 @@ fetched: 2026-06-07
 | Speed Up    | Shift     |
 | Slow Down   | Space Bar |
 
-### &#x20;<a href="#edit" id="edit"></a>
+### &#x20;
 
-### Edit <a href="#edit" id="edit"></a>
+### Edit 
 
 |                      |                  |
 | -------------------- | ---------------- |
@@ -42,7 +42,7 @@ fetched: 2026-06-07
 | Ungroup              | Shift + Ctrl + G |
 | Add Scene            | Alt + S          |
 
-### View <a href="#view" id="view"></a>
+### View 
 
 |                        |         |
 | ---------------------- | ------- |
@@ -63,7 +63,7 @@ fetched: 2026-06-07
 | Middle                 | F2      |
 | Low                    | F3      |
 
-### Lights <a href="#light" id="light"></a>
+### Lights 
 
 |                 |   |
 | --------------- | - |
@@ -72,7 +72,7 @@ fetched: 2026-06-07
 | Strip Light     | 3 |
 | Rectangle Light | 4 |
 
-### Tools <a href="#tool" id="tool"></a>
+### Tools 
 
 |                 |   |
 | --------------- | - |
@@ -81,7 +81,7 @@ fetched: 2026-06-07
 | Material Picker | I |
 | Material Brush  | O |
 
-### Window <a href="#window" id="window"></a>
+### Window 
 
 |                           |           |
 | ------------------------- | --------- |
@@ -91,7 +91,7 @@ fetched: 2026-06-07
 | Hide / Show Scene Control | Shift + H |
 | Right Side Panel          | ～         |
 
-### Assets <a href="#assets" id="assets"></a>
+### Assets 
 
 |         |             |
 | ------- | ----------- |
@@ -100,7 +100,7 @@ fetched: 2026-06-07
 | Radius  | \[ ]        |
 | Density | Shift + 0～9 |
 
-### Video <a href="#video" id="video"></a>
+### Video 
 
 |               |                  |
 | ------------- | ---------------- |

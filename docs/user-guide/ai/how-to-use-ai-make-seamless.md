@@ -10,15 +10,15 @@ Integrates AI Inpainting to train the model for construction tasks. AI will spec
 
 * Added 'Make Seamless' to the AI section near the Base Color Map slot, which will remove seams between base color map textures for a consistent and natural effect.&#x20;
 
-<div align="center"><figure><img src="/files/KR0DcwXh1cWk2mmlLUTN" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 * Supports removing seams either vertically or horizontally to achieve the desired effect. Undo supported by Ctrl+Z.
 
-<figure><img src="/files/lptwjPKDj1DOXCfWYylg" alt=""><figcaption></figcaption></figure>
+
 
 > Note: A Base Color Map is required to activate this feature.
 
-<figure><img src="/files/IUTkdrVMOvJQrMImRpo4" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 ---

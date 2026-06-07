@@ -12,11 +12,11 @@ Example
 
 If you have added a "tree" to the environment workset, but this tree is only relevant to your own scene, you can create a "Visible to this workset only" layer for objects of this kind.
 
-<div align="left"><figure><img src="/files/YveuzeV0TmYuvbi1gvKX" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 This ensures that models in the "Visible to this workset only" layer are displayed normally only in the current workset and do not affect other worksets.
 
-<figure><img src="/files/wyGjcm5VaRojaqDZMpxy" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

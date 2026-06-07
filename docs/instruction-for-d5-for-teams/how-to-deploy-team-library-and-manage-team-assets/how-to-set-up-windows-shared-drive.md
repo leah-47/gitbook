@@ -17,7 +17,7 @@ fetched: 2026-06-07
 
    ②Click "Properties".
 
-<figure><img src="/files/JD4iAWQoNAsv4xyMl2Kh" alt=""><figcaption></figcaption></figure>
+
 
 ### Step 2: Setting up the Shared Folder
 
@@ -33,13 +33,13 @@ In the Properties panel:
 
 After completing the previous step, copy the network path and paste it into the settings page of the client.
 
-<div align="left"><figure><img src="/files/vrMEImKpuz01ckGvis5k" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/WPxLhG3XD1f4U9tHRZub" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/9izhRNigrKCfY2JBMz11" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<figure><img src="/files/6ql0tNWpOrPgIURYcKbC" alt=""><figcaption></figcaption></figure>
+
 
 ### Notes:
 
@@ -47,11 +47,11 @@ After completing the previous step, copy the network path and paste it into the 
 
 2\. If the shared folder is password-protected, others can only access when the password protection is turned off.
 
-<figure><img src="/files/1JQWTfYvERpiCo3mhRuS" alt=""><figcaption></figcaption></figure>
+
 
 Special indication when "Remote Access Account & Remote Access Password" is not entered.
 
-<figure><img src="/files/Yttg9jblVhq133PXcz3E" alt=""><figcaption></figcaption></figure>
+
 
 Turn off "Password-protected sharing" in Shared folders - Password protection.
 
@@ -63,21 +63,21 @@ Usually, the shared folder and other accessing devices need to be on the same lo
 
 How to view the IP address:
 
-<div align="left"><figure><img src="/files/NrmmVEjR0DlBCnkvuqUu" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/kN2ZoJZ7JJnYNFjv6Sg3" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/LmNLrZKLiD1f4xgK23Oq" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 5. Enter the IP and shared folder into the computer path and fill in the username and password to test if it can be accessed successfully.
 
-<figure><img src="/files/Dz4UkwkGaiqlkllM8MxV" alt=""><figcaption></figcaption></figure>
+
 
 If you encounter an error message while trying to access a shared folder on a Windows system, such as "Network error, you do not have permission to access \IP address, please contact the administrator for access permission" or "Windows cannot access \IP address or XX host, please check the spelling of the name. Otherwise, there may be a problem with the network. To try to identify and resolve network problems, click 'Diagnose'"
 
 If these prompt appear, please check the following settings:
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>If the device where the shared drive is located is set up with a startup password, please check if the account name and password are correctly filled in the team library deployment interface in the D5 client.</td><td><div><figure><img src="/files/U0U9N5N1ZobfDfC1qctT" alt=""><figcaption></figcaption></figure></div></td></tr><tr><td>Press Windows + R and type "gpedit.msc" to enter the Group Policy interface.</td><td><img src="/files/26L6cDYB76vQGV4ZCBGW" alt="" data-size="original"></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>If the device where the shared drive is located is set up with a startup password, please check if the account name and password are correctly filled in the team library deployment interface in the D5 client.</td><td><div></div></td></tr><tr><td>Press Windows + R and type "gpedit.msc" to enter the Group Policy interface.</td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 6\. The account name of the computer where the shared folder is located cannot be the same as that of other devices. It is recommended to use different account names for different devices.&#x20;
 
@@ -89,9 +89,9 @@ For example, if the account name of the team version owner is "Administrator" an
 2. Click "Email & accounts" and then click "Add an account".
 3. Add a new account, log in with the new account, create a shared folder, configure it in the D5 render client, and the Team Library can be successfully created.
 
-<div align="left"><figure><img src="/files/819pie9UQhGev5H2Fo1b" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<figure><img src="/files/1J50y9PFgCKlH0vubqyO" alt=""><figcaption><p>Modify user name</p></figcaption></figure>
+
 
 
 ---

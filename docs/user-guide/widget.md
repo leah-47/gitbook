@@ -8,25 +8,25 @@ fetched: 2026-06-07
 
 D5 Widget is a customized extension module of D5 Render, aiming to provide advanced features while keeping the simplicity. (learn more about [D5 Widget](https://www.d5render.com/post/d5-render-widget)) It contains 6 major functions: advanced video rendering, VR (virtual reality) beta, stage lighting, projector, color correction, and merge projects.
 
-Go to <mark style="background-color:purple;">**Menu > Preference > Widget**</mark> , and you can check what you installed, switch on/off with one click to manage your widgets.
+Go to ****Menu > Preference > Widget**** , and you can check what you installed, switch on/off with one click to manage your widgets.
 
-![](/files/2COIjKrpQKROum14S4nO)
+
 
 ### Advanced Image Rendering
 
 * Select .png .jpg .tga .tif .exr when rendering images, with channel selection enabled.
 
-![](/files/Hfu9xlfWL2xeb44NH5Gw)
 
-### Advanced Video Rendering <a href="#toc-h3-2-advanced-video-rendering" id="toc-h3-2-advanced-video-rendering"></a>
+
+### Advanced Video Rendering 
 
 * Select .mp4 or .avi when rendering videos.
 
-![](/files/R9bO7klowselvHShh105)
+
 
 * Sequence of frames supports .png and .exr with channel selection enabled.
 
-![](/files/8VOFFgei83qqi3OAn79F)
+
 
 ### VR beta
 
@@ -36,11 +36,11 @@ Explore the scene with Virtual Reality, available for SteamVR-ready devices. (e.
 
 Navigation Bar > Add Lights > Stage Light.
 
-<div align="center"><img src="/files/bHOMCn2EViCapCChxpb5" alt=""></div>
+<div align="center"></div>
 
 The stage lighting is designed to simulate professional dynamic lighting effects.
 
-![](/files/B30JYT1KKnsLPy6oy9uE)
+
 
 * **Pattern :**&#x73;elect a preset pattern or upload a custom pattern&#x20;
 * **Brightness**：The luminous intensity of the light source in cd (candela, candela), the maximum brightness can be entered 8000000.&#x20;
@@ -57,11 +57,11 @@ The stage lighting is designed to simulate professional dynamic lighting effects
 
 ### Projector
 
-![](/files/nUgcYr5QnO1F1144yfik)
+
 
 Go to Menu > Preference > Widget to activate Projector, then it can be inserted into scenes from the Navigation bar > Add lights. Projector is a new type of light source, which has a rectangular projection effect. It supports image formats including jpg/png/bmp and video formats including mp4/avi/wmv.
 
-![](/files/dbz9CiHMOy4tZrK6TzNt)
+
 
 * **Video**：select a preset pattern or upload a custom pattern to determine the projection screen.
 * **Brightness**：The luminous intensity of the light source in cd (candela, candela), the maximum brightness can be entered 8000000.&#x20;
@@ -72,7 +72,7 @@ Go to Menu > Preference > Widget to activate Projector, then it can be inserted 
 
 ### Color Grading
 
-![](/files/hY2LMbWVCOuGeECDawOk)
+
 
 Precisely control the tonal values of Midtones, Shadows, Highlights, Global in the scene with Effect panel.
 
@@ -82,15 +82,15 @@ Go to Menu > Preference > Widget, and activate Merge Projects (beta) there. You 
 
 1. Go to the Welcome page > Recent, click on the button in the upper-right corner
 
-![](/files/OveQ2Mz1DCRxiUY1m2Na) ![](/files/Mgw1Z6mh5aNZccn2L41d)
+ 
 
 2\. Right click on a project in the Recent page, select Merge Project&#x20;
 
-![](/files/fJF7bdpbCMvNruBq6anj)
+
 
 3\. While editing files, go to Menu > File > Merge project
 
-![](/files/nZUHtNI4fyV6BVxMezVt)
+
 
 #### **Conditions of Merge project**
 

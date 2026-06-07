@@ -12,7 +12,7 @@ In the default preview state, the model will be rejected when the distance from 
 
 If the distance of the model from the camera is more than 1000 meters, the model will be rejected in the default output state.
 
-<figure><img src="/files/uvVlIa4ewpfMebko9dKv" alt=""><figcaption></figcaption></figure>
+
 
 This culling distance can be customized in "Preference" -> "Rendering" -> "Cull Distance".
 

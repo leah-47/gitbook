@@ -16,7 +16,7 @@ fetched: 2026-06-07
 
    **Seats**: The number of accounts allowed to join the team according to your subscription plan
 
-<div align="left"><figure><img src="/files/maoGJ0EE6CBe51sB9T0G" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 2. After clicking on "Invite" and entering the invited member's account (email), an invitation email will be sent to the invited member's email. The member can join successfully by clicking "Accept" in the email.
 
@@ -28,9 +28,9 @@ fetched: 2026-06-07
 
 *Note: Newly joined users are assigned the default role of "Member" and do not have access to the Team settings and dashboard panel. If their role is changed to "Administrator", they will then have access to those settings.*
 
-<figure><img src="/files/NfeDsUY2iUVwHo9ra9d8" alt=""><figcaption><p>Invitation E-mail</p></figcaption></figure>
 
-<figure><img src="/files/yxM6mS5Hbn2uFocYFf8U" alt=""><figcaption><p>After a successful invitation, the invited account's My Space will display "Team"</p></figcaption></figure>
+
+
 
 3. The following types of invitations are not supported for now:
 
@@ -43,7 +43,7 @@ fetched: 2026-06-07
 
 Clicking "Invite" supports directly copying the invitation link. After the invited member clicks the invitation link and confirms it, they will automatically join the current team.
 
-<figure><img src="/files/QtnMCx0MQwZzXOg75wCS" alt=""><figcaption></figcaption></figure>
+
 
 ### Invitation Done
 
@@ -51,7 +51,7 @@ After successfully joining a team, you can see the Team account from the login p
 
 Note: Team and individual account data are not interoperable. (For example: You can only access data stored in your Teams Studio using your Team account)
 
-<figure><img src="/files/s2KU07YJnRvVQrVHcAn8" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -17,29 +17,29 @@ You can use the "Move and Rotate" Tool to change the coordinates and rotation an
 
 In the scene, drag the arrows on the axes with the mouse to move the model in a single X / Y / Z direction. Drag between any two arrows to move the model in the XY / YZ / ZX plane.
 
-![](/files/-MkWVun_v-OLykcShW2J)
+
 
 Click on the half-circle on the coordinate axis to rotate the model. Click on the square in the center of the axis and drag to move the model freely to any position in the scene.
 
-![](/files/-MkWW0fI86oiVTW5feiB)
+
 
 Hold down the shortcut key `Shift` and drag the axes to copy the model or light source in the direction of the arrow.
 
-![](/files/-MkWW69oLcMBwEYLyeIy)
+
 
 Select the "Scale" tool (shortcut `V` to toggle) and drag any of the axes to change the size of the model. Using the lock function of the "Size" parameter in the right sidebar, adjustments can be made simultaneously or in only one direction.
 
-![](/files/-MkeaSEkZEhUzLNNLPcQ)
+
 
 To edit the material of the model, use the "Material Picker" tool and click the material you want to edit in the scene. You can also lock the model first and then click on the model material to bring up the material editing panel.
 
-![](/files/-MkeaZgRCO6sXYj6o8tB)
+
 
 ## Parameters
 
 After selecting the model, you can see the parameters related to the model in the "Inspector". These include: position, rotation, size, etc.
 
-![](/files/-MkeasY_lBZRO1kbNR9e)
+
 
 For a detailed explanation of model adjustment, see the next document [Action](./action.md).
 

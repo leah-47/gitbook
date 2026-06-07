@@ -15,7 +15,7 @@ Undo supported.
 > 1. This feature is not supported on materials from D5 Library.
 > 2. The current version supports normal, roughness, and displacement maps. Specular, metallicity will be supported in future versions.
 
-<figure><img src="/files/OCT3f9Dox2isD6wAcUYm" alt=""><figcaption></figcaption></figure>
+
 
 ***
 

@@ -12,7 +12,7 @@ If the fps value is lower than 20 when running the scene, there will be a laggin
 
 If memory usage is high, consider using Smooth Mode during preview or combining it with ↓ content to optimize memory usage.
 
-<figure><img src="/files/KTrh0cCpMrXJYk7lFIQJ" alt=""><figcaption></figcaption></figure>
+
 
 > How to view and optimise video memory usage?
 

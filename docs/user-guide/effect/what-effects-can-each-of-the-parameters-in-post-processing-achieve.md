@@ -14,11 +14,11 @@ This function simulates the exposure function of a real camera and is used to ad
 
 Turn off the "Auto Exposure" switch, that is, enter the "Manual Exposure" mode, the mouse drags the exposure control can control the overall brightness of the screen changes, and you can also enter specific values.
 
-<figure><img src="/files/ysxHJeScZeLzEY2E0kM1" alt="" width="563"><figcaption></figcaption></figure>
+
 
 The higher the exposure value, the brighter the image, and the lower the exposure value, the darker the image. When adjusting the exposure manually, pay attention to the amount of information in the scene and try to avoid large areas of "overexposure" or "dead black" in the image.
 
-<figure><img src="/files/MEDlCcRe4rT2hOJ3wkcS" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### Auto Exposure
 
@@ -26,7 +26,7 @@ Auto Exposure in D5 Render automatically analyzes image brightness and adjusts i
 
 * **Exposure Compensation:** allows users to manually fine-tune the overall brightness while Auto Exposure is active. This enables users to brighten or darken the picture as needed, making it easier to achieve the desired visual result with automatic exposure engaged.
 
-<figure><img src="/files/dsU70mUBoAI1mOddNS88" alt=""><figcaption></figcaption></figure>
+
 
 ### Highlight Local Exposure
 
@@ -42,13 +42,13 @@ Adjust the difference in brightness between the light and dark areas of the imag
 
 Lowering the contrast will brighten the dark areas and darken the bright areas. As the contrast is lowered, the light and dark colour values of the pixels gradually converge to medium grey, creating a greyish, faded effect, and in the extreme case, the picture becomes completely medium grey. Increasing the contrast will enhance the brightness contrast between the light and dark areas, the sketch relationship of the picture will be enhanced, and the sense of three-dimensionality will be increased, too high a contrast value will bring about overexposure of the highlight areas and dead black in the dark areas:
 
-<figure><img src="/files/UY848TpR5Rk2TpWTT3Ty" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### Tone Mapping Curve
 
 The Highlight, Shadow, and Contrast parameters together control the "Tone mapping curve", which determines how the high dynamic range information computed by the renderer is mapped to the low dynamic range screen, and the basic shape of the curve is as follows:
 
-<figure><img src="/files/wm5sKigjZ9HJeTyXvVwg" alt="" width="563"><figcaption></figcaption></figure>
+
 
 The horizontal axis represents the information calculated by the renderer and the vertical axis represents the information mapped onto the screen.&#x20;
 
@@ -62,27 +62,27 @@ The effects of the three control parameters are explained in detail below.
 
 The "shoulder" pattern at the top right of the control curve affects the highlight areas of the image:
 
-<figure><img src="/files/FyC7dAGoRCbuUQQ1rftO" alt="" width="538"><figcaption></figcaption></figure>
+
 
 The highlight parameter is useful in two main ways:
 
 1. When the screen is overexposed, pull the highlight control to the left to retrieve the overexposed highlight details. As shown in the figure, the original overexposed white area and the details of the content are pulled back into the screen.
 
-<figure><img src="/files/0Bu9VcrAMHYqgxoQmizW" alt="" width="563"><figcaption></figcaption></figure>
+
 
 2. Depressing the highlight value to the left will make the highlight area detail itself weaker, and vice versa to increase the contrast of the highlight area detail. As shown in the figure, pulling the control to the left contrasts with the highlight area details weaker and vice versa enhanced:
 
-<figure><img src="/files/ei41l3e5qtilETlpsLCz" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### Shadow
 
 The "toe" pattern in the lower left of the control curve will affect the darker parts of the image:
 
-<figure><img src="/files/2qdJhvktuIcP3snVnaIh" alt="" width="538"><figcaption></figcaption></figure>
+
 
 In practice, lowering the value will result in more detail in the dark areas, while the overall contrast in the dark areas is reduced and greyish. Raising the value, more dark details will be pressed into "dead black", which correspondingly improves the contrast of the dark content:
 
-<figure><img src="/files/mSiVczgEJVRZk9s1zjjn" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### White Balance
 
@@ -93,19 +93,19 @@ The white balance parameter serves two functions.
 
 This is actually a control related to the colour temperature, the default value is 6500 in Kelvin (K).
 
-<figure><img src="/files/sjj9iMF5XPmZjOP9s7Zq" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### Tint
 
 In conjunction with the colour temperature parameter, the white balance tint of the scene is adjusted by adjusting the cyan and magenta ranges.
 
-<figure><img src="/files/Y2ETG7T3Hinpm4SAAg31" alt="" width="563"><figcaption><p>Post Tint +0.5 | Normal | Post Tint -0.5</p></figcaption></figure>
+
 
 ### Bloom
 
 Make the scene appear to have a glowing effect. The image will be blurred and vignetted, especially for bright objects on darker backgrounds, and a more pronounced flooding phenomenon can be seen, the higher the value of the control, the more obvious the bloom effect will be:
 
-<figure><img src="/files/K6FAHPEj32doZc5kcQ2H" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### Rainbow Flare
 
@@ -113,25 +113,25 @@ Simulates the colorful glow around the sun when shot by a camera.
 
 Note: This effect **is only supported for Geo and Sky** and is disabled in HDRI.
 
-<figure><img src="/files/pHbah3cVyAnk7cTDmqcR" alt=""><figcaption><p>Rainbow Flare</p></figcaption></figure>
+
 
 ### Lens flare
 
 Simulates the halo effect (also translated as "lens flare") produced by a real camera lens when backlighting a bright light source, in which a series of halo effects are distributed along an axis through the centre of the frame, with the larger the value of the controls, the more pronounced the effect:
 
-<figure><img src="/files/VUog5E7gknsjXwAYGuDd" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### Vignette
 
 Simulates a real-world gradient effect of gently decreasing brightness at the corners of a camera lens.
 
-<figure><img src="/files/AufO1Ca9TAuKNCnYeobw" alt="" width="563"><figcaption><p>Post Vignette 0.5 | Normal | Post Vignette 1.0</p></figcaption></figure>
+
 
 ### Chromatic Aberration
 
 Simulates the Chromatic Aberration phenomenon of colour shifts in real-world camera lenses.
 
-<figure><img src="/files/vxreJgxgf6lQul4J8OEH" alt="" width="563"><figcaption><p>Post Chromatic Aberration 2.5 | Normal | Post Chromatic Aberration 5.0</p></figcaption></figure>
+
 
 ### Saturation
 
@@ -139,7 +139,7 @@ To control the vividness and purity of the colours in the picture.&#x20;
 
 The higher the saturation, the closer the colours are to pure colours, i.e. the difference between the values of the three RGB colour components becomes larger; the lower the saturation, the closer the colours are to grey, i.e. the values of the three RGB colour components tend to be equal. The saturation value is pulled to the lowest, the pixel RGB value is completely equal to the loss of colour tendency, only dark and light changes, the picture becomes a "black and white picture":
 
-<figure><img src="/files/7292wDQfWFj5p055tONd" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 ---

@@ -10,52 +10,52 @@ fetched: 2026-06-07
 
 ## Method 1: Install using installation packages
 
-### 1. Download the plugin <a href="#header-1" id="header-1"></a>
+### 1. Download the plugin 
 
-<figure><img src="/files/wqdEJceGN8dVfFykm1BM" alt=""><figcaption></figcaption></figure>
+
 
 ### 2. Launch the file
 
-<figure><img src="/files/VRwK4hAo5GrAoZChm9P6" alt=""><figcaption></figcaption></figure>
+
 
 ### 3. Tick the corresponding DCC version
 
-<figure><img src="/files/RZcq4ib784pEOJFZy29g" alt="" width="447"><figcaption></figcaption></figure>
+
 
 ### 4. Start the installation
 
-<figure><img src="/files/BU5QYmDAJpnMTuPbwkUM" alt="" width="446"><figcaption></figcaption></figure>
+
 
 ### 5. Complete the installation
 
-<figure><img src="/files/8v6uyV1ZESo826P82bOr" alt=""><figcaption></figcaption></figure>
 
-## Method 2: Silent Installation (command line) <a href="#header-0" id="header-0"></a>
 
-### 1. Download the plugin <a href="#header-1" id="header-1"></a>
+## Method 2: Silent Installation (command line) 
 
-### 2. Open Windows Command Prompt <a href="#header-2" id="header-2"></a>
+### 1. Download the plugin 
+
+### 2. Open Windows Command Prompt 
 
 Enter CMD in the Windows search bar and select ‘Run as administrator’ to open the Command Prompt.
 
-### 3. Utilize the "cd" command in the command line to navigate the directory containing the plugin installation package (.exe file). <a href="#header-3" id="header-3"></a>
+### 3. Utilize the "cd" command in the command line to navigate the directory containing the plugin installation package (.exe file). 
 
-> E.g. If the plugin installation package is located under the path **C:\Users\User\Desktop**, we can type <mark style="color:red;">`cd C:\Users\User\Desktop`</mark> and then Enter.
+> E.g. If the plugin installation package is located under the path **C:\Users\User\Desktop**, we can type **`cd C:\Users\User\Desktop`** and then Enter.
 
-### 4. Enter the name of the plugin installation package (.exe file) and add the extension <a href="#header-4" id="header-4"></a>
+### 4. Enter the name of the plugin installation package (.exe file) and add the extension 
 
-> E.g. <mark style="color:red;">`D5_LiveSync_Sketchup_usa_latest.exe`</mark>
+> E.g. **`D5_LiveSync_Sketchup_usa_latest.exe`**
 
-### 5. Enter the installation instructions on the command line <a href="#header-5" id="header-5"></a>
+### 5. Enter the installation instructions on the command line 
 
-Paste the command <mark style="color:red;">`/sp- /silent /allusers /norestart`</mark> OR <mark style="color:red;">`/sp- /silent /currentuser /norestart`</mark> after the plugin extension.
+Paste the command **`/sp- /silent /allusers /norestart`** OR **`/sp- /silent /currentuser /norestart`** after the plugin extension.
 
 > E.g.\
 > In the image below, use the command line to install the D5 LiveSync for SketchUp, the download location of the plugin is at **C:\Users\Administrator\Downloads**
 
-### 6. Click Enter to start the silent installation <a href="#header-6" id="header-6"></a>
+### 6. Click Enter to start the silent installation 
 
-<figure><img src="/files/50eMeTsocTroCm5i2AaI" alt=""><figcaption></figcaption></figure>
+
 
 ## FAQs
 

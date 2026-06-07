@@ -12,13 +12,13 @@ Displacement is a feature used to represent the true bump detail of a material. 
 
 Added Opacity Map to Displacement Material Template to enable precise control over the cutting of materials. It achieves uneven and hollow effects on hedges, fences, bamboo weaving surfaces, and other materials.
 
-<figure><img src="/files/MdjBoCS46PwVW3POcRe7" alt=""><figcaption></figcaption></figure>
+
 
 ### **Height**
 
 The only special parameter of the Displacement material template is the Height, which is usually defined by a height map that defines the bumpiness of the model.
 
-![example](../../files/-MkX6xoZzaiFm2uJYWIH.md)
+
 
 The white color is the convex part and the black color is the concave part.
 
@@ -30,7 +30,7 @@ Expand and enable the true displacement switch in \[More Settings].
 
 > ***Tip:** If no mapping is added to the height channel, the "More" button does not appear in the interface.*
 
-| ![](/files/oZW1bgBWOjHioHPeNAPD) | ![](/files/QxIAl9IpCZcCZT9PRmXc) |
+|  |  |
 | -------------------------------- | -------------------------------- |
 
 **True displacement parameters:**
@@ -49,7 +49,7 @@ Expand and enable the true displacement switch in \[More Settings].
 Mesh reconstruction aims to fix the defects of the original mesh without modifying the structure of the model itself. Please try to ensure the simplicity and accuracy of modeling.
 
 
-<figure><img src="/files/QuNuPI1qjJrPj1dGmnXN" alt=""><figcaption><p>True displacement</p></figcaption></figure>
+
 
 > **Warning:** **Note:**
 

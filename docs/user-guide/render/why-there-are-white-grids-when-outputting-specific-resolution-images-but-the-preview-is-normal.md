@@ -10,7 +10,7 @@ If you have **semi-transparent curtains/custom blinds** in your scene, some of t
 
 This is a known issue with the current version and can be fixed by adjusting the material of the curtain/blinds model to 100% opacity (adjusting the material to a transparent material template & opacity parameter to 100%), then you can get the normal output effect. We will fix it in subsequent releases.
 
-<figure><img src="/files/v6oM432HFsgGkCP4S85j" alt=""><figcaption><p>there are white grids when outputting specific resolution images (the preview is normal)</p></figcaption></figure>
+
 
 
 ---

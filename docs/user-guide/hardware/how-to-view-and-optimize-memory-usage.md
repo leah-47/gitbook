@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Open the data monitoring bar (D5 top left menu bar - View - Statistics) to monitor your memory usage in real time.
 
-<figure><img src="/files/t8rVPBgsY4mNyj5oNbkB" alt=""><figcaption><p>Statistics</p></figcaption></figure>
+
 
 If the memory usage is high, you can set up virtual memory.
 

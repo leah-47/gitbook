@@ -6,11 +6,11 @@ fetched: 2026-06-07
 
 # How to switch between an object's own coordinates and world coordinates?
 
-<div align="center"><figure><img src="/files/InAfsI8HJwwwvRIECuiF" alt=""><figcaption><p>World Coordinate System</p></figcaption></figure></div>
+<div align="center"></div>
 
-<figure><img src="/files/uswqpR9JwAVJaU7lvO29" alt=""><figcaption><p>Local Coordinate System</p></figcaption></figure>
 
-<mark style="background-color:purple;">After selecting the model, you can switch between the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Local Coordinates System & World Coordinate System**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">options in the coordinate axis tool located in the upper-left corner of the scene.</mark>
+
+**After selecting the model, you can switch between the** ********Local Coordinates System & World Coordinate System**** ******options in the coordinate axis tool located in the upper-left corner of the scene.**
 
 1. When you switch to world coordinates, the direction of the x, y, and z axes of the object is along the world coordinates. **When the object rotates and creates an angle between it and the world coordinates, the direction of the three axes remains unchanged.**&#x20;
 2. However, **after switching to the local coordinates, when the object rotates, the direction of the three axes changes according to the rotation angle**.

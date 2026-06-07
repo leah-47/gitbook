@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to select material in the scene?
 
-<div align="left"><figure><img src="/files/TcJWiSQFIxnrSnXyUtoB" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Open a model via D5 Launcher, it is locked by default. Import a model when a scene file is already opened, it is unlocked by default.&#x20;
 
@@ -18,7 +18,7 @@ Selecting the material directly in the scene allows you to edit the material.&#x
 
 We need to use the Material Picker to select material.
 
-<div align="left"><figure><img src="/files/0DdwJBxbSmyyiOHE6ujU" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Material Picker&#x20;
 

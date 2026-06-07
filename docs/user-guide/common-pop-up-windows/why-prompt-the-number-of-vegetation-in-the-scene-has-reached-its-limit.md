@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why prompt 'The number of Vegetation in the scene has reached its limit'?
 
-<figure><img src="/files/1WnOp2biXzGhujON8zib" alt=""><figcaption><p>Vegetation</p></figcaption></figure>
+
 
 D5 has a plant carrying limit currently at 30 million. This number is mainly composed of: brush/scatter/path or drawn plants, plants placed in the scene and terrain grass.
 

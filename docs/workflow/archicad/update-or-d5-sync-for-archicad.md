@@ -10,21 +10,21 @@ fetched: 2026-06-07
 
 `Release date: 20231012`
 
-### New and Improvement <a href="#new-and-improvement-2" id="new-and-improvement-2"></a>
+### New and Improvement 
 
 * Support Archicad 27
 * Refactoring of the incremental synchronization function
 * Optimization of the .d5a export function
 * Optimization of the installation package
 
-### Fixes <a href="#fixes-3" id="fixes-3"></a>
+### Fixes 
 
 * Fixed the issue of synchronization crashes in some scenes
 * Fixed the issue of abnormal light synchronization in some scenes
 * Fixed the issue where the base color texture in some scenes could not be synchronized
 * Fixed the issue of abnormal texture UV display after synchronization in some scenes
 
-### Known issues <a href="#known-issues-4" id="known-issues-4"></a>
+### Known issues 
 
 1. Material synchronization only supports basic engine
 2. Simultaneous rotation and scaling effects of texture UV are not supported for synchronization
@@ -32,65 +32,65 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 0.6.1.0011 <a href="#ver-0610011-5" id="ver-0610011-5"></a>
+## Ver. 0.6.1.0011 
 
 `Release date: 20230727`
 
-### New and Improvement <a href="#new-and-improvement-6" id="new-and-improvement-6"></a>
+### New and Improvement 
 
 * A brand new UI
 * Version information added to the menu bar
 * Archicad 25/26 Solo version supported
 
-### Fixes <a href="#fixes-7" id="fixes-7"></a>
+### Fixes 
 
 * Material overlapping after syncing from Archicad
 
 ***
 
-## Ver. 0.6.0.0003 <a href="#ver-0600003-8" id="ver-0600003-8"></a>
+## Ver. 0.6.0.0003 
 
 `Release date: 20230221`
 
-### New and Improvement <a href="#new-and-improvement-9" id="new-and-improvement-9"></a>
+### New and Improvement 
 
 * A brand new UI
 * Optimized wording of the Settings window
 * Optimized auto-update notification
 * AMD graphics cards supported
 
-### Fixes <a href="#fixes-10" id="fixes-10"></a>
+### Fixes 
 
 * Clicking on Sync too quickly caused the software to crash
 * Switching among 3D and other views cut off the live sync
 
 ***
 
-## Ver. 0.5.2 <a href="#ver-052-11" id="ver-052-11"></a>
+## Ver. 0.5.2 
 
 `Release date: 2022.8.2`
 
-### New and Improvement <a href="#new-and-improvement-12" id="new-and-improvement-12"></a>
+### New and Improvement 
 
 * Support Archicad 26
 
-### Fixes <a href="#fixes-13" id="fixes-13"></a>
+### Fixes 
 
 * Material loading error under some special conditions
 * D5 Crashes when synchronizing some special large scenes.
 
 ***
 
-## Ver. 0.5.0 <a href="#ver-050-14" id="ver-050-14"></a>
+## Ver. 0.5.0 
 
 `Release date: 2022.4.27`
 
-### New and Improvement <a href="#new-and-improvement-15" id="new-and-improvement-15"></a>
+### New and Improvement 
 
 * Support Archicad 25 Solo and 2021 SE (Start Edition) version
 * Optimize the interaction in the live sync when clicking Sync or Cancel mutilple times
 
-### Fixes <a href="#fixes-16" id="fixes-16"></a>
+### Fixes 
 
 * Settings window and textures displays incorrectly in some languages.
 * Fix the problem when exported file name is blank.
@@ -102,15 +102,15 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 0.4.0 <a href="#ver-040-17" id="ver-040-17"></a>
+## Ver. 0.4.0 
 
 `Release date: 2021.12.24`
 
-### New <a href="#new-18" id="new-18"></a>
+### New 
 
 * Support Archicad 25
 
-### Improvement <a href="#improvement-19" id="improvement-19"></a>
+### Improvement 
 
 * Better performance on flat curved surface
 

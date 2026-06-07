@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Launching D5 from the D5 converter gives the error "default error".
 
-<div align="left"><figure><img src="/files/dsEtba4XNrs6zUuv1b5B" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 When the D5 client detects an abnormality in the network connection of the current device, it will prompt "default error".
 

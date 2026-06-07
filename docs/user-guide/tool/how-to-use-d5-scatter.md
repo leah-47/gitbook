@@ -10,11 +10,11 @@ Added D5 Scatter, a procedural content generation (PCG) scatter tool, to quickly
 
 
 
-## Usage Steps <a href="#header-0" id="header-0"></a>
+## Usage Steps 
 
 **Added Scatter** in the Top Menu Bar (Shortcut Key: X)：
 
-<figure><img src="/files/T7h4GcFJD9Lh67ORs5Z3" alt=""><figcaption><p><strong>Add Scatter</strong></p></figcaption></figure>
+
 
 ### 1. Click 'Add Scatter' button or 'X' shortcut key to create Scatter
 
@@ -28,21 +28,21 @@ Added D5 Scatter, a procedural content generation (PCG) scatter tool, to quickly
 * Use scatter presets or custom divide: Open presets from Scatter library/Studio or the custom scatter editing panel.
 * Or add models from the Library: Open Nature Category
 
-<figure><img src="/files/VK2HdEqvWHmTlp8NQOUZ" alt=""><figcaption></figcaption></figure>
+
 
 ### 3. Reference points would display after creating a scatter
 
-* Added reference points into scatter areas to control the vegetation generation and scattering within their radius. Vegetation won't grow in areas without reference points. You can switch on/off the visibility of reference points by clicking the ![](/files/v6b1AMY1P0nQIP2BZgBZ) icon.
+* Added reference points into scatter areas to control the vegetation generation and scattering within their radius. Vegetation won't grow in areas without reference points. You can switch on/off the visibility of reference points by clicking the  icon.
 * The amount of reference points is automatically calculated based on the size of the selected object and has a limit, thus affecting the interval between sparse points. The larger the model, the greater the interval between sparse points.
 * Supports separate management of scattered assets, including Focus, Lock, Hide, Rename, and Delete, in the scene list.
 
-<figure><img src="/files/v8CrpMdi5vtnQtzxeRKm" alt=""><figcaption></figcaption></figure>
+
 
 ## Scatter Area Management
 
 Divide the scatter area, generate and manage sub areas
 
-<figure><img src="/files/vEIzzoOp3nZQuvRNLIyC" alt=""><figcaption><p>Scatter Area</p></figcaption></figure>
+
 
 > **Info:** A scatter area is created as a whole by default. You can further divide it into multiple sub areas to scatter different models within different areas. Each area supports individual custom parameters for better vegetation effect.
 
@@ -51,7 +51,7 @@ Divide the scatter area, generate and manage sub areas
 
 #### The scatter area drawn with Advanced Brush supports three types of division methods.
 
-<figure><img src="/files/2TIjDs7KYvv34P5J1PDc" alt=""><figcaption><p>Division Methods</p></figcaption></figure>
+
 
 **Image Divide:**
 
@@ -67,7 +67,7 @@ Use the Brush again to subdivide the already drawn areas.
 
 > After division, several sub-areas will also be created in the right sidebar. You can right-click on a Sub Area to rename it. The selected sub area will be highlighted in the viewport.
 
-<figure><img src="/files/D6gxaouEAs7fzcichON5" alt=""><figcaption></figcaption></figure>
+
 
 ### Add Assets
 
@@ -76,15 +76,15 @@ Scatter Custom Models or Use Templates
 * Supports scattering assets from D5 Asset Library/Studio or using scatter presets.
 * Click "Assets" to scatter models from the Nature category, supporting up to 15 varieties in each scatter area.
 
-<figure><img src="/files/Mzi6rYXUv9DE7f29ZE4I" alt=""><figcaption><p>up to 15 varieties</p></figcaption></figure>
+
 
 * Added a Scatter library into D5 Asset Library with two types of scatter templates: **'Global Preset'** that includes both the asset and area info and **'content preset'** with only the asset info. Click the 'Scatter Presets' to apply these templates.
 
-<figure><img src="/files/gj71VYpa1UrAQgRE9HMP" alt="" width="375"><figcaption></figcaption></figure>
+
 
 ### Edit Scatter
 
-| <div><figure><img src="/files/6NPWzusMhFt8RGGoJIdP" alt=""><figcaption></figcaption></figure></div> | <div><figure><img src="/files/OiUvFkANRUvkq1K4lwTr" alt=""><figcaption></figcaption></figure></div> |
+| <div></div> | <div></div> |
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 
 Supports editing scattered surfaces using Brush and Eraser tools adjust. When performing these operations, the current brush settings will be inherited.
@@ -104,7 +104,7 @@ Every asset added into the scatter area will be listed in the Content column wit
 
 > Note: The Collision Volume changes with the Scale parameter. When the plant is scaled up or down, the Collision Volume will change accordingly while its ratio remains the same. At this time, adjusting the Collision Volume parameter will change the collision radius. The Collision Volume and the Density are interrelated. If increasing Density doesn't densify the cluster, please check the Collision Volume setting.
 
-<figure><img src="/files/3LiOJZaj4NBSJzTHEQN3" alt=""><figcaption></figcaption></figure>
+
 
 ## Global Scatter Adjustments
 
@@ -119,7 +119,7 @@ Note: Supports drag-and-drop for adding a custom map and access to more function
 * **Cluster Noise**: The randomness when forming clusters. Increasing the value will make the edges of the clusters look more natural and random.
 * **Cluster Blur**: The merging of the edges of the clusters. Increasing the value will promote the convergence of cluster boundaries, which reduces the delineation between the clusters and creates a more organic transition.
 
-<figure><img src="/files/i69jHBfvmxON9baRlDhM" alt=""><figcaption></figcaption></figure>
+
 
 ### **2. Transformations**
 
@@ -131,16 +131,16 @@ Note: Supports drag-and-drop for adding a custom map and access to more function
 
 * Randomly arrange the overall global growth effect. You can manually enter the value or click the icon to randomize a value. The same effect is maintained when the value is fixed on the same bearing surface.
 
-<figure><img src="/files/jGNrQortcg5g0rk31NIq" alt=""><figcaption></figcaption></figure>
 
-## Other Parameters <a href="#header-8" id="header-8"></a>
+
+## Other Parameters 
 
 * Optimized interface for Scatter control panel, making it easier to use. Added Simplified Mode to the "More" menu.
 * Added Scatter Quality to the "More" menu to help remove obvious jaggy edges of the scatter surface.
 
-<figure><img src="/files/uHQkm6Qw91z7hozAPkqA" alt="" width="563"><figcaption><p>Simplified Mode &#x26; Normal Mode UI</p></figcaption></figure>
 
-## Cull Effect <a href="#header-8" id="header-8"></a>
+
+## Cull Effect 
 
 Effect helps define areas free of scattering plants/objects.
 
@@ -150,7 +150,7 @@ Effect helps define areas free of scattering plants/objects.
 * After creating the cull, open the menu bar and set the Cull Range.
 * Turn on the Falloff Area to set the Distance, Density, Scale, and Noise's parameters.
 
-<figure><img src="/files/gDErACIdOiKp1iWu1cY1" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -165,13 +165,13 @@ Effect helps define areas free of scattering plants/objects.
 
 > Note: detaching models does not support Undo.
 
-<figure><img src="/files/Ocex2uAAk76Wk7JowAqH" alt=""><figcaption><p>Detach object</p></figcaption></figure>
+
 
 ### 2. Scattered models responsive with updated areas：
 
 > **Info:** Note:
 
-<mark style="background-color:purple;">When creating Scatter Scatter, pick Scatter object and</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**create Scatter area in "Select Material" mode, and change the material name of this part of the model**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">in subsequent use</mark>, it will cause prompt "Cannot be parameterized now"/cannot update properly/Scatter parameter bar displays abnormality.
+**When creating Scatter Scatter, pick Scatter object and** ********create Scatter area in "Select Material" mode, and change the material name of this part of the model**** ******in subsequent use**, it will cause prompt "Cannot be parameterized now"/cannot update properly/Scatter parameter bar displays abnormality.
 
 
 * After the model is updated and replaced, you can click the "Edit Scatter Surface" button on the right sidebar to select the scatter object and reactivate the scatter area.
@@ -184,7 +184,7 @@ Effect helps define areas free of scattering plants/objects.
 > * Scattering on the XY projection plane is now supported, and we will support scattering on vertical planes in the future.
 > * Only plant models are supported for scattering currently, and more categories will be included in the future.
 
-### &#x20; <a href="#header-8" id="header-8"></a>
+### &#x20; 
 
 ## FAQs
 
@@ -192,9 +192,9 @@ Effect helps define areas free of scattering plants/objects.
 
 A: The current default setting has the vertical direction as 1 and the normal direction as 0. The up direction for both global and individual assets is determined by multiplying them together. Therefore, if one side is adjusted to the normal direction, the adjustment on the other side becomes ineffective.
 
-<figure><img src="/files/q7rLcjXZdA3HNrfb2dXb" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/voBOvAMp8LN3tSMeb0Xv" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Q: Why can't we place a scatter in some areas of a multi-layer model?&#x20;
 
@@ -204,7 +204,7 @@ A: The current default setting has the vertical direction as 1 and the normal di
 
 We will optimize such multi-layer problems in the future.
 
-<figure><img src="/files/Q8asf32apq5WO5OcOmly" alt=""><figcaption><p>The overlapping portion of the orthographic projection of the multi-layer model cannot be scattered to.</p></figcaption></figure>
+
 
 
 ---

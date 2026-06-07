@@ -9,29 +9,29 @@ fetched: 2026-06-07
 > **Info:** There can be several different reasons for errors related to DLL files. For example, malware corruption on the computer, damaged Windows registry, d3d12.dll file being deleted or misplaced, application errors, etc.
 
 
-<figure><img src="/files/K0eKYCK7WphIz1rAtxOE" alt=""><figcaption><p>Error pop-up before 2.7 version</p></figcaption></figure>
 
-<figure><img src="/files/las1NYigp1L1kZrRSKa0" alt=""><figcaption><p>Error pop-up now</p></figcaption></figure>
+
+
 
 ### **Solution 1：** Confirm the CPU model and BIOS version of the current device
 
-Based on recent user reports, when using [<mark style="color:red;">`Intel Core i9-13900K/KF/KS and i9-14900K/KF/KS processors`</mark>](#user-content-fn-1)[^1] to run D5 and other DX12 software, due to environmental problems, the devices may prompt ‘The program cannot be launched because of DLL errors in the system’ or ‘Program Startup Failed’ pop-up messages.
+Based on recent user reports, when using [**`Intel Core i9-13900K/KF/KS and i9-14900K/KF/KS processors`**](#user-content-fn-1)[^1] to run D5 and other DX12 software, due to environmental problems, the devices may prompt ‘The program cannot be launched because of DLL errors in the system’ or ‘Program Startup Failed’ pop-up messages.
 
 It is recommended to **update the BIOS to the latest version (released in April)** or **disable CPU overclocking, RAM XMP profile and Intel Turbo Boost/restore them to the default values.**
 
 ***
 
-### **Solution 2：**&#x53;pecific models of laptops <a href="#header-1" id="header-1"></a>
+### **Solution 2：**&#x53;pecific models of laptops 
 
 Based on recent user feedback, when running D5 on **HP Omen and HP Victus** laptops, there is a tendency for the integrated graphics to be called instead of the dedicated graphics card (D5 only supports reading from the dedicated graphics card), which can lead to abnormal usage of D5.
 
 Solution: \[First choice] (Control Center of HP Laptops) - Select **'Discrete'** GPU mode in 'OMEN Gaming Hub-Graphics Switcher'.
 
-<figure><img src="/files/TD0DX38kUImsgA7L5x7X" alt=""><figcaption><p>Control Center of HP Laptops - Select <strong>'Discrete'</strong> GPU mode in 'OMEN Gaming Hub-Graphics Switcher'</p></figcaption></figure>
+
 
 > If \[ First Choice ] does not work, please select **'NVIDIA GPU only**' in NVIDIA Control Panel - 3D Settings - Manage Display Mode. If there is no such option, try disabling the integrated graphics card.
 
-<figure><img src="/files/JMFhAmpMT9fYTqjbe6CU" alt=""><figcaption><p>select <strong>'NVIDIA GPU only</strong>' in NVIDIA Control Panel - 3D Settings - Manage Display Mode</p></figcaption></figure>
+
 
 ***
 
@@ -51,7 +51,7 @@ Solution: \[First choice] (Control Center of HP Laptops) - Select **'Discrete'**
 6. Click ‘‘Perform Clean Installation’’, click Next.
 7. After the installation is complete, restart the PC.
 
-<figure><img src="/files/eKA7mtmQqtYVHSppy7oe" alt=""><figcaption><p>Clean Installation</p></figcaption></figure>
+
 
 ***
 

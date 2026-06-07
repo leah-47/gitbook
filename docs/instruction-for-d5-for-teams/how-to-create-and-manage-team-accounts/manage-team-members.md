@@ -10,7 +10,7 @@ Assign team roles
 
 You can set the roles for team members in "Organization" >> "Members" in Team Settings and Dashboards.
 
-<figure><img src="/files/5dsIOBo7TD7lUw7zK4jk" alt=""><figcaption></figcaption></figure>
+
 
 #### Roles & Accesses
 
@@ -27,19 +27,19 @@ D5 for Teams features inside the software are open to all roles in the team.
 
 In "Members" >> "Operation", you can remove accounts from the team. The removed account will automatically be downgraded to the community version and will not be able to use team assets or access the team settings and dashboards.
 
-<div align="left"><figure><img src="/files/FPILjmOYJf9DlM48N1D5" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### **Transfer team ownership**
 
 1. The current team owner can set any other team member as the new team owner.
 
-<figure><img src="/files/TBKUSy8GaVfdUY2nxp36" alt=""><figcaption></figcaption></figure>
+
 
 2. After confirming the transfer of team ownership, the original owner's role will be changed to administrator, and this operation cannot be reversed.
 
 Note: The credits in the original owner's account will also be transferred to the new owner's account.
 
-<div align="left"><figure><img src="/files/btyecuP6O5IaYAmjVc9D" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 3. After transferring team ownership, the new team owner can manage the original team owner.
 

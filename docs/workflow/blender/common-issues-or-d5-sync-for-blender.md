@@ -8,17 +8,17 @@ fetched: 2026-06-07
 
 ## 1. Why does the blender preferences not show D5 related content after installing the plugin?
 
-<mark style="color:orange;">Note: Please refer to Workflow | D5 Sync for Blender first to make sure the version of blender you are currently using is the version supported by the D5 plugin.</mark>
+**Note: Please refer to Workflow | D5 Sync for Blender first to make sure the version of blender you are currently using is the version supported by the D5 plugin.**
 
 The current blender plugin exists in two folders:
 
 1. C:\Users\Administrator\AppData\Roaming\Blender Foundation\Blender\3.5（Blender version）\scripts\addons\d5_export
 
-<figure><img src="/files/PtXjqNFaqmkdDLX9J1MY" alt=""><figcaption></figcaption></figure>
+
 
 2. C:\Users\Administrator\AppData\Roaming\d5_blender
 
-<figure><img src="/files/oAUcVK020j7SWBUV7KTI" alt=""><figcaption></figcaption></figure>
+
 
 Some users can't recognise the plugin after installation because they have changed the first path of the default installation of the blender plugin.
 

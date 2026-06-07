@@ -13,7 +13,7 @@ Note:&#x20;
 1. The Community account: Currently only supports saving 5 presets, and does not support the use of D5 Curated Presets.
 2. The PRO account: Personal Cloud Space currently supports 10G of preset file storage and the use of D5 Curated Presets.
 
-<figure><img src="/files/zwtBH1fi5bkSWblu1wdK" alt=""><figcaption></figcaption></figure>
+
 
 > Note:
 >

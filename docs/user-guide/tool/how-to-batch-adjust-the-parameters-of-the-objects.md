@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 You can adjust the parameters in batch by multi-selecting and mixing objects with the same properties such as models, lights, paths, particles, and so on.
 
-<div align="left"><figure><img src="/files/c6RQSOCiprgNGmpWFX5X" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

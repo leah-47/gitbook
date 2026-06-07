@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why is there noticeable noise in the output still frames?
 
-<mark style="background-color:purple;">The following reasons can result in this effect:</mark>&#x20;
+**The following reasons can result in this effect:**&#x20;
 
 1. **The driver version is too low.**&#x20;
 

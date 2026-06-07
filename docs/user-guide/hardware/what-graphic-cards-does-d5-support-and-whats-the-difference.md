@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # What graphic cards does D5 support? And what's the difference?
 
-### What kind of configuration supports D5 and why does it fail the test? <a href="#header-0" id="header-0"></a>
+### What kind of configuration supports D5 and why does it fail the test? 
 
 D5 Render’s real-time raytracing technology is built on DXR of Windows systems, and the current graphics cards that support DXR can be checked on
 
@@ -23,7 +23,7 @@ D5 Render’s real-time raytracing technology is built on DXR of Windows systems
 | NVIDIA Quadro       | RTX A6000、RTX A5500、RTX A5000、RTX A4500、RTX A4000、RTX A2000                                                                                                                                                                                                                                                                                                                                               |
 | AMD Radeon™ RX 6000 | RX 6950 XT、RX 6900 XT、RX 6800 XT、RX 6800、RX 6750 XT、RX 6700 XT、RX 6650 XT、RX 6600 XT、RX 6600、RX 6500 XT、RX 6400                                                                                                                                                                                                                                                                                           |
 
-### What's the difference？ <a href="#header-1" id="header-1"></a>
+### What's the difference？ 
 
 1\. The output is consistent for all graphics cards that pass the hardware test.
 
@@ -31,7 +31,7 @@ D5 Render’s real-time raytracing technology is built on DXR of Windows systems
 
 3\. Currently, D5 primarily utilizes Dedicated GPU memory and does not support multi-graphics card parallel/interconnected operation. Therefore, it is advisable to keep one graphics card which is at a high level of performance.
 
-<figure><img src="/files/vB1whGMuI5ZCq3qBetGJ" alt=""><figcaption><p>Benchmark</p></figcaption></figure>
+
 
 
 ---

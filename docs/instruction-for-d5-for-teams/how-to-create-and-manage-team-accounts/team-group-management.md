@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Team Group Management
 
-<mark style="background-color:orange;">⚠  This particular feature is designed for teams seeking to secure seat licenses en masse and manage several groups on a separate basis. If you need to activate this feature, please contact our staff at <sales@d5techs.com>.</mark>
+**⚠  This particular feature is designed for teams seeking to secure seat licenses en masse and manage several groups on a separate basis. If you need to activate this feature, please contact our staff at <sales@d5techs.com>.**
 
 The activation of Group Management is recommended if your team has:
 
@@ -97,13 +97,13 @@ Difference between two modes:
 
 1. The default mode for teams with group management feature is **Normal Mode**, team owners can change it in \[Team Management Backend - Groups - Change Group Management Mode].
 
-<figure><img src="/files/zQ75T9L9iG0e43j04Tc8" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/bbkcwie37xjPDoRDOv43" alt=""><figcaption></figcaption></figure>
+
+
 
 2. In Independent Mode, each member can only belong to one group, and an appropriate number of seats must be allocated to each group. Before switching from Normal Mode to Independent Mode, the system verifies if the current group settings and group members meet these requirements. The switch will only proceed if the verification is successful.
 
-<figure><img src="/files/Bt5UkiW9bOAVzv5HOMT6" alt=""><figcaption></figcaption></figure>
+
 
 3. If the verification fails, click the \[Manual Modify] button in the verification result pop-up window and follow the system prompts to sequentially adjust the settings that do not meet the requirements.
 
@@ -113,15 +113,15 @@ b. When there are groups haven't been assigned seats or the total number of seat
 
 c. Once the above modifications are completed, the group management mode will be successfully switched to **Independent Mode**.
 
-<figure><img src="/files/S0yHGOaTTT92W8RK2ARg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/cX2QIPFCFxSRruk0klsH" alt=""><figcaption></figcaption></figure>
+
+
 
 #### **Group Management under Independent Mode**
 
 In Independent Mode, the group management page will be changed from **Card** to **List**, which is convenient for administrators to view the currently assigned seats and used seats of each group.
 
-<figure><img src="/files/l1JRALlQBRnN0GyFIbnh" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

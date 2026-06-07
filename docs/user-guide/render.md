@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Rendering is the part where the design results are harvested. D5 Render is preset with the best rendering parameters and the user only needs to select the desired resolution of the image. In render mode, the output format, resolution, channel settings and other parameters will be recorded and applied automatically next time we enter render mode.
 
-## :camera_with_flash:Image and **P**anorama <a href="#image" id="image"></a>
+## :camera_with_flash:Image and **P**anorama 
 
 [How to render a scene?](./render/how-to-render-a-scene.md)
 

@@ -6,13 +6,13 @@ fetched: 2026-06-07
 
 # Camera and Views
 
-<figure><img src="/files/N3xrnzfSqx5CAcnoj0co" alt=""><figcaption></figcaption></figure>
+
 
 ## Options
 
 ### **Exposure**
 
-<mark style="background-color:purple;">Adjust the overall brightness of the image.</mark>
+**Adjust the overall brightness of the image.**
 
 * **With Auto Exposure switch on**, the renderer automatically analyzes the scene brightness and adjusts it to a moderate value.&#x20;
 * **With Auto Exposure off**, you can manually adjust the Exposure parameter values.
@@ -25,7 +25,7 @@ The lower the Exposure value, the darker the image, and the higher the Exposure 
 
 ### **FOV(Field of View)**
 
-<mark style="background-color:purple;">Adjusts the Field of View (FOV) angle. The default field of view is 90°.</mark>
+**Adjusts the Field of View (FOV) angle. The default field of view is 90°.**
 
 * **The smaller the "Field of View"**, the smaller the area displayed on the screen, and **the subject in the original image will be "enlarged"** accordingly.
 * **The larger "Field of View"**, the larger the area displayed on the screen, and **the subject in the original image will be "shrink"** accordingly.
@@ -35,19 +35,19 @@ The lower the Exposure value, the darker the image, and the higher the Exposure 
 
 ### **Camera Clipping Plane**
 
-<mark style="background-color:purple;">The clipping plane in D5 is the near clipping plane, which is arranged perpendicular to the camera.</mark> After setting the distance between the camera and the plane, the scene between them will not be visible.
+**The clipping plane in D5 is the near clipping plane, which is arranged perpendicular to the camera.** After setting the distance between the camera and the plane, the scene between them will not be visible.
 
-![](/files/-MkeXz9tgu6K0gHx0qQ4)
+
 
 ### **Depth of Field**
 
-<mark style="background-color:purple;">Similar to real-world cameras, depth of field is based on the Focal Distance, blurring the scene in front of and behind the focal point.</mark>&#x20;
+**Similar to real-world cameras, depth of field is based on the Focal Distance, blurring the scene in front of and behind the focal point.**&#x20;
 
 * Turn on the Depth-of-Field switch, click **"Set Focus"**, click the object you want to focus on in the scene, and determine the focus position.&#x20;
 * Also,when clicks **"Follow Focus"**,it can support the function of auto follow focus.&#x20;
 * Adjust the value of the **"Blur"** parameter to change the strength of the depth-of-field effect.
 
-<figure><img src="/files/0sqerctRGkJ7vUr48H6u" alt=""><figcaption><p>depth of field is 0 | depth of field is 5 | depth of field is 10</p></figcaption></figure>
+
 
 ## View
 
@@ -58,7 +58,7 @@ The lower the Exposure value, the darker the image, and the higher the Exposure 
 
 ### **Orthogonal view**
 
-<mark style="background-color:purple;">Orthogonal is a 2D planar display that contains six common view styles.</mark>
+**Orthogonal is a 2D planar display that contains six common view styles.**
 
 > For more information on shortcuts, please refer to:<https://docs.d5render.com/user-guide/preference/how-to-view-and-change-the-default-shortcuts#common-shortcuts-for-d5-render>
 

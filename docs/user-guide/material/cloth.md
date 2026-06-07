@@ -10,15 +10,15 @@ The parameters specific to the Cloth template are as follows:
 
 * **Opacity map:** Use maps to control the holes in the Cloth material, keeping the white parts and hollowing out the black parts.
 
-![](/files/-MkepQZ3F5klBX9sJzOX)
+
 
 * **Opacity:** Simulates the transparency produced by holes in the fabric, the lower the value, the more transparent the fabric is.
 
-<figure><img src="/files/pDdHeYu5fEZDx3ShKJwF" alt=""><figcaption></figcaption></figure>
+
 
 * **Falloff:** Use Falloff to simulate the lint on the Cloth. The whitening effect is more obvious where the surface of the material is tangential to the camera's line of sight.
 
-![](/files/-MkeqRwGeb69M-Vg_nFy)
+
 
 
 ---

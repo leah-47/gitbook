@@ -18,10 +18,10 @@ If it still doesn't work, it may be that the 3ds Max installation package used l
 
 The instructions need to be modified according to your actual situation.&#x20;
 
-E.g. Currently using the <mark style="background-color:purple;">2020 version of 3ds max</mark>, installed under <mark style="background-color:purple;">D:\anzhuang2\3dsmax2020\\</mark> path, <mark style="background-color:green;">Enter command</mark>`“D:\anzhuang2\3dsmax2020\3ds Max 2020\MaxThumbnailShellExt.dll”`<mark style="background-color:green;">.</mark>
+E.g. Currently using the **2020 version of 3ds max**, installed under **D:\anzhuang2\3dsmax2020\\** path, **Enter command**`“D:\anzhuang2\3dsmax2020\3ds Max 2020\MaxThumbnailShellExt.dll”`**.**
 
 
-<figure><img src="/files/ibptoEXXiOxlKgokg23H" alt="" width="563"><figcaption><p>Enter the command and prompt for successful operation</p></figcaption></figure>
+
 
 
 ---

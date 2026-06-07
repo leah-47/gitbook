@@ -22,9 +22,9 @@ There two ways to create shots in a clip:
 1. **In video mode, click "Add Current View" to directly create a 3-second view.** After adjusting the viewpoint, you can continue to add new views in front of/behind to generate a video with a camera track. Within a clip, you can add multiple shots, and the shots can be cut directly from one to another.
 2. **Using the advanced camera tools**, you can select the camera and choose to create a new shot with the selected camera. Or, with the camera active, choose Add shot/view in the right sidebar.
 
-   <figure><img src="/files/nIa9IAZ1my8dVM89PMHD" alt="" width="375"><figcaption></figcaption></figure>
+   
 
-   <figure><img src="/files/8JJNpo1BIknyLD5eJC2Q" alt="" width="375"><figcaption></figcaption></figure>
+   
 
 ## 2. Parameter adjustment
 
@@ -39,25 +39,25 @@ There two ways to create shots in a clip:
 
 -Camera Carrier, click “Edit Path” and the three axes will appear, for the overall movement and rotation of the camera path.
 
-<figure><img src="/files/K28gRYHNeq3Ekrswo4mA" alt="" width="518"><figcaption><p>Camera carrier</p></figcaption></figure>
+
 
 -View Carrier, which corresponds to the view in the current shot. Select to adjust through gizmo.
 
-<figure><img src="/files/Ty0d8rLPP6CaY3r1QD1p" alt="" width="563"><figcaption><p>View carrier</p></figcaption></figure>
+
 
 -Spline Tool, corresponding to the two control points for bending the lines. Select to adjust the path through gizmo.
 
-<figure><img src="/files/0b31aKU2Z8ejp1aakOc3" alt="" width="563"><figcaption><p>Spline Tool</p></figcaption></figure>
+
 
 3. Camera Target
 
 Enter Video Mode - Shot - Edit Path - ''Camera Target'' feature in the right sidebar.
 
-<figure><img src="/files/vnhRFdtqz31tbeLIbu3G" alt="" width="173"><figcaption></figcaption></figure>
+
 
 With Camera Target enabled, users can specify a target object by clicking on the "Focus" button. Once a target is selected, the camera will automatically lock onto and focus on that object as it moves.
 
-<figure><img src="/files/YeJHiqF5AQM3H7AazfOj" alt=""><figcaption><p>Refresh Shot</p></figcaption></figure>
+
 
 This feature is ideal for complex camera movements, including surround, semi-surround, and curved lens paths. It eliminates the need for manual lens orientation adjustments, significantly simplifying the camera control process.
 
@@ -70,7 +70,7 @@ This feature is ideal for complex camera movements, including surround, semi-sur
 * **Movement controls the way the path is segmented between two points in the track.** It supports adjusting the movement of view move and rotate separately, which affects the movement rate of the camera path, e.g.: fast then slow.
 * **The movement support 5 basic option: Linear, Ease in, Ease out, Ease in out, Speed in out.** Support for customising settings via 2D view or by entering values. The movement parameters are applied from the first view to the next view. Adjustment will batch change view settings when clip, shot is selected.
 
-<figure><img src="/files/EmMhY4U3WjLGebMGapwh" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ## 3. Add keyframe
 
@@ -78,7 +78,7 @@ Select an object in the object list and click the Add Keyframe button (or use th
 
 * **Visibility**: In the video mode, users can select models or layers and combine the "Visibility" option from the right sidebar panel to create animations that display/hide keyframes.
 
-<figure><img src="/files/SZTZteOLefVkhJKnbt9H" alt="" width="563"><figcaption><p>Model and layer show/hide keyframes</p></figcaption></figure>
+
 
 ## 4. Switch clip view
 
@@ -88,25 +88,25 @@ Click the button in the upper right corner of the video editor to switch between
 
 ### **Camera Movement**
 
-<mark style="background-color:purple;">The \[Camera Movement] section provides some basic templates (e.g., pan cameras, etc.) for daily use.</mark>
+**The \[Camera Movement] section provides some basic templates (e.g., pan cameras, etc.) for daily use.**
 
 > The adjustment of “Movement” parameters is **not supported for shots created using “Template-Camera Movement”.**
 
 1. Enter the video mode, click the "Template" column in the right sidebar, you can view and use the current supported preset templates. The template thumbnails are static by default, and the dynamic preview effect will be shown after mouse hovering.
 
-<figure><img src="/files/CfZKf5hpAni6qqgtcI36" alt="" width="563"><figcaption></figcaption></figure>
+
 
 2. Click template, it will directly create a corresponding template shot in the currently selected clip in the current viewport. The template created shot only has start/end 2 views, support start/end view to update environment and effects respectively, but do not support adding or deleting views in the template shot.<br>
 
-<figure><img src="/files/07lEEHexEfKqRrwwB9rg" alt="" width="563"><figcaption></figcaption></figure>
+
 
 3. The template created by shot supports the adjustment of common camera parameters, and does not need to be updated, it takes effect instantly. Each template creation and adjustment has corresponding settings in the right sidebar, and different templates provide different setting options in the right sidebar " parameters / template resolution properties ".
 
-<figure><img src="/files/OeTT4UEK29kqv9UWclkM" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### **Animation Template**
 
-<mark style="background-color:purple;">\[Phasing Animation Template] in the Video mode allows for a simple and rapid visualization of the step-by-step building process, avoiding the need for complex keyframe settings. This tool can be applied to create animations for building structure growth, architectural analysis, component installation demonstration, product animation, and landscape vegetation growth.</mark>
+**\[Phasing Animation Template] in the Video mode allows for a simple and rapid visualization of the step-by-step building process, avoiding the need for complex keyframe settings. This tool can be applied to create animations for building structure growth, architectural analysis, component installation demonstration, product animation, and landscape vegetation growth.**
 
 > *Prior to using this feature, you need to import the models for phasing animation into D5.*
 >
@@ -118,7 +118,7 @@ In the Video mode, all new animation templates can be accessed in the right side
 
 Click on the required animation template to access the object selection state.
 
-<figure><img src="/files/UyHBNXe9mYG2EegaMIL4" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### 2. Select the required models for phase animation
 
@@ -138,20 +138,20 @@ Their order follows the sequence in which they were clicked and this sequence wi
 >
 > To add a group as a whole, you can press the shortcut key 'G' to switch to **'adding groups'** selection mode. In this mode, the selected group will appear as a single unit in the phasing animation.
 
-<figure><img src="/files/6sWXnZ6B89dggHh2cf0A" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### 3. Create Phase Animation
 
 Click ‘Done’ to exit the 'Edit Objects' mode when you complete model selection. The corresponding control panel for the animation template will appear in the right sidebar. A new phasing animation track will be added into the timeline right above the shot track.
 
-<figure><img src="/files/lCFyBIrWsJCF8R5tR7sk" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### 4. Confirm the phase animation effect and adjust its parameters in the right sidebar.
 
 After selecting objects and clicking the ‘Done’ button above, the corresponding template can be seen in the ‘Bottom Sidebar - Animation Edit Bar’. Click "Play" to preview the current phasing animation. Click the template to adjust corresponding parameters in the right sidebar:
 
-* <mark style="background-color:purple;">Animation Controller: The independent animation controller at the top supports various motion settings such as Linear and Ease In.</mark> Click "Play" to preview the current phasing animation. During playback, the viewing angle can be freely adjusted to observe the animation from different perspectives.
-* <mark style="background-color:purple;">Property:</mark>
+* **Animation Controller: The independent animation controller at the top supports various motion settings such as Linear and Ease In.** Click "Play" to preview the current phasing animation. During playback, the viewing angle can be freely adjusted to observe the animation from different perspectives.
+* **Property:**
 
   * **Objects: Set the order of animating objects.**&#x20;
 
@@ -182,12 +182,12 @@ After selecting objects and clicking the ‘Done’ button above, the correspond
   &#x20;      (supports only for 'Fly in/Fly out')
 
   * **Visibility: Control the visibility of objects before and after the animation.**
-* <mark style="background-color:purple;">Effect: Overlay another animation effect (Not all templates are available).</mark>
+* **Effect: Overlay another animation effect (Not all templates are available).**
   * **Rotate**: Achieve the effect in which objects rotate while moving/scaling.
   * **Bounce**: Achieve the effect in which objects bounce back after falling to the ground.
   * **Scale bounce**: Achieve the effect in which objects scale up and down in size quickly.
 
-<figure><img src="/files/KqPSl7v0EIGLpJ8YDaMe" alt=""><figcaption><p>Animation/Property/Effect overlay</p></figcaption></figure>
+
 
 #### 5. Adjust parameters in the ‘Bottom Sidebar - Animation Edit Bar’
 
@@ -199,7 +199,7 @@ After selecting objects and clicking the ‘Done’ button above, the correspond
 * Right-click on the animation bar to access options including "cut (modify the duration)", "duplicate", "copy", "paste", and "delete".
 * Free Camera Playback: By default, you can only preview the animations within a shot if one exists. Enable **"Free Camera Playback"** to preview all animations, even those exceeding the shots.
 
-<figure><img src="/files/9RlGhbeSGVCI5auYLV4F" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ## 6. Render video
 

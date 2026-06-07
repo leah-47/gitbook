@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Transparent material templates are suitable for making transparent materials such as glass.
 
-![](/files/-MkejHo4G05FxCgFWtQu)
+
 
 The transparent material template parameters are as follows:
 
@@ -16,7 +16,7 @@ The transparent material template parameters are as follows:
 
 Used to control the color of the stained glass.
 
-![](/files/-Mkej8hSQRDSsBDzmWeX)
+
 
 ### **2. Specular:**&#x20;
 
@@ -43,11 +43,11 @@ Defines the roughness of the material surface, which macroscopically affects whe
 * Enables direct\&indirect lighting for transparent materials with the new 'Affected by Light' option, to achieve effects such as colored gradient glass easily.&#x20;
 * Check 'Affected by Light', keep the Opacity value less than 1, and the material will be illuminated. You can use black-and-white maps to control the opacity pattern.
 
-<figure><img src="/files/GOB3buRMAdZC7x5cqki8" alt=""><figcaption></figcaption></figure>
+
 
 * The library provides several basic semi-transparent materials, located in the \[Glass] category, including Frosted acrylic, Semi-transparent gradient glass, Polycarbonate sheet, as well as Basic semi-transparent materials suitable for a bird's eye view of architectural buildings.
 
-<figure><img src="/files/wx9Le2zugIqVENV3Sxi1" alt=""><figcaption><p>Semi-transparent materials in the library</p></figcaption></figure>
+
 
 
 ---

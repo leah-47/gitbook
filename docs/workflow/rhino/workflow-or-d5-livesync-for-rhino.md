@@ -9,18 +9,18 @@ fetched: 2026-06-07
 > **Info:** Supports livesync of edits to models, materials, and other data in Rhino without the need for manual updates.
 
 
-#### Supported Version <a href="#toc-h3-supported-version" id="toc-h3-supported-version"></a>
+#### Supported Version 
 
 * D5 Render 2.7 and later versions
 * Rhino 6.1 and later versions
 
-#### Download and Installation <a href="#download-and-installation-2" id="download-and-installation-2"></a>
+#### Download and Installation 
 
 * Click to [Download](https://d5converter.d5cdn.com/installer/Rhino_LiveSync/latest/D5_Live_Sync_Rhino_usa_latest.exe)
 * Installation Steps
   * Double-click the ‘.exe’ file and follow the installation instructions.
 
-#### Features <a href="#features-3" id="features-3"></a>
+#### Features 
 
 **Connect to the D5 Render**
 

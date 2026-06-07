@@ -23,14 +23,14 @@ In Account Attributes, you'll find two options:
 
 > That is, **if the account attribute is 'manager-only',** logging into the **D5 Launcher** shows the identity as personal or unable to use Team identity benefits & no **Showreel** entrance shown in Myspace or unable to log into Showreel platform & you can still choose personal or team identity when logging into **MySpace**.
 
-<figure><img src="/files/baP4cN9OldqTVOKvpUNo" alt=""><figcaption></figcaption></figure>
+
 
 \[Changing account attributes] is now supported only for: Owner, Super Team Admin and Super Group Admin, three roles to modify.
 
 * You can switch an account from "Editable" to "Manager-only" and vice versa.
 * By default, when inviting other accounts to join the team, their account attributes are set to "Editable".
 
-<figure><img src="/files/TJAiudipJzPqSvacRGV7" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

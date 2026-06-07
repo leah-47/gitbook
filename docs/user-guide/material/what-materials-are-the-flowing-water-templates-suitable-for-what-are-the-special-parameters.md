@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # What materials are the Flowing water templates suitable for? What are the special parameters?
 
-<div align="left"><figure><img src="/files/jIzljkP30FbG62Sddxab" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Flowing Water Material has 5 different templates. In addition to color, normal, specular, and transparency, support for adjusting the foam, flow velocity, offset parameters.
 

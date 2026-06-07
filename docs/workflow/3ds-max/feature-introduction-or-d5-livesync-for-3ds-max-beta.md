@@ -6,43 +6,43 @@ fetched: 2026-06-07
 
 # Feature Introduction | D5 LiveSync for 3ds Max beta
 
-## Download and Installation <a href="#toc-h2-download-installation" id="toc-h2-download-installation"></a>
+## Download and Installation 
 
 [https://www.d5render.com/workflow/3ds-max](https://www.d5render.com/workflow/3ds-max?_sasdk=fZ2xvYmFsXzQ5NjYy)
 
-### Supported Versions <a href="#toc-h3-supported-versions" id="toc-h3-supported-versions"></a>
+### Supported Versions 
 
 * 3ds Max 2014-2016, 2018-2026
 * VRay 3.6 and above, Corona 6.0\~13.0
 * D5 Render 2.6 and later versions
 
-## Feature introduction <a href="#toc-h2-features" id="toc-h2-features"></a>
+## Feature introduction 
 
-### Connect to D5 Render <a href="#toc-h3-connect-to-d5-render" id="toc-h3-connect-to-d5-render"></a>
+### Connect to D5 Render 
 
 * Click ‘Connect to D5 Render’ to start livesync between 3ds Max and D5 Render. The current Max project will be imported in D5 as well. Models and materials edited in 3ds Max will be instantly updated in D5 with no need to manually click the update button.
 
-### LiveSync /Pause <a href="#livesync-pause-5" id="livesync-pause-5"></a>
+### LiveSync /Pause 
 
 * Click ‘LiveSync/Pause’ to pause or continue the livesync. When livesync is paused, adjustments of models and materials will not be synced into D5 in real time. Click the button again to resume the livesync process.
 
-### View Switch <a href="#view-switch-6" id="view-switch-6"></a>
+### View Switch 
 
 * After enabling livesync between 3ds Max and D5, the viewports of Max and D5 will keep consistent.
 * Click “View Switch” to break the connection.
 
-### Send Scenes <a href="#send-scenes-7" id="send-scenes-7"></a>
+### Send Scenes 
 
 * Click the ‘Send Scenes’ button to send the standard/Vary/Arnold cameras to D5 Render scene list.
 
-### Send Current Camera Motion Track <a href="#send-current-camera-motion-track-8" id="send-current-camera-motion-track-8"></a>
+### Send Current Camera Motion Track 
 
 * Send **the selected camera animations** from 3ds Max to D5.
 * Supports batch sending of multi-selected cameras from 3ds Max into D5.
 
-### Send Lights <a href="#send-lights-9" id="send-lights-9"></a>
+### Send Lights 
 
-<mark style="background-color:purple;">Click ‘Send Lights’ to sync Standard/Corona/VRay/Arnold light sources into D5, reserving their type and position info. Supports adjusting the imported light sources in D5 Render.</mark>
+**Click ‘Send Lights’ to sync Standard/Corona/VRay/Arnold light sources into D5, reserving their type and position info. Supports adjusting the imported light sources in D5 Render.**
 
 > Note: Vray Light Dome, Mesh and Ambient Light are not supported for now.
 
@@ -65,34 +65,34 @@ fetched: 2026-06-07
 | Arnold Light                           | -                                                                          | Point Light      |
 | Photometric light                      | -                                                                          | Point Light      |
 
-### Export .d5a <a href="#toc-h3-export-d5a" id="toc-h3-export-d5a"></a>
+### Export .d5a 
 
 * Files of .max format can not be read by D5 Render, but can be converted into .d5a files through the LiveSync plugin for direct import into D5.
 * When exporting files of .d5a format, the map resolution won’t be compressed. You can choose to export only selected objects or all of them as a single file.
 
-<div align="left"><figure><img src="/files/DRqp1hm3MfMU0M3qOr4P" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * When “keep group hierarchy” is enabled, the exported .d5a files will reserve their group structure when importing in D5.
 * The auto collapse feature is used to solve export problems with model positioning, normal map UV, and sealing lines. The latest settings are reserved.
 
-<figure><img src="/files/TPwhJ7VDEERbGhbsM3op" alt=""><figcaption><p>Keep group hierarchy-one/two-layer</p></figcaption></figure>
 
-### Export .skp <a href="#toc-h3-export-skp" id="toc-h3-export-skp"></a>
+
+### Export .skp 
 
 * Supports converting model files into the .skp format to import into SketchUp and D5 Render.
 * Supports two resolution options for Resize Bitmap: 512 \* 512 and 1024 \* 1024.
 * Supports advanced options including Hide All Edges, Origin to Center, Merge Coplanar Faces and Including Hidden Objects.
 
-<div align="left"><figure><img src="/files/F3kpvc5k9NAqRyIaxYEN" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-### Settings <a href="#toc-h3-settings" id="toc-h3-settings"></a>
+### Settings 
 
 #### 1. Check the version number and global settings
 
 * Offers “Display choose sync method dialog” and “Automatically save scenes afer sync” options and auto retains your lastest settings.
 * Automatically save scenes after sync: D5 Render will automatically alters the repetitive material names into different ones after the first sync with 3ds Max, preventing the set materials in D5 from being overwritten.
 
-<div align="left"><figure><img src="/files/xrwPhNtkNNfu8l9pFHVs" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### 2. Select coordinate switch method
 
@@ -119,20 +119,20 @@ fetched: 2026-06-07
 
 * The Quick ProOptimize feature, located in the top menu bar, can reduce the number of faces and intersections to quickly simplify the model.
 
-<div align="left"><figure><img src="/files/HV4qX4qTGAZtSH2BJYo3" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/9kV2g1x56qwisb6AMLAO" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ***
 
-### Uninstallation <a href="#uninstallation-15" id="uninstallation-15"></a>
+### Uninstallation 
 
 * Method 1：\
   Go to Window System > Start Menu, right click on D5 LiveSync for 3ds Max and click ‘Uninstall’.
 * Method 2：\
   Go to My Computer > Control Panel > Programs and Features to uninstall the program.
 
-## FAQ <a href="#toc-h2-faq" id="toc-h2-faq"></a>
+## FAQ 
 
 ### Q1 : **Can the previous D5 Sync for 3ds Max plugin work with D5 2.6?**
 

@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Brush
 
-<div align="center"><figure><img src="/files/KozHu7tOxKV2Kruz0Mfk" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 1. Select the plant models and choose the Brush tool to use the currently selected plant models to paint in the scene.
 
@@ -20,7 +20,7 @@ fetched: 2026-06-07
 
 > **Dynamic plants** do not support the \[Align to Terrain] feature for this time being.
 
-<div align="center"><figure><img src="/files/JtgV0dZBdkhkmTCIjNvL" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 2. The brush radius scales according to the screen scale.&#x20;
 
@@ -30,7 +30,7 @@ fetched: 2026-06-07
 > TIPS:
 >
 > 1. Press **Shift** to lock the selected faces and allow you to draw only within the selected faces.
-> 2. <mark style="background-color:purple;">If you use the Scatter tool, the material will be highlighted when the mouse hovers over the material to be scattered, and you can click to scatter it within the selected faces</mark>.
+> 2. **If you use the Scatter tool, the material will be highlighted when the mouse hovers over the material to be scattered, and you can click to scatter it within the selected faces**.
 
 > **Info:** Hint:
 
@@ -43,13 +43,13 @@ For the reason of efficiency, we still limit the maximum range of brushes, the m
 
 When the Radius parameter of the Brush tool is set to Maximum, you can enable the Scatter tool, and fill the selected face with plants.
 
-<div align="center"><figure><img src="/files/RdPdRDEyWU0g2kPQ276s" alt="" width="563"><figcaption><p>When the Radius parameter of the Brush tool is set to Maximum, you can enable the Scatter tool.</p></figcaption></figure></div>
+<div align="center"></div>
 
 ***
 
 ## Quick Placement
 
-<mark style="background-color:purple;">When adding a model to the scene from the library, or placing a model directly in the scene, use the shortcut keys to adjust the direction of rotation and size of the object when the model follows the mouse.</mark>
+**When adding a model to the scene from the library, or placing a model directly in the scene, use the shortcut keys to adjust the direction of rotation and size of the object when the model follows the mouse.**
 
 **Rotation**:&#x20;
 
@@ -81,7 +81,7 @@ After 2.9 version, it supports random size and random rotation effects when cont
 * Added Random Size, Rotation, and Location buttons to the right sidebar. Supports single or multi-selection. Keep clicking to generate new random effect until you are satisfied. Custom shortcuts can be set in Preferences.
 * Use the ‘Reset’ feature to restore size and rotation parameters to their original settings.
 
-<figure><img src="/files/eSRs1L9glfV3loS3M0lR" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 ---

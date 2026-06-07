@@ -16,7 +16,7 @@ fetched: 2026-06-07
 
 *D5 pricing link:* <https://www.d5render.com/pricing>
 
-<figure><img src="/files/0wBSgoOHoiYWEr8b4Teu" alt=""><figcaption></figcaption></figure>
+
 
 3. After the successful subscription, you can log in to your D5 account (for example, <enterprise@d5techs.com>) on <https://www.d5render.com/>, and go to "My Space" on the upper right.&#x20;
 
@@ -24,19 +24,19 @@ fetched: 2026-06-07
 
 The account type should be "Team". Click the "Team Dashboard" button to access team settings and dashboards.
 
-<figure><img src="/files/lBhtUmnWD4wcdcUPlbBL" alt=""><figcaption></figcaption></figure>
+
 
 4. Upon first entry to the Teams Account Settings, complete the team setup.
 
 * Naming:
 
-<figure><img src="/files/ZyatHuLFLd9mvV0qCknm" alt=""><figcaption></figcaption></figure>
+
 
 * More settings:
 
 *\*Different team roles come with different levels of access permission. The team owner (e.g. <enterprise@d5techs.com>) can access all pages in teams settings and dashboards.*
 
-<div align="left"><figure><img src="/files/TzXIyR5iTQ7eIjBFepa4" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

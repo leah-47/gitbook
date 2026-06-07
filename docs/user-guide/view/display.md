@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Mode
 
-<mark style="background-color:purple;">The Display Modes are divided into Lit, Wireframe and Clay Model.</mark>
+**The Display Modes are divided into Lit, Wireframe and Clay Model.**
 
 * **Lit :** default mode, with a real-time preview of all materials and lights.
 * **Wireframe :** shows only edge lines in the scene, and this mode does **not support rendering**.
@@ -17,20 +17,20 @@ fetched: 2026-06-07
 
   e.g. cloud movement, vegetation wind movement, character animation, etc.
 
-<figure><img src="/files/73WrSpe8Z7NuDdQMfqYr" alt=""><figcaption><p><strong>Lit</strong></p></figcaption></figure>
 
-![Wireframe](../../files/-MkeW4P3HzUnxQc8vvhW.md)
 
-<figure><img src="/files/WeSur1BzJKDo1hsPjsYb" alt=""><figcaption><p><strong>Clay Model</strong></p></figcaption></figure>
+
+
+
 
 ## Preview Quality
 
-<mark style="background-color:purple;">The Preview Quality is the quality of the preview image in the current window. The different preview qualities only represent the results of the current temporary rendering, not the quality of the final rendering. The final rendering quality is always the best result, independent of the quality of this preview.</mark>
+**The Preview Quality is the quality of the preview image in the current window. The different preview qualities only represent the results of the current temporary rendering, not the quality of the final rendering. The final rendering quality is always the best result, independent of the quality of this preview.**
 
 * When the preview quality is "**Precise**", the real-time preview is automatically enabled.
 * When the preview quality is "**Smooth**" , clicking "Render Preview" or pressing F12 will temporarily render the current image to get close to the final rendering quality.
 
-> **Success:** For computers with RTX graphics cards, you can select <mark style="background-color:purple;">"Precise"</mark> for a better experience.
+> **Success:** For computers with RTX graphics cards, you can select **"Precise"** for a better experience.
 
 
 | Preview Quality | Preview Results                                                                                                                                            |

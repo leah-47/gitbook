@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 If your part of editing is complete, click "File" >> "Convert to a Normal Project" in the menu.
 
-<div align="left"><figure><img src="/files/b5JeEqpRBxtNWsWL1upi" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

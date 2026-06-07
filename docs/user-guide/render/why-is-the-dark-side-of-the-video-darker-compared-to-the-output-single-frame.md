@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Due to some players using default decoders, which enhance contrast, videos may appear darker compared to still frames. Therefore, it is advisable to output both single frames and sequences to eliminate the player's contrast enhancement effect on videos.
 
-<figure><img src="/files/HTLFVLN1krzVGtnFMs9W" alt=""><figcaption><p>Sequence frame/avi/single frame comparison</p></figcaption></figure>
+
 
 
 ---

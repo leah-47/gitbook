@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 venv/
 fetch_summary.json
+node_modules/
+dist/
+clean-mdx.js

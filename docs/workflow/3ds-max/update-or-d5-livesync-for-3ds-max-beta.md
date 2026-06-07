@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 `Release date: 20250812`
 
-#### New and Optimization (Requires D5 Render version 2.11) <a href="#new-and-optimization-requires-d5-render-version-211-2" id="new-and-optimization-requires-d5-render-version-211-2"></a>
+#### New and Optimization (Requires D5 Render version 2.11) 
 
 1. Supports syncing orthographic views.
 2. Optimized light mapping with support for disc light and temperature/brightness sync.
@@ -21,7 +21,7 @@ fetched: 2026-06-07
 7. Supports more material/texture nodes of V-Ray and Corona.
 8. Optimized material template mapping with support for Foliage/Car Paint/Displacement/Fabric/Subsurface Scattering templates.
 
-#### Fixes: <a href="#fixes-3" id="fixes-3"></a>
+#### Fixes: 
 
 1. Fixed the material ID distribution logic for Corona floorgenerator.
 2. FIxed crash caused by sync of Substance nodes.
@@ -30,16 +30,16 @@ fetched: 2026-06-07
 
 ***
 
-## Ver: 1.3.1.0003 <a href="#ver-1310003-4" id="ver-1310003-4"></a>
+## Ver: 1.3.1.0003 
 
 `Release date: 20250422`
 
-#### New and Optimization <a href="#new-and-optimization-5" id="new-and-optimization-5"></a>
+#### New and Optimization 
 
 1. Supports 3dsMax 2026
 2. Changed ‘Sync/Unsync structure of light component’ to global setting
 
-#### Fixes <a href="#fixes-6" id="fixes-6"></a>
+#### Fixes 
 
 1. Fixed abnormality that D5 plug-ins are not recognized when installed in Chinese paths
 2. Fixed the abnormality of exporting .d5a named in Chinese by machines in non-Chinese environments
@@ -50,14 +50,14 @@ fetched: 2026-06-07
 
 `Release date: 20241217`
 
-### New and Optimization <a href="#new-and-optimization-2" id="new-and-optimization-2"></a>
+### New and Optimization 
 
 1. Added single send option.
 2. Optimized memory usage during the initial linkage.
 3. During real-time linkage, the plugin will pause when D5 enters rendering mode but remain connected. It will resume functionality once rendering is stopped.
 4. Recorded user preferences for single send or real-time sync, defaulting to the last selection for the next linkage.
 
-### Fixes <a href="#fixes-3" id="fixes-3"></a>
+### Fixes 
 
 1. Fixed data anomalies related to instance duplication and group editing.
 2. Fixed occasional model position errors.
@@ -69,15 +69,15 @@ fetched: 2026-06-07
 
 `Release date: 20241028`
 
-### New <a href="#new-2" id="new-2"></a>
+### New 
 
 1. Supports exporting with a 2-layer group structure
 
-### Optimization <a href="#optimization-3" id="optimization-3"></a>
+### Optimization 
 
 1. Optimized the layout of settings and export pages
 
-### Fixes <a href="#fixes-4" id="fixes-4"></a>
+### Fixes 
 
 1. Fixed the resetting issue of the cone angle and visible in reflections parameters for the VRay IES light(this fix requires D5 2.9 Version)
 
@@ -94,12 +94,12 @@ Release date: 20240425
 3. Added version update prompt in the Settings.
 4. Added custom texture resolutions in the Settings.
 
-### Optimization <a href="#optimization-3" id="optimization-3"></a>
+### Optimization 
 
 1. Enhanced the efficiency of material updates when livesync is enabled.
 2. Optimized lighting synchronization logic: Grouping and renaming lights in D5 are now unaffected by subsequent updates (requires D5 2.7).
 
-### Fixes <a href="#fixes-4" id="fixes-4"></a>
+### Fixes 
 
 1. Fixed the occasional crashes occurring during scene synchronization.
 

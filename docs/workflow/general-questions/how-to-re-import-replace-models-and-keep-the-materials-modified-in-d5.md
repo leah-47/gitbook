@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to re-import/replace models and keep the materials modified in D5?
 
-<div align="left"><figure><img src="/files/q32esthDEAQy8XyeUgBo" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Replace from local
 

@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 Data in Studio is stored in the cloud associated with your D5 account. Even if you **change devices** or **work off-site**, you'll have access to all of your and your team's Studio resources.
 
-<figure><img src="/files/Q0DK0KI37wIYJz2vPuvW" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

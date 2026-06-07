@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 In "Menu" -> "Preference" -> "Shortcuts" you can customize the shortcuts, modify the keys according to your own habits, and connect with the common workflow.
 
-<figure><img src="/files/JrkMuwpYozNlRwMkZIUs" alt=""><figcaption><p>Shortcuts</p></figcaption></figure>
+
 
 **Customized shortcut keys**: Common operations such as viewpoint movement, view switching, and various tools have been supported for modification. There are also some functions reserved for blank keys, which can be customized directly. Click the input box to enter the key you want to replace, and press the Enter key to modify it successfully. You can also click "Restore" to reset the shortcut keys after successful setting. If there is a conflict between shortcuts, you can cancel the setting by right clicking on it.
 
-<figure><img src="/files/VtfFQzS0Xb8TrPanRQAy" alt=""><figcaption><p>Shortcuts</p></figcaption></figure>
+
 
 > The numeric keys of the small keyboard and the large keyboard have been separated to support setting separate shortcuts. The original number keys (1, 2, 3, 4) of the small keyboard no longer support the addition of light sources.
 

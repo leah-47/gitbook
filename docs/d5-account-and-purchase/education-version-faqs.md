@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Education Version FAQs
 
-> **Danger:** Please use your <mark style="background-color:yellow;">EDU email</mark> for the application.
+> **Danger:** Please use your **EDU email** for the application.
 
 * **Email addresses ending with Gmail, Hotmail, Outlook, Naver, etc** are **NOT** permitted for EDU license applications.
 * If the email address you are currently logged in does not meet the requirements, you can access [**Learn about Secondary Verification**](./secondary-verification-instruction-guide-for-edu-license.md) to check what can be done next.
@@ -22,25 +22,25 @@ fetched: 2026-06-07
 
 1. Open D5 Launcher (version 2.11 or above)
 
-<figure><img src="/files/n858vjdGmMbHZkPnJAWd" alt=""><figcaption><p>Versions 2.11 and later---D5 Launcher</p></figcaption></figure>
+
 
 2. Log in or Sign up for your D5 account, ensuring that it is currently in **Community** status.
 
-<figure><img src="/files/cFi3xg4oeCxjHNupxwAX" alt=""><figcaption></figcaption></figure>
+
 
 3. Open the Account panel and click **Get D5 for Education** to begin the application process.
 
 &#x20;      a. Before entering application, if the email address you are currently logged in does not meet the requirements, clicking on it will display a pop-up window with an explanation. You can select the [**Learn about Secondary Verification**](./secondary-verification-instruction-guide-for-edu-license.md) button to access Help Center.
 
-<figure><img src="/files/MnZNELBogny0BURKAbfC" alt=""><figcaption></figcaption></figure>
+
 
 &#x20;      b. If the email address you are currently using is eligible, you will be directed to the application form page. Before starting the application, please verify that the device binding is accurate.
 
-<figure><img src="/files/YFPg64vt0Ucj26vV36j9" alt=""><figcaption></figcaption></figure>
+
 
 4. Fill in the requested information and submit your application. The approval result will be sent to you via email within 7 working days.
 
-<figure><img src="/files/1ENhWCLuOsMHMyHTN9zL" alt=""><figcaption></figcaption></figure>
+
 
 ### - How to use the Educational License?
 
@@ -90,7 +90,7 @@ It's valid for 180 days. You can renew it by applying again **15 days before it 
 
 Please note that only a D5 **Community** account can apply for D5 educational license. To check whether you account is D5 Pro, visit [MySpace](https://myspace.d5render.com/) > [Subscription](https://myspace.d5render.com/overview).
 
-<figure><img src="/files/1IMiUYPvlj1bDo4fgTYj" alt=""><figcaption></figcaption></figure>
+
 
 5. Who is not eligible for the Education Plan?
 
@@ -113,14 +113,14 @@ The educational license is **a fixed-seat license** bound exclusively to a singl
 
 If you have indeed changed your device, you will be unable to log in to that edu account and will receive the prompt 'Please log in in your Edu account on the bound device'.
 
-<figure><img src="/files/DP1y3PeqVsM8Us8vEj3d" alt=""><figcaption></figcaption></figure>
+
 
 Now users can unbind devices via MySpace themselves. After unbinding, the account will automatically revert to the Community version, and users must reapply through the client.
 
 > **Danger:** Please note that unbinding is permitted **only once per calendar year**. Please proceed with caution.
 
 
-<figure><img src="/files/CbYhZgfb3NnEoRcrpWxV" alt="" width="563"><figcaption><p>MySpace-Device Management</p></figcaption></figure>
+
 
 
 ---

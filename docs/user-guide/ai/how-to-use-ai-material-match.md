@@ -12,7 +12,7 @@ Undo supported.
 
 > Note: The original material information will be overwritten when using this feature, so it is recommended to be used when importing D5 for the first time.
 
-<div align="left"><figure><img src="/files/Yv6CMYBntdWSMTv3NVGJ" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

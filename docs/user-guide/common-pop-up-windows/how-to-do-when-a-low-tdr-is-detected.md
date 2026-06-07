@@ -6,9 +6,9 @@ fetched: 2026-06-07
 
 # How to do when a low TDR is detected?
 
-### What to do when a low TDR is detected? <a href="#header-0" id="header-0"></a>
+### What to do when a low TDR is detected? 
 
-<figure><img src="/files/XfcriF4erjeJB0Pljdye" alt=""><figcaption><p>TDR</p></figcaption></figure>
+
 
 Most users of graphics software may have once seen a notification which warns that the computer's TDR delay value is too low. It is also likely to pop up when you render high-resolution images or videos in D5 Render.
 
@@ -26,11 +26,11 @@ To solve this problem and ensure a good experience in D5 Render, please follow t
 
 > Please note that this action will not take effect until the computer is rebooted.
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf459db8fe1f47301928_4.gif" alt=""><figcaption></figcaption></figure>
+
 
 ### What is TDR?
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf43fd907e459a7d6b04_5.PNG" alt=""><figcaption></figcaption></figure>
+
 
 TDR stands for Timeout Detection Recovery, which is a protection mechanism from Windows system. It will shut down the GPU driver when GPU computation takes too long to respond.
 
@@ -50,33 +50,33 @@ In case you would like to control the settings manually, here are the tips and s
 
 1\. Open the Registry Editor of your Windows system (administrator permission required)
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf4434667b58ffece9c9_6.png" alt=""><figcaption></figcaption></figure>
+
 
 2\. Navigate to this key:
 
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf435cf3b1d68c79d8a1_7.png" alt=""><figcaption></figcaption></figure>
+
 
 3\. Add or Edit the TdrDelay value
 
 Right click on the TdrDelay key > Modify, then switch **to Decimal** and **enter the Value data as 60.**
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf433a8b1175ab57f3bf_8.png" alt=""><figcaption></figcaption></figure>
+
 
 If the **TdrDelay** key doesn't exist, please create a new one through **Edit >New > DWORD (32bit) Value** . Name it "**TdrDelay**".
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf44d716ffb31596a03d_9.png" alt=""><figcaption></figcaption></figure>
+
 
 4\. Add or Edit the TdrDdiDelay value
 
 Do the same as Step 3 for the **TdrDdiDelay** value.
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf44d716ffb31596a03d_9.png" alt=""><figcaption></figcaption></figure>
+
 
 5\. Close the Registry editor, then reboot your computer
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf454d856348267817e5_10.png" alt=""><figcaption></figcaption></figure>
+
 
 After the above steps are finished, it will now look like this. Remember to reboot your computer, otherwise the change will not take effect.
 
@@ -86,7 +86,7 @@ After the above steps are finished, it will now look like this. Remember to rebo
 
 2\. If you still encounter this error message, or other software on your computer requires a higher TDR value, you can increase it to 120s.
 
-<figure><img src="https://assets-global.website-files.com/62cc341ca212fe5f03df86e6/6396bf46d6a20c232c5ec0d9_12.png" alt=""><figcaption></figcaption></figure>
+
 
 3\. This setting may be restored after system update or re-formatting, as well as video driver update. Therefore, we may need to change the setting again after them.
 

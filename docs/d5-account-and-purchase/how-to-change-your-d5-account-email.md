@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 You can now update your account email directly within [**MySpace**](https://myspace.d5render.com/). **Path:** Go to **MySpace > Settings > Account**.
 
-<figure><img src="/files/8lq8fxbNKG3t49C8gsnD" alt="" width="563"><figcaption></figcaption></figure>
+
 
 **The Process:**
 

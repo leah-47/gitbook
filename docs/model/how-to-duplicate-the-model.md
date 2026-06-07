@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Function overview
 
-<mark style="background-color:purple;">D5 Render provides multiple ways to duplicate the scene resources：</mark>
+**D5 Render provides multiple ways to duplicate the scene resources：**
 
 > * Shortcut keys support custom modification.&#x20;
 >
@@ -36,7 +36,7 @@ Use the shortcut key "Alt + D" to duplicate the model to avoid material associat
 
 Press the "Shift" first, and click the axis in any direction to duplicate the model along the specified direction.
 
-<div align="left"><figure><img src="/files/IAfaCCbhSJwcwxHQcV5K" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ***
 

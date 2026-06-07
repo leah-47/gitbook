@@ -6,24 +6,24 @@ fetched: 2026-06-07
 
 # How to move the viewpoint freely?
 
-## Navigation Mode <a href="#mode" id="mode"></a>
+## Navigation Mode 
 
 New Navigation Mode: **Free**\
 Integrated **Orbit** and **Fly** into Free mode for flexible and friendly navigation control.
 
-<mark style="background-color:purple;">Now, the Navigation mode in the upper right corner is divided into two types:</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Free**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">and</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Walk**</mark><mark style="background-color:purple;">.</mark>
+**Now, the Navigation mode in the upper right corner is divided into two types:** ********Free**** ******and** ********Walk******.**
 
-<figure><img src="/files/klg3a1as3aTaiGG5ULDI" alt=""><figcaption></figcaption></figure>
+
 
 ### **Orbit**
 
-<mark style="background-color:purple;">The viewpoint moves around the object in the center of the screen, using a combination of the mouse wheel, the right mouse button, and the Shift key.</mark>
+**The viewpoint moves around the object in the center of the screen, using a combination of the mouse wheel, the right mouse button, and the Shift key.**
 
 * In the Orbit mode, when you press the right mouse button or the scroll wheel to click on the model, the intersection point of the mouse and the model will be regarded as the orbit point, and the object will rotate around this point.
 * In the Orbit mode, when you press the right mouse button or the scroll wheel to click on the background, the gizmo of the selected object or the object closest to the center of the screen in the current viewport will be regarded as the orbit point.
 * Orbit view supports visual icon to help users identify the center point of the current rotation, improving operational feedback and sense of control.
 
-<figure><img src="/files/LUSUbGV8zU0Ij4ewM5Wb" alt=""><figcaption><p>Orbit point</p></figcaption></figure>
+
 
 ### **Fly**
 
@@ -38,30 +38,30 @@ Walk and view the scene in the first person, **right mouse button** with **WASD*
 
 <table><thead><tr><th width="154">Operation</th><th width="180">Orbit</th><th>Fly</th><th>Walk</th></tr></thead><tbody><tr><td>Hold the scroll wheel</td><td>Free movement according to the center of the screen</td><td>Free movement</td><td>Free movement</td></tr><tr><td>Scroll wheel</td><td>Move the camera according to the position of the mouse</td><td>Move the camera back and forth to the center of the screen</td><td>Move the camera back and forth to the center of the screen</td></tr><tr><td>Right mouse button</td><td>Camera moves around the center of the screen</td><td>Fixed camera position, change the direction of view</td><td>Fixed camera position, change the direction of view</td></tr><tr><td>Hold down the left and right mouse button</td><td>-</td><td>Move the camera up and down</td><td>Move the camera up and down</td></tr><tr><td>WASD</td><td>-</td><td>Move the camera back and forth and left and right</td><td>Move the camera back and forth and left and right</td></tr><tr><td>QE</td><td>-</td><td>Move the camera up and down</td><td>Move the camera up and down</td></tr><tr><td>Shift + Right mouse button</td><td>Panning camera</td><td>-</td><td>-</td></tr></tbody></table>
 
-## Comparison between old and new navigation modes: <a href="#property" id="property"></a>
+## Comparison between old and new navigation modes: 
 
 |                                                  | Orbit                                                                 | Pan                                                                           | Look around                                                                                                                                                                            | Move forward/backward/left/right in Fly mode | Up in Fly mode | Down in Fly mode | Custom speed                                                                                                                         | Accelerate/Decelerate                                            | Dolly in/out                                                                                                                    | Zoom(FOV only)       | Deselect                                                                                    | Box Select                                  |
 | ------------------------------------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | -------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | D5 2.11                                          | <p>In Oribt Mode:</p><p>Right mouse button or Middle mouse button</p> | <p>In Orbit Mode:</p><p>Shift + Right Mouse Button or Middle Mouse Button</p> | <p>In Fly Mode: Hold the right mouse button and drag to look left/right/up/down</p><p>Hold down the middle mouse button and drag to look left and right, move forward and backward</p> | WSAD                                         | Q              | E                | <p>Hold the right mouse button and then scroll wheel.</p><p>Value range: 1-200. This action is distinct from single right-click.</p> | In Fly/ Walk mode: Hold Shift to speed up and Space to slow down | Scroll the mouse wheel. In Orbit mode, the dolly distance adjusts proportionally; In Fly mode, it adapts to the movement speed. | Shift + Scroll Wheel | Press the left or right mouse button without moving the cursor, equivalent to pressing Esc. | Hold Ctrl and the left mouse button to drag |
 | <p>D5 3.0</p><p>(Temporary default settings)</p> | Left mouse button                                                     | Hold the middle mouse button and drag                                         | Right mouse button                                                                                                                                                                     | WSAD ↑↓←→                                    | Q              | E                | <p>Hold the right mouse button and then scroll wheel.</p><p>Value range: 1-200. This action is distinct from single right-click.</p> | Hold Shift to speed up and Space to slow down                    | Scroll the mouse wheel to move proportionally, which follows the dolly logic of the Orbit mode.                                 | Alt + Scroll Wheel   | Press the left mouse button without moving the cursor, equivalent to pressing Esc.          | Hold Ctrl and the left mouse button to drag |
 
-## Navigation Presets:   <a href="#property" id="property"></a>
+## Navigation Presets:   
 
 * Added navigation presets matching SketchUp, Rhino, 3ds Max, and Revit, along with default D5 presets, under Navigation > Settings. Changes take effect immediately upon switching presets.
 * Compatibility with old navigation modes:
   * D5 Preset 1 (Default) for Fly mode
   * D5 Preset 2 for Orbit mode
 
-<figure><img src="/files/utIiVlkLYJNddfL73udk" alt=""><figcaption></figcaption></figure>
+
 
 * Customizable Shortcuts
   * Supports setting custom shortcuts for navigation presets.
 
 |                                  |                                  |
 | :------------------------------: | :------------------------------: |
-| ![](/files/UUhXGE8bYX89vY8tETW3) | ![](/files/67jzXRJQPTqBzFtzLrWT) |
+|  |  |
 
-## Parameter Adjustment <a href="#property" id="property"></a>
+## Parameter Adjustment 
 
 ### **1. Movement speed:**&#x20;
 
@@ -91,7 +91,7 @@ Control the rotation angle of the camera in the horizontal direction.
 
 Adjust freely the speed at which the camera rotates around the object in Orbit mode, and the speed at which the camera turns its head up, down, left, right, and center in both Fly & Walk modes.
 
-<figure><img src="/files/b5FhIoOcQw7C0F0bakQz" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -107,7 +107,7 @@ A: **WASD shortcuts only work when the movement mode is fly and walk.**
 
 A: If **the landing site is not captured in the current view**, it will automatically switch from walk mode to fly mode or fail to switch to walk mode and display the ↓ prompt.
 
-<div align="center"><figure><img src="/files/JFbB9cNzY0Dlbk8ZvUzR" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 
 ---

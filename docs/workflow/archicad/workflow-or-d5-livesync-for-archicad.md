@@ -6,21 +6,21 @@ fetched: 2026-06-07
 
 # Workflow | D5 LiveSync for  Archicad
 
-<div align="left"><figure><img src="/files/3420IubAkIvpsfvtV3vL" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-## Download & Installation <a href="#toc-h2-download-installation" id="toc-h2-download-installation"></a>
+## Download & Installation 
 
-### Supported versions <a href="#supported-versions-2" id="supported-versions-2"></a>
+### Supported versions 
 
 Supports Archicad 21 to 28, including Archicad Solo and Archicad SE
 
-### Download <a href="#download-3" id="download-3"></a>
+### Download 
 
 
 
 ***
 
-## Features <a href="#toc-h3-features" id="toc-h3-features"></a>
+## Features 
 
 <div align="left"><img src="https://usa-forum.d5cdn.com/original/3X/9/4/947ac03e0c716a1074eacda8c9f40fb89ac640d6.png" alt="BF196162-B412-46f0-B717-1483B7A05C08" height="34" width="295"></div>
 
@@ -37,7 +37,7 @@ Supports Archicad 21 to 28, including Archicad Solo and Archicad SE
 
 * Clicking the “Live Sync” button starts real-time synchronization, where any modifications to the model or materials in Archicad are automatically synchronized to D5 in real-time. Clicking the button again will pause this real-time synchronization.
 
-> <mark style="background-color:purple;">After establishing a connection with the D5 Render, please select the appropriate sync method:</mark>
+> **After establishing a connection with the D5 Render, please select the appropriate sync method:**
 >
 > * **Sync Once:** Suitable for situations where manual control of updates is required. After each modification to the model in the modeling software, you need to manually click this button to perform an incremental update.
 > * **Live Sync:** Any modifications to the model will be automatically synchronized to the D5 Render in real-time, without the need for manual triggering. This option is ideal for users who desire a seamless and integrated workflow.

@@ -22,7 +22,7 @@ The following two parameters control the properties of the Clear Coat layer:
 
 In the following figure, keeping the value of Clear Coat layer 0.85 and the Clear Coat Roughness 0, adjusting the Roughness of base paint, you can see the effect of two reflections in the highlight area.
 
-![](/files/-MkemMz680J1jGkuSrhd)
+
 
 
 ---

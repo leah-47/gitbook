@@ -12,9 +12,9 @@ If you sync the model via D5 direct reading/SU-D5 live sync plugin in the curren
 
 The current recommendation is to explode the mirrored part of the component and then sync it through the plugin or read it directly into D5 to get the correct effect.
 
-<div align="left"><figure><img src="/files/2LFqVLiLuYiH8WrVGm5g" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/4Fp7oFD8VCd4iNMnh3Yl" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Why the model is misaligned when using 'replace and link' the model via plugin connection after SU crashed?&#x20;
 
@@ -34,10 +34,10 @@ The new graphics engine function of SketchUp 2024 can be switched in **Preferenc
 
 Relatively speaking, the new graphics engine is not stable.&#x20;
 
-<mark style="background-color:green;">If you are prone to crashes of SU2024 during use, it is recommended to Use a classic graphics engine.</mark>
+**If you are prone to crashes of SU2024 during use, it is recommended to Use a classic graphics engine.**
 
 
-<figure><img src="/files/DIFeVsdqC3tulm1lRxlV" alt=""><figcaption></figcaption></figure>
+
 
 ## Why prompt ‘The following issues have been detected, which may cause data errors’ when connecting?
 
@@ -45,7 +45,7 @@ Relatively speaking, the new graphics engine is not stable.&#x20;
 
 If it prompts ↓ image content when syncing for the first time, i.e. ‘Material "Material" - Unsupported texture formats: xxx (currently in .psd format)’.
 
-<figure><img src="/files/2xlLDp9Bdi37fGigNfCx" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Real-time Rendering
 
-<figure><img src="/files/Wuzkmg3foVExpdIZ6m8V" alt=""><figcaption></figcaption></figure>
+
 
 ### Real-Time Sync
 
@@ -34,7 +34,7 @@ fetched: 2026-06-07
    5. **Water:** Adjustable colour and depth.
    6. **Grass:** Follows texture colour. The density and height can also be adjusted.
 
-<figure><img src="/files/TdGyeRafxqJBdz0SuC96" alt=""><figcaption></figcaption></figure>
+
 
 ### Lighting Tool
 
@@ -43,7 +43,7 @@ fetched: 2026-06-07
 3. Choose a light type in the tool, then place it in SketchUp. Strip and Area Lights can be resized using SketchUp's scale tool.
 4. Select lights in SketchUp to edit their settings in the panel. Supports multi-selection for batch editing.
 
-<figure><img src="/files/v3OBWiU1XozqBJX13aik" alt=""><figcaption></figcaption></figure>
+
 
 ### Environment & Effect
 
@@ -53,7 +53,7 @@ fetched: 2026-06-07
 
 &#x20;     b.  By default, the Sun Direction follows the brightest point of the HDRI. You can switch to a custom direction mode and manually adjust the Altitude and Azimuth angles.
 
-<figure><img src="/files/vyMriTEH5nrln7g11mEn" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### Asset Library
 
@@ -75,7 +75,7 @@ fetched: 2026-06-07
    2. Match SketchUp viewport: render output will match SketchUp’s display exactly (including safe frame area).
    3. Preset ratios: 16:9, 3:2, 4:3, etc.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKOp5tkvX-56ZgBqJrLS-9ozxZU9e20o4uFqDDQ0NtIxmqB8LMQQZKCleHgCF91dvpO0TQ11YUMSm7S4NIhPPFsUtupD5jAX74yjUTw4fWYIWfvtCY-t3Magq51bn85ZgLpein?key=aSAS5uWlhWzlvc3M8Jr3hct-" alt="" width="188"><figcaption></figcaption></figure>
+
 
 ### Render Output
 

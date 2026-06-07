@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to edit models?
 
-<mark style="background-color:purple;">D5 Render primarily supports two methods to move, rotate and scale objects.</mark>
+**D5 Render primarily supports two methods to move, rotate and scale objects.**
 
 ### 1. Scene Tools
 
@@ -50,12 +50,12 @@ You can rotate the model by clicking on the upper semicircle on the coordinate a
 1. **Scene Tools** : Select the "Scale" tool (shortcut \* V toggle) and drag any of the axes to change the size of the model.
 2. **Basic Parameter** : The "Size" parameter in the right sidebar shows the actual size of the current object in millimeters (mm).
 
-> <mark style="background-color:purple;">In combination with the locking function of the "Size" parameter, adjustments can be made simultaneously or in one direction only:</mark>
+> **In combination with the locking function of the "Size" parameter, adjustments can be made simultaneously or in one direction only:**
 
 * When locked, the model is scaled up and down proportionally.
 * When unlocked, the model is scaled in each individual direction.
 
-![](/files/mskpHZbKTXseJGceTpNm)
+
 
 ***
 

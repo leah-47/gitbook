@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 If you need to unassociate a material from a model that was created by the **"Associative Duplicate"** operation, click on **"Make Unique"** in the right sidebar to unassociate it.
 
-<div align="left"><figure><img src="/files/VPIx775d0rIaDfXxQCsS" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## FAQ
 

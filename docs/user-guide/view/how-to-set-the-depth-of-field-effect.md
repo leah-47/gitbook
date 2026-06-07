@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to set the 'Depth of Field' effect?
 
-<mark style="background-color:purple;">Similar to real-world cameras, Depth of Field is based on distance, blurring the scene in front of and behind the focal point.</mark>
+**Similar to real-world cameras, Depth of Field is based on distance, blurring the scene in front of and behind the focal point.**
 
 1. When you turn on the depth of field and select the focus point in the camera, the effect of auto follow focus will be enabled by default.&#x20;
 
@@ -17,7 +17,7 @@ fetched: 2026-06-07
 
 This effect can also be achieved in combination with **Effect-Style-Z Depth**.
 
-<figure><img src="/files/0sqerctRGkJ7vUr48H6u" alt=""><figcaption><p>Value of Blur 0 | Value of Blur 5 | Value of Blur 10</p></figcaption></figure>
+
 
 
 ---

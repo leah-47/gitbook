@@ -17,17 +17,17 @@ It is recommended to check: 1. whether the VPN is turned on   2. whether the fir
 
 * Windows settings - Network\&Internet - VPN/Proxy
 
-<figure><img src="/files/auBD1roRWjPmfn0tAFy6" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/WVltTTqS16afgy3CAWBY" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/A0aVskDiqMe03Ii6LLyt" alt=""><figcaption></figcaption></figure>
+
+
+
 
 * Windows Settings - Network\&Internet - Ethernet - Network - IP Settings
 
-<figure><img src="/files/4X6axkTn2M9onwAOvdxY" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/482y7Xb8ZorweLRkR6SA" alt=""><figcaption></figcaption></figure>
+
+
 
 2. Keywords searched for in the assets library are not cleared up.
 
@@ -35,13 +35,13 @@ Clear the keywords in the search box of the assets library
 
 For example, under the category of "Ceramics" in the assets library, there is no "Wood", so the assets library is empty.
 
-<figure><img src="/files/AUIptYGMRi1d6ikGtqj8" alt="" width="375"><figcaption></figcaption></figure>
+
 
 3. Conflict software/encryption software/antivirus reasons
 
 Software confilct/encryption software can confirmed with `Support Tool`
 
-<figure><img src="/files/OthiOvC9JaX5qwYwy8MX" alt="" width="563"><figcaption></figcaption></figure>
+
 
 4. Difference between user device time and standard time
 

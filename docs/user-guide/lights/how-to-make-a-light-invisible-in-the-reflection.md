@@ -6,9 +6,9 @@ fetched: 2026-06-07
 
 # How to make a light invisible in the reflection?
 
-<mark style="background-color:purple;">Use the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**''Visible in Reflection''**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">parameter to control the visibility of lights in the reflection.</mark>
+**Use the** ********''Visible in Reflection''**** ******parameter to control the visibility of lights in the reflection.**
 
-<figure><img src="/files/9qMYXInXTe1Mb2CBtJcT" alt="" width="563"><figcaption></figcaption></figure>
+
 
 Reflections from lights usually appear on materials with high "Specular" and "Metallic", and the **"Intensity"** parameter can be used to adjust the influence of the light on reflections.&#x20;
 

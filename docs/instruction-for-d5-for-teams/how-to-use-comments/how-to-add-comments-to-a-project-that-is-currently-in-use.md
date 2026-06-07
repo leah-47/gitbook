@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 If a project in the team project library is being edited by another team member and it is not a multi-editor project, you can choose to open the project in view-only mode to use comments.
 
-<figure><img src="/files/9MYmgLZj0mh4t4wKu62d" alt=""><figcaption></figcaption></figure>
+
 
 In view-only mode, no changes can be made to the project in any form, but you can view the scenes and videos in the project and add comments.
 
-<div align="left"><figure><img src="/files/t2ni4wOQzLgtV6vdf9KE" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

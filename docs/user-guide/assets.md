@@ -12,13 +12,13 @@ Switch between the different categories in the left sidebar drop-down menu to se
 
 Click on the tabs above to switch between "Online Assets" / "Local Assets".
 
-## :evergreen_tree:**Online Assets** <a href="#online" id="online"></a>
+## :evergreen_tree:**Online Assets** 
 
 [Broken link](../pages/-MkMOt0TfaXr3KY4LSJt.md)
 
 :point_up_2:This is a resourceful and growing library of assets, divided into three categories: Model, Materials, and Particle.
 
-## :gift:**Local Assets** <a href="#local" id="local"></a>
+## :gift:**Local Assets** 
 
 [Broken link](../pages/-MkMOsXrlxcmC7o-mn3v.md)
 

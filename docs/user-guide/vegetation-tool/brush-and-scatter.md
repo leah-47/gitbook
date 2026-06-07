@@ -27,13 +27,13 @@ When the Radius parameter of the Brush tool is set to the maximum, the Scatter t
 
 After painting or scattering objects onto a model, select the model, then we can see the Brush records on the right sidebar.The records include information about painted objects/plants, and each of them can be hidden or deleted. What's more, the combination of plants in the record can be reused as brush or eraser. Right click the brush record to delete or rename it, which makes it easier to manage the assets in the scene.
 
-![](/files/FvRKk1WD8sHUcXPEBpLX)
+
 
 ### **Multiple Brush Records**
 
 If multiple brush records have the same vegetation combination, they will be merged into one automatically. For example, the first time we use 3 plants A/B/C, the second time we use 3 plants B/C/D, and the third time we use 3 plants A/B/C again, then there will be only two brush records on the model: A/B/C and B/C/D.
 
-![](/files/y0zKkNKfwbxhbO5YTwqr)
+
 
 
 ---

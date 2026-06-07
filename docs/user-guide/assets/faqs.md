@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 It is not supported to add models to the scene in render (image/video) mode. Just exit the rendering mode.
 
-<figure><img src="/files/zoyf3uLluJl8mZhGvR7I" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ## Why are there watermarks/does it display D5 PRO ONLY on assets in the scene?
 
@@ -18,7 +18,7 @@ The watermarked assets are for D5 Pro version only.&#x20;
 
 Just log in to your Pro/Edu/Teams account to hide the watermarks on assets.
 
-<figure><img src="/files/5xLX5JBcAjHZfrPcceBc" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ## How to edit the material of a model in Assets Library? How to modify the color of a plant in Assets Library?
 
@@ -31,13 +31,13 @@ Just log in to your Pro/Edu/Teams account to hide the watermarks on assets.
 
 ## Why doesn't the plant in the scene move with the wind?
 
-#### <mark style="background-color:purple;">1. Use plants not supporting wind movement</mark>
+#### **1. Use plants not supporting wind movement**
 
 All dynamic models in the assets library will have an individual icon on their thumbnails.
 
 * This icon in the plant categories means that it supports wind movement or you can also filter the dynamic models in the assets library.
 
-<div align="left"><figure><img src="/files/236st5hRgglgDCN8Tt32" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 2\. The dynamic mode may not be enabled.&#x20;
 
@@ -49,7 +49,7 @@ All dynamic models in the assets library will have an individual icon on their t
 
 The "Dynamic" button is mainly used to control whether or not to preview the movement of dynamic elements in the scene. For example: cloud movement, plant wind movement, character animation, etc. To preview the wind effect, this switch needs to be turned on.
 
-<div align="left"><figure><img src="/files/3UKVRC2sfjdnobW98cEA" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Why is the dynamic character static in the output animation?
 
@@ -67,7 +67,7 @@ Due to the LOD (Level of Detail) processing of the asset, when the camera is far
 
 Suggestion: Users can turn off LOD in Preference to get normal output (but the preview will still restore the original value).
 
-<figure><img src="/files/FrpNx6TqnmjQdSZWCBdW" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

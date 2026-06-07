@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why prompt 'The material of model cannot be reused'?
 
-<figure><img src="/files/y6BuTYHsdpOimvw7UldJ" alt=""><figcaption></figcaption></figure>
+
 
 This popup is usually more likely to appear in the following cases:
 

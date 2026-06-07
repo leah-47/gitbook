@@ -8,13 +8,13 @@ fetched: 2026-06-07
 
 The new AI model generation function includes two core modules: **Text to 3D** and **Image to 3D**. It aims to use generative AI technology to assist designers in quickly transforming inspiration into 3D assets and release creativity.
 
-<figure><img src="/files/EBQf2ekFBCJsgJaOYiCO" alt=""><figcaption></figcaption></figure>
+
 
 ### Text to 3D
 
 Text generation models enable content creators to convert natural-language descriptions into 3D assets quickly. Simply enter text to generate a model that meets your needs, greatly improving the efficiency of asset acquisition.
 
-<figure><img src="/files/skKn0xojUuETm23fooWn" alt="" width="563"><figcaption></figcaption></figure>
+
 
 #### How to use
 
@@ -26,7 +26,7 @@ Text generation models enable content creators to convert natural-language descr
 
 The newly launched image generation model function can intelligently analyze 2D image data, infer its spatial structure, and reconstruct it into a 3D model with rich detail in a short time.
 
-<figure><img src="/files/oqB9QzFt6UAUbu2MI0HT" alt=""><figcaption></figcaption></figure>
+
 
 #### 1. Upload the main-view image
 
@@ -36,7 +36,7 @@ The main picture is the core reference for AI to understand the structure of obj
 * Supported formats:`.jpg`,`.jpeg`, and`.png`
 * File size: up to 10 MB
 
-<figure><img src="/files/fFfjmqQPw30JDrPzBOgm" alt=""><figcaption><p>Upload images</p></figcaption></figure>
+
 
 > **Warning:** 💡**Upload Guides:**
 
@@ -53,7 +53,7 @@ For a more complete model structure, you can enable the multi-view option.
 * Principle: AI will comprehensively analyze all picture information and perform three-dimensional reconstruction from multiple angles. The inference of the generated model in the invisible area will be more accurate, and the details will be richer.
 * Supported formats:`.jpg`,`.jpeg`,`.png`
 
-<figure><img src="/files/TqBTtzXTMTEsDtSzGe8W" alt=""><figcaption><p>Multi-angle Views</p></figcaption></figure>
+
 
 > **Warning:** **💡Upload Guides:**
 

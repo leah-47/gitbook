@@ -8,19 +8,19 @@ fetched: 2026-06-07
 
 The Water material template has animated effects and is used to create flowing water.
 
-<img src="/files/-MkekNbWDwVEw4GJp3pN" alt="" width="563">
+
 
 * **Base color/Base Color Map:** Used to control the color of the water.
 * **Normal:** Controls the size of the wave.
 
-<img src="/files/-MkeknNouH9HihumqXlo" alt="" width="563">
+
 
 * **Specular:** Control the Reflectance of the water surface, the specular value of water is 0.25.&#x20;
 * **Refraction:** Control the IOR of the water surface. The IOR of water is 1.33.&#x20;
 * **Flow Velocity:** Adjust the rate of the water animation, turn on "Realtime" to preview the water animation in "Display" option.&#x20;
 * **Depth:** Control the absorption of the water to the incident light, make clear shallow water or more turbid and deep water, need to model the part below the water surface to see the effect.
 
-<img src="/files/-Mkel9soNT2NzsuWxUD5" alt="" width="563">
+
 
 ## FAQ
 
@@ -40,7 +40,7 @@ The depth parameters in D5 make the water material more realistic, closely resem
 
 The color of water also changes with the depth of the container, equivalent to automatically attenuating the intensity of light below the surface according to depth.
 
-<figure><img src="/files/ITtXUP4DiSpe45IRXWU2" alt=""><figcaption><p>under the same material parameters, the effect of container depth on the water material representation</p></figcaption></figure>
+
 
 
 ---

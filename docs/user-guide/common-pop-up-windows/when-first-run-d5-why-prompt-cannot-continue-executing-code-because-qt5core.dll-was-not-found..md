@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # When first run D5, why prompt 'Cannot continue executing code because Qt5Core.dll was not found.'
 
-<figure><img src="/files/UZGrZnPENh3QABPA6z4g" alt=""><figcaption><p>Qt5Core.dll</p></figcaption></figure>
+
 
 It may be caused by the following:&#x20;
 

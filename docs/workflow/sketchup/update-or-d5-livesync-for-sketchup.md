@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 `Release date: 20260106`
 
-#### New and Optimizations <a href="#new-and-optimizations-2" id="new-and-optimizations-2"></a>
+#### New and Optimizations 
 
 1. Added compatibility and interchangeability between models imported via D5 LiveSync and directly imported .skp files to D5 3.0.
 2. Supports parallel projection and two-point perspective for scene synchronization.
@@ -19,12 +19,12 @@ fetched: 2026-06-07
 5. Enhanced sync efficiency and stability for live sync.
 6. Optimized material display logic which first reads parent component materials when a SketchUp model face has no material applied.
 
-#### Fixes <a href="#fixes-3" id="fixes-3"></a>
+#### Fixes 
 
 1. Slow/stuck progress and crashes when exporting .d5a models.
 2. Sync time build-up when linking with the same scene after synchronization breaks for multiple times.
 
-#### Other Notes <a href="#other-notes-4" id="other-notes-4"></a>
+#### Other Notes 
 
 1. Sync with D5 version 2.9 and earlier is no longer supported.
 
@@ -34,7 +34,7 @@ fetched: 2026-06-07
 
 `Release date: 20251016`
 
-#### New <a href="#new-6" id="new-6"></a>
+#### New 
 
 1. Supports SU2026
 
@@ -44,34 +44,34 @@ fetched: 2026-06-07
 
 `Release date: 20250715`
 
-#### New (Requires D5 Render version 2.11) <a href="#new-requires-d5-render-version-211-2" id="new-requires-d5-render-version-211-2"></a>
+#### New (Requires D5 Render version 2.11) 
 
 1. Supports syncing orthographic views.
 2. Supports syncing disc lights.
 3. Supports syncing HDRI files.
 4. Added quick access to Help Center.
 
-#### Optimization (Requires D5 Render version 2.11) <a href="#optimization-requires-d5-render-version-211-3" id="optimization-requires-d5-render-version-211-3"></a>
+#### Optimization (Requires D5 Render version 2.11) 
 
 1. Optimized sync of top/front/right/left/back/bottom views.
 
-#### Fixes <a href="#fixes-4" id="fixes-4"></a>
+#### Fixes 
 
 1. Fixed the issue where models would disappear or jump to a distant location, previously requiring users to explode or scale them in SketchUp as a workaround.
 
 ***
 
-## Ver.1.5.0.0017 <a href="#ver1500017-5" id="ver1500017-5"></a>
+## Ver.1.5.0.0017 
 
 `Release date: 20250319`
 
-#### New <a href="#new-6" id="new-6"></a>
+#### New 
 
 1. Supports SU2025
 2. Supports 2025 PBR Parameter Mapping
 3. Supports syncing geo and sky from SketchUp
 
-#### Fixes <a href="#fixes-7" id="fixes-7"></a>
+#### Fixes 
 
 1. Occasional abnormal crashes of SU2024
 2. Abnormalities in model coordinates and dimensions may occur when connecting for the first time.
@@ -82,11 +82,11 @@ fetched: 2026-06-07
 
 ***
 
-## Ver.1.4.0.0017 <a href="#ver1400017-8" id="ver1400017-8"></a>
+## Ver.1.4.0.0017 
 
 `Release date: 20241120`
 
-#### Fixes <a href="#fixes-9" id="fixes-9"></a>
+#### Fixes 
 
 1. Fixed occasional SketchUp crashes caused by pushing and pulling models during linkage
 2. Plugin loading failure caused by configuration file issue (manual deletion of D5LiveSync.conf file required)
@@ -97,24 +97,24 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 1.3.0.0035 <a href="#ver-1300035-10" id="ver-1300035-10"></a>
+## Ver. 1.3.0.0035 
 
 `Release date: 20240808`
 
-#### New <a href="#new-11" id="new-11"></a>
+#### New 
 
 1. “Single Sync” incremental update button
 2. Supports synchronizing model show/hide status when switching scenes
 3. Supports synchronizing model show/hide status when tag visibility changes
 4. Pop-up notification for abnormal texture information during the first linkage
 
-#### Optimization <a href="#optimization-12" id="optimization-12"></a>
+#### Optimization 
 
 1. Significant linkage performance improvements
 2. Remember the toggle states of Live Update and View Sync buttons
 3. Monitor the abnormal state of D5 and take action to either wait or disconnect in real-time synchronization
 
-#### Fixes <a href="#fixes-13" id="fixes-13"></a>
+#### Fixes 
 
 1. Slow disconnection from linkage
 2. SU2024 crashes from sync plugin

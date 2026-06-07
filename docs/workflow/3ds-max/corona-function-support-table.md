@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 | UI                                                                                                  | Name                  | Support         | Note                                                                                               |
 | --------------------------------------------------------------------------------------------------- | --------------------- | --------------- | -------------------------------------------------------------------------------------------------- |
-| <div><figure><img src="/files/rOVKWUXTVbRDdYndIttZ" alt=""><figcaption></figcaption></figure></div> | Metalness             | Yes             |                                                                                                    |
+| <div></div> | Metalness             | Yes             |                                                                                                    |
 |                                                                                                     | Base Color            | Yes             |                                                                                                    |
 |                                                                                                     | Roughness             | Yes             |                                                                                                    |
 |                                                                                                     | IOR                   | No              | This parameter is not supported, but can be converted into an equivalent highlight intensity value |
@@ -25,17 +25,17 @@ fetched: 2026-06-07
 |                                                                                                     | Displacement          | Partial Support |                                                                                                    |
 |                                                                                                     | Clearcoat Layer       | Yes             |                                                                                                    |
 |                                                                                                     | Sheen Layer           | Yes             |                                                                                                    |
-| <div><figure><img src="/files/VRFLmIX31KVtzs45LokU" alt=""><figcaption></figcaption></figure></div> | Volumetric Absorption | No              |                                                                                                    |
+| <div></div> | Volumetric Absorption | No              |                                                                                                    |
 |                                                                                                     | Volumetric Scattering | No              |                                                                                                    |
 |                                                                                                     | SSS                   | Partial Support |                                                                                                    |
-| <div><figure><img src="/files/HLDbmUd4BrqwXwYyfLbf" alt=""><figcaption></figcaption></figure></div> | Self-illumination     | Yes             |                                                                                                    |
+| <div></div> | Self-illumination     | Yes             |                                                                                                    |
 |                                                                                                     | Override              | No              |                                                                                                    |
 
 ### CoronaLegacyMtl
 
 | UI                                                                                                  | Name                  | Support         | Note                                                                                               |
 | --------------------------------------------------------------------------------------------------- | --------------------- | --------------- | -------------------------------------------------------------------------------------------------- |
-| <div><figure><img src="/files/8XtEu6f4B9oEA0WNsoZA" alt=""><figcaption></figcaption></figure></div> | Diffuse               | Yes             |                                                                                                    |
+| <div></div> | Diffuse               | Yes             |                                                                                                    |
 |                                                                                                     | Translucency          | No              |                                                                                                    |
 |                                                                                                     | Reflection Color      | Yes             |                                                                                                    |
 |                                                                                                     | IOR                   | No              | This parameter is not supported, but can be converted into an equivalent highlight intensity value |
@@ -48,10 +48,10 @@ fetched: 2026-06-07
 |                                                                                                     | Opacity               | Partial Support |                                                                                                    |
 |                                                                                                     | Bump                  | Partial Support |                                                                                                    |
 |                                                                                                     | Displacement          | Partial Support |                                                                                                    |
-| <div><figure><img src="/files/VRFLmIX31KVtzs45LokU" alt=""><figcaption></figcaption></figure></div> | Volumetric Absorption | No              |                                                                                                    |
+| <div></div> | Volumetric Absorption | No              |                                                                                                    |
 |                                                                                                     | Volumetric Scattering | No              |                                                                                                    |
 |                                                                                                     | SSS                   | Partial Support |                                                                                                    |
-| <div><figure><img src="/files/4TowAIn2vNGkroY1Gvcz" alt=""><figcaption></figcaption></figure></div> | Self-illumination     | Yes             |                                                                                                    |
+| <div></div> | Self-illumination     | Yes             |                                                                                                    |
 |                                                                                                     | Override              | No              |                                                                                                    |
 
 ### Other Materials

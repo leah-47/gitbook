@@ -12,7 +12,7 @@ In the Advanced Parameters under the Material Editing Panel, you can enable the 
 
 Note: This option is not physically accurate, so please use it with discretion. D5 will further optimize the GI algorithm in the future to fundamentally solve the color bleeding problem.
 
-<figure><img src="/files/3E7Dpl1L8DKix5dth3pT" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

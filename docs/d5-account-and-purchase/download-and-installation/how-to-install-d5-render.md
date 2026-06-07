@@ -18,7 +18,7 @@ The downloaded file is named **D5DeployTool**; double-click it to install. D5 La
 * **D5_Render_installer-x.xx.xx.xxxx.exe:** The D5 Render client.
 * **D5DeployTool-windows-x.x.x.xxxx.exe:** The installation management tool.
 
-<figure><img src="/files/utWegATOoXg7XN8cFY5s" alt="" width="563"><figcaption><p>D5DeployTool---D5 Render&#x26;D5 Launcher</p></figcaption></figure>
+
 
 > **Info:** By default, the software will download assets in the installation path, and after the installation is complete, it supports migrating assets to a custom directory in the Preferences. If you do not want to migrate assets, it is recommended to reserve a larger installation space.
 
@@ -27,7 +27,7 @@ The downloaded file is named **D5DeployTool**; double-click it to install. D5 La
 
 After the software is installed and launched for the first time, we will perform a hardware check to ensure that your hardware and system configuration are up to standard for a smooth rendering experience.
 
-<img src="/files/-MkYHWDSg4C2h9Zn5Uw4" alt="" width="563">
+
 
 * View [System Requirement](../../getting-started/quick-start#system-requirement.md)
 
@@ -53,7 +53,7 @@ Option 2: Download them separately- [**D5 Launcher**](https://usa.api.d5render.c
 If you also need to install DCC LiveSync plugins suited to your workflow, please visit the official website to download the corresponding plugins and follow the instructions in [**Section 2.4**](#id-2.4-example-2-install-d5-launcher-d5-render-and-dcc-livesync-plugins) to install them.
 
 
-<figure><img src="/files/WspZDuJnSl1LnAnprDQd" alt=""><figcaption><p>Example</p></figcaption></figure>
+
 
 ### 2. **Silent Installation**:
 
@@ -141,7 +141,7 @@ D5_Render_installer-2.x.x.xxxx.exe -silent -agreeEula -isForCurrentUser=false -i
 
 > **Info:** **Note:**
 
-Please replace <mark style="background-color:green;">D5_Render_installer-2.x.x.xxxx.exe</mark> with the name of the software programme which corresponds to the update downloaded.
+Please replace **D5_Render_installer-2.x.x.xxxx.exe** with the name of the software programme which corresponds to the update downloaded.
 
 
 ***
@@ -154,13 +154,13 @@ To uninstall D5 Render silently, use the following command:
 "E:/D5 Render/Uninstall.exe" -silent -deleteUserConfig
 ```
 
-<figure><img src="/files/ccKD9u55UzzI8waFpvRy" alt=""><figcaption></figcaption></figure>
+
 
 ## Note:
 
 (1)  Ensure that you have downloaded the appropriate version of D5 Render (e.g., v2.9.5 or higher).
 
-(2)  Note: On Windows, backslashes <mark style="background-color:red;">\\</mark> in command-line arguments are treated as escape characters. Handle this by enclosing file paths in double quotes and using <mark style="background-color:red;">/</mark> instead of <mark style="background-color:red;">\\</mark> . For example, "C:/Program Files/D5 Render".
+(2)  Note: On Windows, backslashes **\\** in command-line arguments are treated as escape characters. Handle this by enclosing file paths in double quotes and using **/** instead of **\\** . For example, "C:/Program Files/D5 Render".
 
 (3)  If using the parameter "*-isForCurrentUser=false*" to install for all users, you must run the script or command as an administrator; otherwise, the installation may fail.
 

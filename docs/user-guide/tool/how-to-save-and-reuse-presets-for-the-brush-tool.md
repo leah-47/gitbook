@@ -13,7 +13,7 @@ In the brush toolbar in the lower left corner of the library, you can save the s
 > * Brush presets take up D5 Studio Cloud Space:  [What is Studio Cloud Space?](../studio/what-is-studio-cloud-space.md)
 > * D5 Studio Cloud Space related rights can refer to: [Account Access to AI features](../ai/account-access-to-ai-features.md)
 
-<div align="left"><figure><img src="/files/EWF0j4qOEqEKZ5NXb1yN" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

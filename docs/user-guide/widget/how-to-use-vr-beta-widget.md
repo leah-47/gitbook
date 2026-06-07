@@ -8,24 +8,24 @@ fetched: 2026-06-07
 
 D5 Widget is a customized extension module of D5 Render, aiming to provide advanced features while keeping the simplicity. Go to Menu > Preference > Widget, and you can check what you installed, switch on/off with one click to manage your widgets.
 
-<figure><img src="/files/fWF9UFFHBpMMFWpanN1a" alt=""><figcaption><p>VR (beta)</p></figcaption></figure>
+
 
 Users can explore the scene with Virtual Reality, available for SteamVR-ready devices. (e.g. HTC Vive, Oculus Rift…)
 
-### Supported devices <a href="#toc-h2-supported-devices" id="toc-h2-supported-devices"></a>
+### Supported devices 
 
 * HTC VIVE, HTC VIVE PRO, PicoNeo and all devices that can connect to SteamVR program.
 * Oculus Go, Oculus Rift, Oculus Quest and all devices that can connect to Oculus program.
 
-### Steps <a href="#toc-h2-steps" id="toc-h2-steps"></a>
+### Steps 
 
-#### 1. Enable the VR beta widget in D5. <a href="#h-1-enable-the-vr-beta-widget-in-d5-3" id="h-1-enable-the-vr-beta-widget-in-d5-3"></a>
+#### 1. Enable the VR beta widget in D5. 
 
 Open a D5 scene file, go to Menu > Preference > Widget, find VR beta then turn it on. This feature will take effect after rebooting D5 Render.<br>
 
-<figure><img src="https://usa-forum.d5cdn.com/original/2X/f/f46644c025058a08689e2520279990800db391b2.png" alt=""><figcaption></figcaption></figure>
 
-#### 2. **When D5 Render is closed**, connect the VR device to your computer. <a href="#h-2-when-d5-render-is-closed-connect-the-vr-device-to-your-computer-4" id="h-2-when-d5-render-is-closed-connect-the-vr-device-to-your-computer-4"></a>
+
+#### 2. **When D5 Render is closed**, connect the VR device to your computer. 
 
 a. For Oculus devices, please connect to Oculus program for PC. For reference,
 
@@ -41,17 +41,17 @@ b. For other devices, please connect to Steam VR
 >
 > It is recommended to use efficient connection methods such as 5G WiFi to ensure data transmission speed
 
-#### 3. Open D5 Render, turn on VR beta <a href="#h-3-open-d5-render-turn-on-vr-beta-5" id="h-3-open-d5-render-turn-on-vr-beta-5"></a>
+#### 3. Open D5 Render, turn on VR beta 
 
 After successful connection to Oculus or SteamVR, launch D5 Render and turn on VR.
 
-<figure><img src="/files/KEKvwSsAGRedSEWZLiPX" alt=""><figcaption></figcaption></figure>
+
 
 In VR mode, your views will move with the device. At the same time, you can move the “footprint” by pressing the trigger of your controller to move to the target position. The default height is 1.6m, which can be adjusted in the VR device program. After use, press ESC on the keyboard to exit VR mode.
 
 It is also suggested to disable VR beta widget after use, and do not render photos/videos when there is a VR device connected.
 
-## FAQs <a href="#toc-h2-faq" id="toc-h2-faq"></a>
+## FAQs 
 
 **1. Why it is laggy in VR mode?**
 

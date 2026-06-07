@@ -8,9 +8,9 @@ fetched: 2026-06-07
 
 Open D5, click on the Studio icon in the upper left corner.
 
-<div align="left"><figure><img src="/files/hJeCPBkDc00zEiDwQ16O" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/vCtmy77EWsuJQiVitRCt" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Here you'll find presets that include environment effects, brush parameters, and path parameters.
 

@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 Click on the locked model surface in the scene, or use the "Select Material" tool (shortcut key: I) to pick up the model surface, you can select the material. At this time, the corresponding material parameter panel will appear in the right column.
 
-<figure><img src="/files/iprxF5QNeMsJbm58KHL7" alt=""><figcaption></figcaption></figure>
+
 
 The "Invisible in Raytracing" option controls whether the material participates in lighting (specifically, diffuse light) calculations. When this option is checked, the material will be visible in the camera and in the reflections of other materials, but it will no longer produce shadows or light bounces.
 
-<figure><img src="/files/uz0KNsvLUj4UFAvvlqw2" alt=""><figcaption></figcaption></figure>
+
 
 ## Why does the "Invisible in Raytracing"  material appears in the reflection?
 

@@ -10,7 +10,7 @@ If the main model in the scene is too far away from the origin of the world coor
 
 It is recommended to move the coordinates of the model to (0,0,0) automatically first when importing the model into D5 for the first time.
 
-<figure><img src="/files/AIPBZdmSBfpJNjVzA14g" alt=""><figcaption><p>The model is located at the origin (0, 0, 0)</p></figcaption></figure>
+
 
 
 ---

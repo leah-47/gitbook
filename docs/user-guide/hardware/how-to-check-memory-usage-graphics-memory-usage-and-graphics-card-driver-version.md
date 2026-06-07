@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Details are generally viewable in the Task Manager:<br>
 
-<figure><img src="/files/cMD5q3LWDcNC9nMRJRZc" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

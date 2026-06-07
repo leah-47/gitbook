@@ -20,7 +20,7 @@ fetched: 2026-06-07
 4. Shortcut tips
    1. You can enable or disable shortcut key tips in the toolbar settings.
 
-<figure><img src="/files/xhP5EQMZhCkTRe7XJKrQ" alt="" width="513"><figcaption></figcaption></figure>
+
 
 
 ---

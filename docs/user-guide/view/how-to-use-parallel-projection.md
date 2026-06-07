@@ -17,11 +17,11 @@ Parallel projection is a method of mapping points or objects in three-dimensiona
 
 > **Note:** Parallel projection mode also supports Outline mode and AO stylized rendering effects to meet various of drawing needs.
 
-<figure><img src="/files/nLkjCA1qaNzNLg3arSLF" alt=""><figcaption><p>Parallel Projection</p></figcaption></figure>
+
 
 ### Align Views
 
-<figure><img src="/files/er21rxrWupNfeV0NQG3D" alt=""><figcaption></figcaption></figure>
+
 
 The Align tool allows users to quickly align the camera to any model surface.
 

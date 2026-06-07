@@ -11,7 +11,7 @@ fetched: 2026-06-07
    2. When switching scenes by clicking, Lite and SketchUp remain synchronized
    3. Known Issue: Due to limitations of the SketchUp API, scenes created or updated in SketchUp can only record the camera's position
 
-<figure><img src="/files/LqNkiomPbMwfcgIVgz1L" alt="" width="563"><figcaption></figcaption></figure>
+
 
 2. The creation and entry of the scene list are located in the bottom-left corner of the Lite window.
 
@@ -23,7 +23,7 @@ fetched: 2026-06-07
 
 &#x20;       d. The scene list supports functions for deleting and renaming scenes.
 
-<figure><img src="/files/0IYY8uFvgjQYO9Z8H6Ny" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 ---

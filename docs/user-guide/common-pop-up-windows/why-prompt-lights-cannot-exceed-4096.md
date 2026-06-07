@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why prompt 'Lights cannot exceed 4096'?
 
-<figure><img src="/files/DVKT3F2PQqV0XtRgqgK6" alt=""><figcaption><p>Number of Lights Limit</p></figcaption></figure>
+
 
 Currently, the maximum number of artificial and spontaneous lights in a viewport is 4096.&#x20;
 

@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Overview
 
-<mark style="background-color:purple;">D5 Render primarily supports two methods for importing external model data files</mark> <mark style="background-color:purple;">:</mark>
+**D5 Render primarily supports two methods for importing external model data files** **:**
 
 1. **Directly open or import model files** on the welcome page or when editing the scen&#x65;**.**
 2. **Through livesync plugin D5 Converters**, establish a connection between modeling software and D5 Render.
@@ -42,7 +42,7 @@ In addition, D5 Assets Library contains various high-quality models such as vege
 
 ### 1. Open files from D5 Launcher to start a new scene
 
-![](/files/GFa0t77WkGrwMMHemZsi)
+
 
 From D5 Launcher, you can select "Open" to select a model file directly to create a D5 scene file. If the model contains cameras or scene data, they will be imported into D5's scene list as well.
 
@@ -50,7 +50,7 @@ Models imported in this way default to coordinates of 0,0,0 and are locked by de
 
 ### 2. Use the Import button when editing scenes
 
-<div align="left"><figure><img src="/files/uPvzYjPjs9iTAjpoRwZ3" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 When editing scene files, we can also use the Import button at the top left corner then select files needed to be imported.
 
@@ -66,7 +66,7 @@ Go to D5 Assets Library (online) > Model to select models for downloading. After
 
 After installing D5 Converter add-on for modeling software, we can start live sync to send models to D5 or export the model files in .d5a format.&#x20;
 
-<mark style="background-color:purple;">Currently supported workflow for D5 Converters :</mark>
+**Currently supported workflow for D5 Converters :**
 
 1. SketchUp&#x20;
 2. Rhino
@@ -94,7 +94,7 @@ Models opened from the welcome page are in a locked state by default in the scen
 
 Models imported when editing scenes are unlocked by default, and clicking on them will select the models instead of materials. We can use the material selection tool at the top left corner (material picker) to select the materials. Alternatively, we can lock the model and then click to select the material.
 
-<div align="left"><figure><img src="/files/2ZGRkb80qJLhphXlsbxj" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

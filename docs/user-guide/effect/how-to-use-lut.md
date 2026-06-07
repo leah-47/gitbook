@@ -11,21 +11,21 @@ fetched: 2026-06-07
 1. The LUT function is turned off by default. Enabling the switch will use the D5's default LUTs.&#x20;
 2. There are five D5 default LUTs, which can be switched in the drop-down menu to correspond to different colour representations.
 
-<figure><img src="/files/gKc01JWGtbCBnenQ8148" alt="" width="563"><figcaption></figcaption></figure>
+
 
 3. Click "+Custom LUT" in the drop-down menu to import a 3D LUT file in .cube format.
 
-<figure><img src="/files/C4dDBHvpSuEmakOiTa3S" alt=""><figcaption></figcaption></figure>
+
 
 > TIPS:
 >
 > Custom imported LUT files will be saved to the "customlut" folder under the Workspace path of D5 Render, click on the folder icon to quickly access this path to manage custom LUT files:
 
-<figure><img src="/files/MeRmqQNNlTLjjHlrNJpA" alt=""><figcaption></figcaption></figure>
+
 
 4. You can switch between "Default" and "Custom" categories in the drop-down menu:
 
-<figure><img src="/files/1yOcTczJHGIk1TbfhNAR" alt=""><figcaption></figcaption></figure>
+
 
 ## Intensity&#x20;
 

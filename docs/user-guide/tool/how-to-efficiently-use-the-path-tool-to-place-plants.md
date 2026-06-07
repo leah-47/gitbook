@@ -16,7 +16,7 @@ Supports adding models to the Path from:
 
 **Supports saving path combinations:** Users can save the whole path + model combination to the Local library or Team library, and enable as the preset in Studio to improve reuse efficiency.
 
-<figure><img src="/files/Ail79mvKAcKgdjcgVBcr" alt=""><figcaption></figcaption></figure>
+
 
 **Types which are unsupported:**
 
@@ -36,7 +36,7 @@ Select the "Tools" -> "Paths" function from the navigation bar, click on it and 
 
 3. **Each control point can set the type individually.** The control points support multiple selection Ctrl box selection and full selection Ctrl+A adjustment.
 
-| ![](/files/O4ftKvBlBMbtm20Pw91z) | ![](/files/tjk4hUx8hboGiUfe1qha) |
+|  |  |
 | :------------------------------: | :------------------------------: |
 
 ## Basic edit
@@ -49,7 +49,7 @@ Select the "Tools" -> "Paths" function from the navigation bar, click on it and 
 
 3. The basic parameters include position and rotation, which can also be adjusted with the scene tools. Paths do not support resizing.
 
-<div align="center"><figure><img src="/files/rnoz8VoQ9VEghsr8aha2" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 ## Parameter adjustment
 
@@ -60,7 +60,7 @@ Used to adjust the distribution of plant models on the path.
 * Once a model is selected and the drawing is complete, the models along the path appear as a list in the right-hand sidebar. Users can add, delete, or replace items, allowing design changes at any stage.
 * Scale, rotation, and zoom parameters for these objects can be adjusted independently, providing precise control over each element in the path.
 
-<figure><img src="/files/GNgHSitqVVbAGy5yyJUc" alt=""><figcaption><p>Adjust models independently</p></figcaption></figure>
+
 
 ### Alignment
 
@@ -82,7 +82,7 @@ In this case, a corresponding number of models will be generated within the path
 
 **The "Random Direction"** is based on the existing rotational position, and then the rotational direction of each model is randomly varied.
 
-<div align="left"><figure><img src="/files/N1Z1vggUqOaXJeiVuRWL" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Random spacing and Random Offsets
 
@@ -90,7 +90,7 @@ In this case, a corresponding number of models will be generated within the path
 
 The offset distance is the actual offset value, known as the "random maximum offset", in metres (m), and the maximum value must not exceed the path length.
 
-<div align="left"><figure><img src="/files/TUiXU1iD75HzCUZ23Whr" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Size and random size
 

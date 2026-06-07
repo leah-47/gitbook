@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 The UVs of the material are currently divided into two parts: the individual UVs of the parameter maps and the overall UVs of the material.
 
-<div align="left"><figure><img src="/files/8IePbItushJPnhTcbjaF" alt=""><figcaption></figcaption></figure> <figure><img src="/files/nVqbrQE2uJoo1bYgSI3V" alt=""><figcaption></figcaption></figure></div>
+<div align="left"> </div>
 
 Individual UVs for each parameter enable the mapping in this field to have separate UVs, independent of the overall UVs. can be further stretched, offset, rotated, and can also be repaired using triplanar.
 
@@ -30,9 +30,9 @@ Rotate the texture map on a plane with controls ranging from 0-360°.
 
 Enable this option to keep the texture shape of the material map from deformation after non-isometric scaling and rotating UVs.
 
-<div align="left"><figure><img src="/files/rRGeL6BxyW8JjN4JEsiB" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/H4c1og7kj6amgIl71tgY" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Triplanar
 
@@ -40,7 +40,7 @@ For models with complex morphology and UV clutter, this option can be turned on 
 
 > Water, Flowing Water, Displacement, Multimedia, Foliage, and Grass material templates do not support this feature.
 
-<figure><img src="/files/ajlJJ8WoUj3Td4Wum3FN" alt=""><figcaption></figcaption></figure>
+
 
 ## Blend Amount
 
@@ -50,9 +50,9 @@ Let the textured seams created by Triplanar blend together.
 
 Used to rotate and blend edge textures to avoid a repetitive feel to the texture, for use in scenarios with **natural ground surfaces such as water and grass**.
 
-> Currently, this feature <mark style="background-color:purple;">**is not supported for Transparent, Flowing Water, Displacement, Multimedia, and Foliage material templates**</mark>.
+> Currently, this feature ****is not supported for Transparent, Flowing Water, Displacement, Multimedia, and Foliage material templates****.
 
-<figure><img src="/files/yaeoZBgE3mP2airEXFCe" alt=""><figcaption></figcaption></figure>
+
 
 ## Common issue
 

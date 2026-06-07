@@ -17,7 +17,7 @@ fetched: 2026-06-07
 
 ### Download exe
 
-<mark style="background-color:purple;">Download URL :</mark> [<mark style="background-color:purple;">Download | D5 Render</mark>](https://www.d5render.com/download)
+**Download URL :** [**Download | D5 Render**](https://www.d5render.com/download)
 
 You can download the latest version of the plugin at the above URL.&#x20;
 
@@ -27,7 +27,7 @@ You can download the latest version of the plugin at the above URL.&#x20;
 
 ## Feature Introduction
 
-<div align="left"><figure><img src="/files/ZroiuTjhth6k30T1ClT6" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Connect to D5 Render
 
@@ -55,11 +55,11 @@ Click the "Light toolbar" button will call out the D5 Light panel of the plugin.
 
 ### Settings
 
-<div align="left"><figure><img src="/files/sG7tNq8a8txAjs1EQtYh" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-* <mark style="background-color:purple;">**Texture Folder**</mark>\
+* ****Texture Folder****\
   Customise the storage location of all texture resources used by the current SketchUp file.
-* <mark style="background-color:purple;">**Sync structure of light component**</mark>
+* ****Sync structure of light component****
 
 |                   | **No Sync**                                                                                               | **Sync**                                                                                                              |
 | ----------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -75,14 +75,14 @@ Click the "Light toolbar" button will call out the D5 Light panel of the plugin.
 
 ### Export
 
-<mark style="background-color:purple;">Supports exporting grouped models from .skp files as .d5a models.</mark>
+**Supports exporting grouped models from .skp files as .d5a models.**
 
 > Note: The efficiency of the exported file is affected by the file size, components and number of faces.
 
 * The export supports exporting **all or only selected** objects.
 * The **default** export is one layer of group structure, and **the maximum of two layers** is supported.
 
-<div align="left"><figure><img src="/files/WVjhcuuJ1sEgOpsXWtTX" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## FAQ
 
@@ -102,9 +102,9 @@ Yes, just open the scene in D5, click the "Connect to D5 Render" button of the p
 
 This is possible.&#x20;
 
-If you want to use D5 2.4 to open the scene created by real-time sync plugin and D5 2.5 version, you need to open the scene in D5 2.5. <mark style="background-color:purple;">Select the live sync skp model in the resource list, right click, select "Non-Live sync mode"</mark>, save the D5 scene and open it with D5 2.4.
+If you want to use D5 2.4 to open the scene created by real-time sync plugin and D5 2.5 version, you need to open the scene in D5 2.5. **Select the live sync skp model in the resource list, right click, select "Non-Live sync mode"**, save the D5 scene and open it with D5 2.4.
 
-<figure><img src="/files/fykG0lHeh9hRWcFaxIQh" alt=""><figcaption></figcaption></figure>
+
 
 ### Q5 : Is it possible to use the (non-real-time) sync plugin to continue to link a scene created with D5 2.5 with the real-time sync plugin?
 
@@ -115,7 +115,7 @@ Yes. You can use real-time sync plugin with D5 2.5 to create the scene, if you n
 During the process of using the real-time sync plugin, could the materials modified in D5 be reverted to the materials in SketchUp?\
 You need to select the material in SketchUp and click create material, rename the material name and apply the material. Then the material in D5 will revert to the material in SketchUp.
 
-<div align="left"><figure><img src="/files/2CsJcc7QmFz0asAmia1o" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

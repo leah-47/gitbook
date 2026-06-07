@@ -25,7 +25,7 @@ Also, D5 rendering pipeline is based on DX12 and DXR. Therefore, your computer s
 
 A configuration check is performed at the first launch of the software to ensure that the hardware and system configuration is up to standard for a smooth rendering experience.
 
-![](/files/-MkcnC8NeiyJr7KwtAfx)
+
 
 ***
 
@@ -53,22 +53,22 @@ After downloading the installation package, the download and installation proces
 * You can select the workspace directory in the installation interface to choose the location for storing assets, local resources, and temporary files in advance.
 * In the permissions settings, you can choose to install for the current user only or use administrator permissions to install for all users.
 
-<figure><img src="/files/7KxRWJAxTtEm7bOHgxy4" alt="" width="488"><figcaption></figcaption></figure>
+
 
 **D5 Render:**
 
 * Open D5 Launcher.
 * Click the download button on D5 launcher homepage, select the download location, download and install.
 
-<figure><img src="/files/6zcFshTQnp1eQcjLiWPy" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="/files/z7YsZvFFHAECNBOkx6UB" alt="" width="563"><figcaption></figcaption></figure>
+
+
 
 #### What is D5 Launcher?
 
 In version 2.11, we introduced the all-new **D5 Launcher**. After upgrading, the original welcome page will be replaced by this independent launcher. When you open a D5 scene, the launcher will automatically minimize to your system tray. This ensures it won't interfere with your workflow, but it can be called up for use at any time.
 
-<figure><img src="/files/cwUq6VyiKQiV3Kz9tNqx" alt="" width="563"><figcaption><p>D5 Launcher</p></figcaption></figure>
+
 
 **Home**
 
@@ -86,7 +86,7 @@ In version 2.11, we introduced the all-new **D5 Launcher**. After upgrading, the
 
 ● Through the D5 Launcher, you can now **log in, download, install, and update services.** It also lets you quickly **start new rendering projects**, access your **recent or all projects**, and get the latest **tutorials, demo scenes, news, and event information.**
 
-<figure><img src="/files/Dggg7NsHAdOBfFxuvMNQ" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -94,7 +94,7 @@ In version 2.11, we introduced the all-new **D5 Launcher**. After upgrading, the
 
 D5 Works is a 3D platform for architecture, landscape and interior design professionals, designed to help creators efficiently access and manage high-quality resources.
 
-<figure><img src="/files/fOJpswOfRLHky3pKGZXp" alt=""><figcaption></figcaption></figure>
+
 
 **Online Library:**
 
@@ -114,7 +114,7 @@ D5 Works is a 3D platform for architecture, landscape and interior design profes
 
 * Focus on viewing the list of favorite and purchased assets (including free assets) for convenient calling.
 
-<figure><img src="/files/10EMfb572ACge7gxLvqb" alt=""><figcaption></figcaption></figure>
+
 
 > 💡Tip:
 >
@@ -128,13 +128,13 @@ D5 Works is a 3D platform for architecture, landscape and interior design profes
 * You can **view and access all your projects** within the project interface.
 * The **Project menu** also offers a **project merge function** (this is a Professional access feature).
 
-<figure><img src="/files/UyWlOWtNyxA27wrejGdC" alt="" width="563"><figcaption></figcaption></figure>
+
 
 **Setting**
 
 In the settings menu, you can set parameters related to D5 launcher.
 
-<figure><img src="/files/riyS9OpECImfVIPAjUwx" alt="" width="563"><figcaption></figcaption></figure>
+
 
 > Note: Renderer-related parameters need to be set in the renderer.
 
@@ -142,13 +142,13 @@ In the settings menu, you can set parameters related to D5 launcher.
 
 The **Help menu** provides links to D5 Render's official accounts, the Help Center, and the official forum. From here, you can also collect logs and view system information.
 
-<figure><img src="/files/SAkQXmHvzETyT6Mpzx1e" alt=""><figcaption></figcaption></figure>
+
 
 **Account**
 
 **Log in to your D5 account** via the bottom-left of the window; once logged in, you'll be able to **view your account status.**
 
-<figure><img src="/files/k4ZwDkHPjM6QgXvjznBa" alt=""><figcaption></figcaption></figure>
+
 
 ***
 

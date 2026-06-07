@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Character Path
 
-## Draw Path <a href="#draw" id="draw"></a>
+## Draw Path 
 
 Select the Character Path tool, click it and select a model from the library. Up to 18 models can be added to the Character Path.
 

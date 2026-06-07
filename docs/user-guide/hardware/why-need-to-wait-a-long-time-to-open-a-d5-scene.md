@@ -11,7 +11,7 @@ Since some files need to be compiled when starting D5 for the first time, the fi
 > **Warning:** Due to compilation reasons, if the windows system is named Chinese and other non-English name each time you open D5 may need to wait a long time (which is related to windows system dx12), it is recommended to create a new English user account and use this account to log in windows and run the software.
 
 
-<figure><img src="/files/VIV9wN9aeo7PmDvELORI" alt=""><figcaption><p>Initializing</p></figcaption></figure>
+
 
 
 ---

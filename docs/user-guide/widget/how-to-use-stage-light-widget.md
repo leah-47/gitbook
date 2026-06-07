@@ -14,7 +14,7 @@ How to use Stage Light
 
 * Go to **Menu > Preference > Widget** , and you can check what you have installed, click to toggle on/off and manage your widgets.
 
-<figure><img src="/files/TC3jtagAD9PCQVTm3RxA" alt=""><figcaption><p>Stage Light</p></figcaption></figure>
+
 
 * Gobo: Choose preset Gobo or upload customized Gobo.
 * Intensity: The luminous intensity of the light source, the unit is lm, the maximum brightness can be input 8000000.
@@ -26,16 +26,16 @@ How to use Stage Light
 * Number: Control the number of split lights.
 * Color: Control the lights' color.
 
-### FAQs <a href="#toc-h2-faq" id="toc-h2-faq"></a>
+### FAQs 
 
-#### 1.Why is it invalid to adjust the Haze parameter for Stage Light? /How to realize the beam light effect? <a href="#header-1" id="header-1"></a>
+#### 1.Why is it invalid to adjust the Haze parameter for Stage Light? /How to realize the beam light effect? 
 
 Turn on Fog and Tindal in the Environment panel, then can get the beam light effect, and the change of Haze parameter is also visible in real time.
 
 > **Warning:** In order to make other fill light sources not affected by the Tindal effect, the Fog parameter in the Environment panel does not need to be too high, just increase the Haze parameter of the Stage Light.
 
 
-#### 2. Why the Stage Light effects become abnormal? <a href="#header-2" id="header-2"></a>
+#### 2. Why the Stage Light effects become abnormal? 
 
 The maximum number of the Stage Light/Projector is 64, if it exceeds the change limit it may cause abnormal preview or output effect.
 
@@ -43,7 +43,7 @@ By default, the maximum number of volumetric lights is 32. This can be adjusted 
 
 **Preference > Rendering > Detailed Stage Light Beam Quantity Limit.**
 
-<figure><img src="/files/BRbLPLTI4hUykKef28of" alt="" width="476"><figcaption></figcaption></figure>
+
 
 If the duplicated stage lights randomly display abnormal effects (such as faded colours), this may be related to the light beam detail restrictions. Try increasing the ‘Max Detailed Beams’ value for 'Detailed Stage Light Beam Quantity Limit'.
 
@@ -52,11 +52,11 @@ If the duplicated stage lights randomly display abnormal effects (such as faded 
 > * This setting follows the current project.
 > * The higher this value, the richer the number of lights and details rendered on screen. However, this also leads to increased graphics memory and performance consumption. It's recommended to set it reasonably, based on your project's requirements and hardware performance, to balance visual effect and rendering efficiency.
 
-#### 3. Why the specular reflection Stage Light/Projector effect is not shown in the rendering result? <a href="#header-3" id="header-3"></a>
+#### 3. Why the specular reflection Stage Light/Projector effect is not shown in the rendering result? 
 
 This effect is not supported in the current version and will be supported in subsequent versions.
 
-<figure><img src="https://saas.bk-cdn.com/t/18217684-957c-4109-9021-5866cc58cc60/u/10a66288-31af-4b72-adee-8249db06c5f0/1707188011317/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png" alt=""><figcaption><p>Preview and output effect of the current version of Mirror Reflection Stage Light/Projector</p></figcaption></figure>
+
 
 
 ---

@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 Lowpoly assets have three types: characters, plants, and vehicles.
 
-<figure><img src="/files/Mi6cAFULZGAB7ovIrE8j" alt=""><figcaption></figcaption></figure>
+
 
 You can customize their colors and maps on the right sidebar. Lowpoly assets support Silouhette.
 
-<figure><img src="/files/iXgOqRPp5heVAU574p4w" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

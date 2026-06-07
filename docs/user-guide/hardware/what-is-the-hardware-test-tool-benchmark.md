@@ -14,7 +14,7 @@ Benchmark Tool Package contains 343MB of test tool programs and test scene files
 
 > Note: To ensure that the program runs smoothly, please make sure to reserve 1GB of space on your C drive.
 
-<figure><img src="/files/6HlxprhQFlwjj6LlTcJb" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -18,7 +18,7 @@ If multiple members need to edit a project simultaneously, you can convert it in
 
 Multiple worksets make up a central file, allowing multi-editor editing.&#x20;
 
-<figure><img src="/files/fCesEFV5RCvI6KGYh4QF" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

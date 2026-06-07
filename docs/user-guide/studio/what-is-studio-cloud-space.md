@@ -10,7 +10,7 @@ D5 Studio is a cloud workspace in D5. In D5 Studio, users can precipitate person
 
 In the upper left corner of the interface, next to the assets library, there is a new entry for D5 Studio.
 
-<figure><img src="/files/ic0QvEibAFnyOXT9fXhK" alt=""><figcaption></figcaption></figure>
+
 
 Studio currently supports Effect, Brush, Path and Scatter presets.&#x20;
 
@@ -21,19 +21,19 @@ Studio currently supports Effect, Brush, Path and Scatter presets.&#x20;
 
 In the right-click menu of the scene list, select "Create Preset", fill in the preset name, you can store the environment and post parameters of the current scene as a preset in Studio. The same preset parameters can be reused in other projects with one click, just open Studio, click the preset, and then you can apply the effect to a new scene.
 
-<figure><img src="/files/xLGCtSB6TRBsh4yTwEzd" alt=""><figcaption></figcaption></figure>
+
 
 ## Brush preset
 
 In the Brush toolbar in the lower left corner of the assets library, you can save the set brush parameters to Studio.
 
-<figure><img src="/files/Ca9BzFx6HpdBMOz53BuE" alt=""><figcaption></figcaption></figure>
+
 
 ## Path preset
 
 Select the corresponding path in the scene or resource list, and click the "Create Preset" button in the right sidebar of the Path tool to record the parameters of the current path.
 
-<figure><img src="/files/GqfjaqqAGymJLsbZiVrk" alt=""><figcaption></figcaption></figure>
+
 
 ## Scatter preset
 
@@ -47,13 +47,13 @@ After selecting the scatter area, you can see its parameters on the right-side p
 
 Double-click on a ‘Scatter Preset’ to apply it. Choose the desired material/model to generate the scatter area.
 
-<figure><img src="/files/6UeAUWht0IJF0DSFGuDI" alt=""><figcaption></figcaption></figure>
+
 
 ## D5 Curated
 
 D5 Curated is an independent section in D5 Studio, which contains preset resources created by a group of excellent designers and design teams invited by D5. D5 Curated will be updated continuously to help users create high-quality scenes with ease.
 
-<figure><img src="/files/Y9skdEUDKYV9bKkUQaML" alt=""><figcaption></figcaption></figure>
+
 
 > **Info:** **Note**
 

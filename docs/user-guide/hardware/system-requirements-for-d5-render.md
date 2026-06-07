@@ -20,7 +20,7 @@ D5 Render’s real-time raytracing technology is built on DXR of Windows systems
 | AMD Radeon™            | RX 7900 XTX、RX 6950 XT、RX 6900 XT、RX 6800 XT、RX 6800、RX 6750 XT、RX 6700 XT、RX 6650 XT、RX 6600 XT、RX 6600、RX 6600M、RX 6500 XT、RX 6400、 PRO W6800、PRO W6600                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Intel(R) Arc™ A3/A5/A7 | A770 (16 GB)、A770 (8 GB)、A750、A380、A310、A550M、A770M、A730M 、A370M、A350M                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-### Please upgrade the graphics card driver to the latest version <a href="#header-1" id="header-1"></a>
+### Please upgrade the graphics card driver to the latest version 
 
 Graphics driver updates usually fix certain bugs, or optimize certain algorithms for the hardware.
 
@@ -31,7 +31,7 @@ D5 team works with the NVIDIA technical team to maximize the potential of RTX. T
 * AMD driver download website: [AMD Drivers and Support | AMD ](https://www.amd.com/en/support)
 * Other GPU providers
 
-### Please upgrade your system to Windows 10 v1809 or higher <a href="#header-2" id="header-2"></a>
+### Please upgrade your system to Windows 10 v1809 or higher 
 
 D5 Render’s real-time raytracing technology is built on DXR of Windows systems, and Windows systems have supported DX12 since Windows 10 v1809.
 
@@ -46,9 +46,9 @@ D5 Render’s real-time raytracing technology is built on DXR of Windows systems
 
 ***
 
-### FAQs <a href="#header-3" id="header-3"></a>
+### FAQs 
 
-#### 1. Why can not pass the hardware detection after updating to 2.5? <a href="#header-4" id="header-4"></a>
+#### 1. Why can not pass the hardware detection after updating to 2.5? 
 
 1. Graphics Card Driver:
 

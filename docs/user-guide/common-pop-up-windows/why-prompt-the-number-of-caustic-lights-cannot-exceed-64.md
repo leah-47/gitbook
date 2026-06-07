@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why prompt 'The number of caustic lights cannot exceed 64'?
 
-<figure><img src="/files/NJxjxPdsRQMhARTNz7X6" alt=""><figcaption><p>Caustic Lights</p></figcaption></figure>
+
 
 Currently a maximum of 64 light sources are supported with the Caustic effect turned on at the same time.&#x20;
 

@@ -12,7 +12,7 @@ Set the Scenes：
 * The scene list supports Ctrl (add) and Shift (select) multi-select operations, **and supports adding multi-selected scenes to the render queue with a single click**.
 * Multi-selected scenes can be added directly to the render queue. Each scene will retain its own rendering parameters. **It is also available to batch adjust the rendering parameters such as scene size, format, channel map, etc. after multi-selecting, and then batch add them to the render queue.**
 
-<figure><img src="/files/ZdzDzrkTdOUWmbBw1eav" alt=""><figcaption></figcaption></figure>
+
 
 ## FAQs
 
@@ -36,7 +36,7 @@ After filtering rendering tasks of the same type, you can adjust image/video par
 > 1. *Batch modification of parameters is **not supported when images and videos are selected at the same time**.*
 > 2. *Batch rendering does **not support right-clicking on preview thumbnails to make modifications after multiple selections**.*
 
-<figure><img src="/files/mKYbch9WdkBVBRHLx2Wu" alt=""><figcaption><p>Render queue</p></figcaption></figure>
+
 
 
 ---

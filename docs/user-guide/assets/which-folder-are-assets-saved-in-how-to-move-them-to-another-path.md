@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 ## Which folder are assets saved in?
 
-<mark style="background-color:purple;">The "Workspace" feature allows you to set the storage location for online assets, local resources, and custom HDR / LUT / IES files and some temporary files.</mark>&#x20;
+**The "Workspace" feature allows you to set the storage location for online assets, local resources, and custom HDR / LUT / IES files and some temporary files.**&#x20;
 
 1. **The downloaded online footage** is saved in the workspace path by default;
 2. **Local Material Library-Model** is saved in Workspace\Model, and **Local Material Library-Material** is saved in "Workspace\Material".&#x20;
-3. **If you have migrated your footage**, \ <mark style="background-color:blue;">**\[Versions earlier than 2.11]:**</mark> you can find the path of the migrated file **in the "menu bar - Preferences" in the upper left corner of the software**, under the "D5 WorkSpace\content" folder in the selected folder.\ <mark style="background-color:blue;">**\[Versions 2.11 and later]:**</mark> you can find the path of the migrated file in **D5 Launcher-"Setting - Workspace",** under the "D5 WorkSpace\content" folder in the selected folder.
+3. **If you have migrated your footage**, \ ****\[Versions earlier than 2.11]:**** you can find the path of the migrated file **in the "menu bar - Preferences" in the upper left corner of the software**, under the "D5 WorkSpace\content" folder in the selected folder.\ ****\[Versions 2.11 and later]:**** you can find the path of the migrated file in **D5 Launcher-"Setting - Workspace",** under the "D5 WorkSpace\content" folder in the selected folder.
 
 ## How to migrate the assets from the installation directory to another location?
 
@@ -23,9 +23,9 @@ In **D5 Launcher-"Setting - Workspace"** or **''Menu'' > ''Preference''** settin
 * **Current Location**: the location where current assets are stored, if there is no change, it will be under the installation path of the software by default.
 * **Change Location**: Select a new storage location and migrate existing assets. Migration will take some time, please be patient if there are many local resources.
 
-<div align="center" data-full-width="true"><figure><img src="/files/0cBmkEnfAyoi3wXuaaFH" alt="" width="485"><figcaption><p><mark style="background-color:blue;"><strong>Versions earlier than 2.11</strong></mark></p></figcaption></figure></div>
+<div align="center" data-full-width="true"></div>
 
-<figure><img src="/files/JzbCc4aJ2Gg11wB1TcsL" alt="" width="563"><figcaption><p><mark style="background-color:blue;"><strong>Versions 2.11 and later---In Launcher</strong></mark></p></figcaption></figure>
+
 
 
 ---

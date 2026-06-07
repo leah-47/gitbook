@@ -20,7 +20,7 @@ In Preference > Rendering, users can enable ''Legacy D5 GI Compatible Mode''.
 > 1. After comprehensive evaluation, due to performance issues, AMD graphics cards are currently not supported for real-time ray tracing in the current version. This option is invisible.
 > 2. The GI scheme selection follows the client settings. If you enabled the "Real-Time Path Tracing (Experimental)" option in the previous version, updating to the new version through the client will result in the "Legacy D5 GI Compatible Mode" option remaining disabled by default in Preference.
 
-<figure><img src="/files/AritQAgbpbECRaKA5FLh" alt=""><figcaption></figcaption></figure>
+
 
 ## 2. Display - Accumulation\&Custom Settings
 
@@ -53,9 +53,9 @@ When enabled, pixel samples will be accumulated until the real-time preview qual
 * **SPP:** Determines the number of times each pixel is sampled. Increasing the value helps optimize artifacts in challenging areas and enhance details but will also increase the rendering time.
 * **Roughness limit:** The roughness of the material used in the calculation has an upper limit that can be adjusted. The default value is 0.5. Setting a higher value for this limit will result in more accurate accumulation and rendering, ensuring consistency between the preview and the final output.
 
-<figure><img src="/files/HzBe4LL1Z9fEU6g6gDnv" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/fRUOLqixpbUv0z7jEtSA" alt=""><figcaption></figcaption></figure>
+
+
 
 ## 3. Major changes in the new GI
 
@@ -67,7 +67,7 @@ The new GI solution has improved both quality and precision. It utilizes path tr
 >
 > &#x20;In version 2.9 of the preview viewport, the floor did not accurately render highly reflective objects, appearing inaccurate and blackish. In version 2.10, the metal floor appears correct reflection effects.
 
-<figure><img src="/files/nNMgFdckHutGLCUgq3yP" alt=""><figcaption></figcaption></figure>
+
 
 ### 3.2 Optimized GI bouncing details
 

@@ -6,21 +6,21 @@ fetched: 2026-06-07
 
 # Update | D5 LiveSync for Vectorworks
 
-#### Ver: 1.2.0.0012 <a href="#toc-h3-ver-1000034" id="toc-h3-ver-1000034"></a>
+#### Ver: 1.2.0.0012 
 
 `Release date: 20251105`
 
-#### New <a href="#new-2" id="new-2"></a>
+#### New 
 
 1. Supports Vectorworks 2026
 
 ***
 
-#### Ver: 1.1.1.0035 <a href="#toc-h3-ver-1000034" id="toc-h3-ver-1000034"></a>
+#### Ver: 1.1.1.0035 
 
 `Release date: 20240912`
 
-#### Fixes and Improvements <a href="#toc-h3-fixes-and-improvements" id="toc-h3-fixes-and-improvements"></a>
+#### Fixes and Improvements 
 
 1. Occasional plugin crashes on certain Windows 11 systems
 2. Sync crashes caused by mismatched UV size and point data
@@ -31,15 +31,15 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver: 1.1.0.0016 <a href="#toc-h3-ver-1000034" id="toc-h3-ver-1000034"></a>
+#### Ver: 1.1.0.0016 
 
 `Release date: 20240912`
 
-#### New <a href="#new-2" id="new-2"></a>
+#### New 
 
 1. Supports Vectorworks 2025
 
-#### Fixes <a href="#toc-h3-fixes" id="toc-h3-fixes"></a>
+#### Fixes 
 
 1. Abnormal sync issues between light name and Custom Light (IES)
 2. Abnormal material sync issues between mirrored Object and Symbol
@@ -47,11 +47,11 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver: 1.0.0.0034 <a href="#toc-h3-ver-1000034" id="toc-h3-ver-1000034"></a>
+#### Ver: 1.0.0.0034 
 
 `Release date: 20240703`
 
-#### New <a href="#new-2" id="new-2"></a>
+#### New 
 
 1. Supports Vectorworks 2024, D5 Render 2.7 and later versions
 2. Supports LiveSync of models to D5
@@ -60,7 +60,7 @@ fetched: 2026-06-07
 5. Supports LiveSync of viewports between Vectorworks and D5
 6. Supports ‘Active Only’ for Class/Layer
 
-#### Known Issue <a href="#known-issue-3" id="known-issue-3"></a>
+#### Known Issue 
 
 1. Only supports Perspective view
 2. Currently, lights only support Point Light, Spot Light, and Custom Light (IES Light).

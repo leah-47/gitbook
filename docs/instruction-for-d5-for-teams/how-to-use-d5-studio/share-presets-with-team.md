@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 You can share data of either a single preset or an entire folder with team members. In either case, the shared data will be copied to the designated team folder.
 
-<div align="left"><figure><img src="/files/SRGaEJxaIHuuk3dZVymu" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/1ekI514lP0g2XUtW0ml5" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/lZwm1ALzINocgyJh3ASH" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Permissions for team roles
 

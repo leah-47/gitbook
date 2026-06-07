@@ -10,7 +10,7 @@ D5 Render offers five distinct light source types: Point Light, Spotlight, Strip
 
 These can be placed in your scene either by clicking their corresponding icons in the navigation bar or by using the shortcut keys 1, 2, 3, 4, and 5, respectively, for quick placement.
 
-<figure><img src="/files/3ntrZu6Cm40PHdxwrGV4" alt=""><figcaption></figcaption></figure>
+
 
 ## Overview of light source types
 

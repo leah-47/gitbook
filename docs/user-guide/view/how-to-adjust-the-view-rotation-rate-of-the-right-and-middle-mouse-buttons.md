@@ -20,9 +20,9 @@ Mouse sensitivity determines how the distance the user drags the mouse influence
 
 Right-click on the D5 Render icon and select 'Open File Location'. Use the Notepad to open the config.ini file in the file location and check the Config Path value:
 
-<div align="left"><figure><img src="/files/YyN2MfTWciXyFvPE5J35" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/cFTIEGxAAkdWThjU8nU3" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### Step Two:
 
@@ -34,9 +34,9 @@ If you can't find it, please go to File > View and check 'Hidden Items'.
 
 After opening the correct file, click the usr file and open its usr.ini file with Notepad.
 
-<div align="left"><figure><img src="/files/DwK5rFIsLrsfpYSN8C8E" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<div align="left"><figure><img src="/files/uol532IGU6r0HWO6PVRN" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### tep Four:
 

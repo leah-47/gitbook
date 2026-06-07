@@ -12,7 +12,7 @@ Sync Revit with D5
 
 [*Download the demo scene for free*](https://forum.d5render.com/t/scene-express-vol-141-revit-d5-workflow-tutorial-demo-scene/12005)
 
-## Download & Installation <a href="#toc-h2-download-installation" id="toc-h2-download-installation"></a>
+## Download & Installation 
 
 Double click on the .exe file after the download, and follow the notifications to install [D5 Sync for Revit](https://d5converter.d5cdn.com/installer/revit/latest/D5_Sync_Revit_usa_latest.exe)
 
@@ -20,7 +20,7 @@ Learn more about [D5 Render for Revit](https://www.d5render.com/post/d5-render-f
 
 Download [D5 Render](https://www.d5render.com/download)
 
-#### Supported versions <a href="#toc-h1-supported-versions" id="toc-h1-supported-versions"></a>
+#### Supported versions 
 
 Revit 2018.3 - Revit 2026
 
@@ -34,13 +34,13 @@ Revit 2018.3 - Revit 2026
 
 #### Model/Material/Scene/Light Sync
 
-<figure><img src="/files/F7Q3HEx1dfk6rqdM6moe" alt="" width="563"><figcaption><p>Model/Material/Scene/Light Sync</p></figcaption></figure>
+
 
 * After being modified in Revit, use the Sync button to quickly synchronize the modified model and materials to D5 Render, and keep the materials, scenes and other parameters that have already been adjusted in D5 Render.
 * Support one-click synchronization of Revit scenes to the D5 Render scene list.
 * Support to exclude the categories that don't need to be synchronized by categories. You can also think of separating categories such as Furniture, Furniture System, and Generic Models through the settings menu, that will make it also easier for you to control the visibility of those categories when you are rendering exteriors or interiors.
 
-<figure><img src="/files/QADv9eRTSiDZpUlcT3nT" alt="" width="252"><figcaption><p>Categories setting</p></figcaption></figure>
+
 
 * Support Sync family lights to D5 light.
 
@@ -49,7 +49,7 @@ Revit 2018.3 - Revit 2026
 * Synchronizing linked models in Revit to D5.
 * In huge projects with many links, each link is automatically separated in D5, making it easy to control what’s visible or what’s not, it also gives flexibility to move around the model while turning off some unneeded links.
 
-<figure><img src="/files/iDFF7IOaHZDOf1ZgOScc" alt=""><figcaption><p><strong>Sync Linked Model</strong></p></figcaption></figure>
+
 
 #### **View Sync**
 
@@ -90,7 +90,7 @@ The material is exported with Revit mapping before it is turned on, and it is co
 
 #### **Export .d5a file**
 
-<figure><img src="/files/71OHca8lieNpyfK9J0j5" alt=""><figcaption><p>Export</p></figcaption></figure>
+
 
 * D5 cannot read .rvt files directly, you can use D5 Converter-Revit to convert **.**&#x64;5a files, and then the files can be imported directly into D5.
 * Support export of family lights, automatically synchronized to D5 light sources.

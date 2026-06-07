@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 ## Scene shot setup
 
-<div align="left"><figure><img src="/files/SQvqqtd2o3HtETk9hgaj" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 When you have saved multiple camera views in the scene list, you can click on one of them to switch the shot. You can also click the "Rename", "Update Scene" and "Delete" buttons after the shot name to adjust the current saved shot view.
 
-<div align="left"><figure><img src="/files/wpO8dd7VDceIcN8IwTrW" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * Transition Animation is used to set whether or not to display the transition animation at the same time as the shot switch.&#x20;
 * Environment & Effect
@@ -29,7 +29,7 @@ If the scene parameters are not saved after switching shots, it is possible that
 * Copy/Paste feature: Copy and click Paste to immediately apply the environment and effect parameters saved in the scene to a different scene.
 * Create Preset: Store the Environment & Effect parameters of the current scene as a preset in Studio.
 
-<div align="left"><figure><img src="/files/TojTHn0AB87saMeAb3Yg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Create New Scene
 
@@ -44,7 +44,7 @@ When you move the viewpoint only when the scene is selected, the camera correspo
 If the screen returns to the default "God's view" when the viewpoint is moved, it is because the scene and its corresponding camera are not selected at the same time.
 
 
-<div align="left"><figure><img src="/files/QImLpkSnv7xvP4KgOLti" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Update scene shots
 
@@ -52,7 +52,7 @@ Scene shots will record the environment, post, and the current object's hidden s
 
 A purple dot indicates that it has been successfully updated.
 
-<div align="left"><figure><img src="/files/xO6fETxwZEuT7NQL8J2d" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Scene List supports group management
 

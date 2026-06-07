@@ -14,7 +14,7 @@ fetched: 2026-06-07
 
 Welcome to D5 Render! We're thrilled to have you on board and can't wait for you to explore the creative possibilities with our software. To ensure you have a smooth and enjoyable start, we've prepared this user-friendly guide just for you. Let's begin your journey to mastering D5 Render!
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4beYKNzjbPVWFSUp60wayLDG0pqTEgxVXQtl6rCUD2zw551huMxJeDaDATHE7ZrvSISRTbqhC3HxF107vb3I8Xr7-esAsns1tp9Y8wvtPAUaJyCfiIY6itOtgH71wDsaGnZs7?key=Fj3gEvh4f7dQWs61CsH4SzuA" alt=""><figcaption><p>Artist: LINK</p></figcaption></figure>
+
 
 ## Menu
 

@@ -10,7 +10,7 @@ Based on neural network super-resolution image generation algorithm and combined
 
 In Preference, turn on this Widget to enable D5 SR when the image resolution is ≥ 1440\*1440.
 
-<figure><img src="/files/Kex1NNFbjtBEVaXPXUpk" alt=""><figcaption><p>D5 SR Image Rendering (beta)</p></figcaption></figure>
+
 
 > Note:
 >

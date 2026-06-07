@@ -10,7 +10,7 @@ To improve live rendering frame rate performance on different hardware platforms
 
 **Enable Method:** Enable the ''FSR Frame Generation'' feature in the menu bar to take effect and improve the real-time preview frame rate.
 
-<figure><img src="/files/RQoF5PpaOoCJTudxN42g" alt=""><figcaption><p>FSR Frame Generation</p></figcaption></figure>
+
 
 > Note：
 >

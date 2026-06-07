@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 The default available options are 30 fps and 60 fps. To select other options like 25 fps and 120 fps, you need to turn on the Frame Rate widget from Menu > Preference > Widget. Pro users can select 24, 25, 30, 60, or 120 FPS for output in video rendering settings.
 
-<figure><img src="/files/FmIq5M6r5do8KEpuYdg5" alt=""><figcaption><p>Frame Rate</p></figcaption></figure>
+
 
 > Note: This only affects the output video’s frame rate. The preview timeline is still at a framerate of 30 FPS.
 
-<figure><img src="/files/shqcHZnJ5uiQn8T2MVfP" alt="" width="563"><figcaption><p>Frame rate of timeline </p></figcaption></figure>
+
 
 
 ---

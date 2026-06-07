@@ -10,9 +10,9 @@ fetched: 2026-06-07
 
 We currently recommend adjusting the Tessellation Quality setting to Medium or higher, and then resyncing the model. We will address this issue in a future update.
 
-<figure><img src="/files/G6aBvOrzT6ktIHVxPf8I" alt=""><figcaption><p>Effects in the current D5 version</p></figcaption></figure>
 
-<figure><img src="/files/YHR7cPuueTY2wZUB3EDp" alt=""><figcaption><p>Corresponding solution: Modify the Tessellation Quality in the plugin-Setting</p></figcaption></figure>
+
+
 
 
 ---

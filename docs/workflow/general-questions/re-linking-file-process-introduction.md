@@ -26,13 +26,13 @@ If you change the path or name of the model file, you can update the D5 project 
 1. Click the ‘Connect to D5 Render’ button in the DCC plug-in.
 2. Select the ‘Sync local Project’ mode in the pop-up window.
 
-<figure><img src="/files/iylZdoU46qCai8brE1SB" alt="" width="374"><figcaption><p>Step 1</p></figcaption></figure>
+
 
 **Select the model to replace**
 
 Tick the target model to be replaced in the popup window. (D5 materials will be inherited after replacement)
 
-<figure><img src="/files/A0QUhS5eCvFtitRx4UgQ" alt="" width="424"><figcaption><p>Step 2</p></figcaption></figure>
+
 
 Click ‘Replace and link’ to complete the synchronisation.
 
@@ -45,15 +45,15 @@ Click ‘Replace and link’ to complete the synchronisation.
 1. Open the D5 project file (.drs) and the modified model file at the same time.
 2. Click the ‘Connect to D5 Render’ button in the DCC plug-in.
 
-<figure><img src="/files/C3iCSxIXVfECKveFzHqW" alt="" width="563"><figcaption><p>Step 1</p></figcaption></figure>
+
 
 3. Select the corresponding model in the Replacement pop-up window.
 4. Tick the ‘’Light‘’ / ‘’Material‘’ options as required.
 5. Click ‘Replace and link’ to complete the synchronisation.
 
-<figure><img src="/files/gl3ntN3yjiJ6aoyiMnC5" alt="" width="424"><figcaption><p>Step 2</p></figcaption></figure>
 
-<figure><img src="/files/n5w2thcJAi9TaYQdwBd2" alt="" width="563"><figcaption><p>Replace and link logic</p></figcaption></figure>
+
+
 
 ### Option Description:
 
@@ -74,7 +74,7 @@ A：
 
 The general situation is: after entering the picture/video mode in D5, and then performing the increase or decrease model operation in DCC and transmitting new data (real-time update or manual update) to D5, this error will occur.
 
-<figure><img src="/files/rRmDWwQK7a4OMrwyRl5s" alt="" width="238"><figcaption></figcaption></figure>
+
 
 In this case, exit the picture/video mode, and then re-associate the synchronization.
 

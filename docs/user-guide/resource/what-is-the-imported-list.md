@@ -10,7 +10,7 @@ In the scene project, the imported models will be automatically added to the "Im
 
 Select Menu -> File -> Import, or click the "Import" button from the navigation bar to select the model to be imported into the scene from the local folder. When importing, you can select multiple model files to import at the same time.
 
-<figure><img src="/files/dM0Tvd2eiIn7GlLrqwhG" alt=""><figcaption></figcaption></figure>
+
 
 The list will show the import progress and status of the model. After successful import, click to place it in the scene.
 

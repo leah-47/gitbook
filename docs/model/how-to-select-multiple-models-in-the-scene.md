@@ -17,7 +17,7 @@ fetched: 2026-06-07
 >
 > If you only want to select lights in the scene, when you drag a box around them, only the lights will be selected.
 
-<div align="left"><figure><img src="/files/8NeonarmX7B6zdjQ6Sh1" alt=""><figcaption><p>Filter and Multiple Selection</p></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

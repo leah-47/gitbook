@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to use the Multimedia Material?
 
-<figure><img src="/files/DGNYZ9cXA9vODDJKOeoy" alt=""><figcaption></figcaption></figure>
+
 
 ### Transparency
 
@@ -21,7 +21,7 @@ It controls the map transparency. The larger the value, the more transparent it 
 
 * Affect Transparent ID controls whether the transparent video appears in Transparent Channel Map or not, facilitating post-processing.
 
-<figure><img src="/files/kJk9nIf1N6jvgmwN9wFu" alt=""><figcaption><p>Affect Transparent ID</p></figcaption></figure>
+
 
 ### Intensity
 

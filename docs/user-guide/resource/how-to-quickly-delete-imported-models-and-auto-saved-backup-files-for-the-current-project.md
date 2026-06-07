@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 When you need to do a quick data cleanup of the imported models and auto-saved backup files of the current project, you can go to "Menu" -> "File" -> "Clear Data" for one-click data deletion.
 
-<figure><img src="/files/8n6qYTRIr78P3lao8Sdg" alt="" width="428"><figcaption></figcaption></figure>
+
 
 
 ---

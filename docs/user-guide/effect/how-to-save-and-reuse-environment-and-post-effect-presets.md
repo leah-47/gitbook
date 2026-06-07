@@ -14,7 +14,7 @@ fetched: 2026-06-07
 > * Environment and effect presets take up D5 Studio Cloud Space:  [What is Studio Cloud Space?](../studio/what-is-studio-cloud-space.md)
 > * D5 Studio Cloud Space related rights can refer to: [Account Access to AI features](../ai/account-access-to-ai-features.md)
 
-<figure><img src="/files/mb3vKxG3fYfvYRWoUtgT" alt=""><figcaption></figcaption></figure>
+
 
 ## FAQs
 
@@ -27,7 +27,7 @@ This problem has been fixed in **CN_2.8.0.0716 & EN_2.8.0.0471 (official version
 > **Info:** The fixed version is not actively pushed to the users with abnormal version, please use the latest version of the official website as the main.
 
 
-<figure><img src="/files/l7rgLrwXLJDb1zR4p3mm" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

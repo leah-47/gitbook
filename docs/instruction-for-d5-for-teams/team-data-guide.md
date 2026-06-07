@@ -13,7 +13,7 @@ fetched: 2026-06-07
 > **Warning:** **Note:** Data update is subject to **a two-day delay**. For example, today’s view includes data only up to yesterday.
 
 
-<figure><img src="/files/5ZQDy82DTo3Ex4j8Z8YA" alt=""><figcaption></figcaption></figure>
+
 
 ### Access
 
@@ -21,7 +21,7 @@ fetched: 2026-06-07
 
 To access it:
 
-1. Sign in to MySpace using an **Owner**, **Super Admin**, or **Administrator** account. <mark style="background-color:yellow;">(Ignoring the role within his/her group)</mark>
+1. Sign in to MySpace using an **Owner**, **Super Admin**, or **Administrator** account. **(Ignoring the role within his/her group)**
 2. Click "Team Data" in the left sidebar.
 3. The dashboard will load automatically, displaying the last **30 days** of usage data by default.
 
@@ -31,7 +31,7 @@ To access it:
 
 The top section features metric cards and corresponding bar charts. Each card displays the total value and daily average for your selected timeframe.
 
-<figure><img src="/files/VmUCB1LdwGHcwZasPK6q" alt=""><figcaption></figcaption></figure>
+
 
 #### Time Range and Granularity
 
@@ -120,7 +120,7 @@ The current advanced features are listed below; data for additional advanced fea
 
 Below the key metrics, an activity heatmap provides an at-a-glance overview of your team’s daily activity throughout the year.
 
-<figure><img src="/files/ar4Yjk7WAuwubxQjpX1X" alt=""><figcaption></figcaption></figure>
+
 
 #### 1. How to Read the Heatmap
 
@@ -167,7 +167,7 @@ Access to this section is restricted to **whitelisted** teams. Please contact th
 
 Administrators can review individual performance metrics via the detailed member data table provided at the bottom of the dashboard.
 
-<figure><img src="/files/YHBC8v6eHXJmkD2RImta" alt=""><figcaption></figcaption></figure>
+
 
 #### Table Field Descriptions
 

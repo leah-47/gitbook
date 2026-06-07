@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Feature Overview
 
-<mark style="background-color:purple;">When you use in the D5 Asset Library, or import your own models, you can use shortcut keys to adjust the direction and size of the model before you place them.</mark>
+**When you use in the D5 Asset Library, or import your own models, you can use shortcut keys to adjust the direction and size of the model before you place them.**
 
 Supported model types:
 
@@ -32,35 +32,35 @@ You can also do this when you duplicate a model.
 
 ### Rotating before placing
 
-Rotation: click <mark style="background-color:purple;">the shortcut key R</mark> to adjust the orientation around the Z axis of the object. Press each point once, and the object rotates 90 degrees. Press and hold the R key and drag the mouse to circle around the object at the same time to control the rotation direction of the object.
+Rotation: click **the shortcut key R** to adjust the orientation around the Z axis of the object. Press each point once, and the object rotates 90 degrees. Press and hold the R key and drag the mouse to circle around the object at the same time to control the rotation direction of the object.
 
 ### Zooming before placing
 
-Zoom: <mark style="background-color:purple;">The shortcut key C</mark> adjusts the size of an object. Press the C key once at each point, and the object will be enlarged 1.1 times by default. Press and hold the C key and drag the mouse left and right at the same time to reduce the size of the object to the left and increase the size of the object to the right.
+Zoom: **The shortcut key C** adjusts the size of an object. Press the C key once at each point, and the object will be enlarged 1.1 times by default. Press and hold the C key and drag the mouse left and right at the same time to reduce the size of the object to the left and increase the size of the object to the right.
 
 ***
 
-## Random Placement <a href="#random-placement" id="random-placement"></a>
+## Random Placement 
 
 > Note:
 >
 > * **Random Location does not support the 'Reset' feature.**
 > * The Random feature **is not applicable to special scene resources such as procedurally-generated Vines, Path, Scatter, Light, Camera, and Section.** When you select these unsupported resources or include them in the selection, the 'Random' feature button will turn grey, indicating it's unavailable.
 
-### Random before placement <a href="#random-before-placement" id="random-before-placement"></a>
+### Random before placement 
 
-<mark style="background-color:purple;">After 2.9 version, it supports random size and random rotation effects when continuously adding assets from the Asset Library-Nature category.</mark>
+**After 2.9 version, it supports random size and random rotation effects when continuously adding assets from the Asset Library-Nature category.**
 
 > Use the **shortcut 'U'** to switch random placement on/off.
 
-### Random after placement <a href="#random-after-placement" id="random-after-placement"></a>
+### Random after placement 
 
-<mark style="background-color:purple;">Added Random Size, Rotation, and Location buttons to the right sidebar.</mark>&#x20;
+**Added Random Size, Rotation, and Location buttons to the right sidebar.**&#x20;
 
 * Supports single or multi-selection. Keep clicking to generate new random effect until you are satisfied. Custom shortcuts can be set in Preferences.
 * Use the ‘Reset’ feature to restore size and rotation parameters to their original settings.
 
-<figure><img src="/files/eSRs1L9glfV3loS3M0lR" alt=""><figcaption></figcaption></figure>
+
 
 ***
 

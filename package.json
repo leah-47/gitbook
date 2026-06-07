@@ -1,0 +1,28 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "Official documentation for [D5 Render](https://www.d5render.com/).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leah-47/gitbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leah-47/gitbook/issues"
+  },
+  "homepage": "https://github.com/leah-47/gitbook#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

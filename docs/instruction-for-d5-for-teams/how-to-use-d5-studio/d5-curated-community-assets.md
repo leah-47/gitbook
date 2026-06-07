@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 D5 Curated is a resource section in Studio, where D5 collects some amazing presets created by outstanding designers and design teams we invite. The resources in D5 Curated are continuously updated.
 
-<div align="left"><figure><img src="/files/GS6OzGatwY6IWi6RMwZz" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

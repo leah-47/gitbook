@@ -12,7 +12,7 @@ The "D5 Render" displayed in the menu bar is an older version (version 2.98), an
 
 If you need to keep only "D5", please select "Customize - Customize User Interface - Menu - D5 Converter - Delete - Save" in the menu bar to keep only "D5".
 
-<div align="left"><figure><img src="/files/3mV9DDwEXOuD4IggzbTg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## 2. Why does the D5 converter - 3ds Max export .skp files slowly?
 
@@ -60,11 +60,11 @@ Suggestions: Directly remove the falloff node, or replace it with a material lib
 
 Method 1: Click on "Windows System-Start Menu-Plugin Uninstaller-Uninstall D5 Converter for 3ds Max".
 
-<div align="left"><figure><img src="/files/uZtdhrNimFnTbm3St8xE" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Method 2: Uninstall it through "Computer-Control Panel-Programs-Uninstall a program".
 
-<figure><img src="/files/BYtdqQcP5wsyqlQBL89O" alt=""><figcaption></figcaption></figure>
+
 
 ## 7. Why does the model deviate when aligning two objects during export or snyc using the D5 Converter-3ds Max plugin?
 
@@ -80,7 +80,7 @@ Suggestion: Swap the x/y values of the model's position in D5, and then add a "-
 
 For example: The position of the imported .d5a in the figure below 2.3 is (-8,15,0); after the .d5a file imported in 2.4 is synchronized with the coordinate, the position is (-15,-8,0), swap its x/y values and add a "-" sign to the swapped y value, then it becomes (-8,15,0).
 
-<div><figure><img src="/files/fOFlnlS9FG9e5l5PSyls" alt=""><figcaption></figcaption></figure> <figure><img src="/files/S2OJHOXoEKz6Zguk7v1i" alt=""><figcaption></figcaption></figure></div>
+<div> </div>
 
 ## 9. Why are objects hidden in 3ds Max displayed after being synchronized to D5?
 
@@ -94,7 +94,7 @@ Currently, only group exports to .d5a files are supported, and the sync feature 
 
 ## 11.D5-3ds Max converter installation error,  indacates "Create File failed; code 5.Access is denied."
 
-<div align="left"><figure><img src="/files/OKpVE3DCHgSDtUY7jMmf" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 This error is due to permission issues；
 
@@ -108,7 +108,7 @@ Mothod 1: Uninstall the D5-3ds Max Converter in the Windows start menu in either
 
 Mothoed 2: If after uninstalling and reinstalling, the error message still occurs. Delete the MaxToD5a.toml file or MaxToSkp.toml file under the corresponding path. For example, if you get an error when trying to export a .d5a file from 3ds max2022, delete the MaxToD5a.toml file under 3ds max2022, file path: C:\Users\Administrator\AppData\Local\Autodesk\3dsMax\2022 - 64bit. CHS\plugcfg_ln\MaxToD5a.toml
 
-<figure><img src="/files/ifwV6132jIISWVMmkeRO" alt=""><figcaption></figcaption></figure>
+
 
 ## 13. Why is the plugin UI not displayed after installing the 3ds Max-D5 Sync plugin?
 

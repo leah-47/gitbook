@@ -18,9 +18,9 @@ After the download is complete double-click the .exe file and follow the steps t
 
 ## Start D5 Render
 
-Launch the D5 renderer with a single click of <img src="/files/-MkYRSrPIkTgciLY51cP" alt="" data-size="line"> button and establish a connection with the current model in 3ds Max.
+Launch the D5 renderer with a single click of  button and establish a connection with the current model in 3ds Max.
 
-Use<img src="/files/-MkYRwsw3sj31PMpBolk" alt="" data-size="line"> button to turn off sync and disconnect D5 Render from the current model.
+Use button to turn off sync and disconnect D5 Render from the current model.
 
 * **OK:** Create a new empty .drs scene and import the current .max file to establish a connection with D5 Render.
 * **Select file:** associate the current .max file in 3ds Max with the model file in the existing .drs scene.
@@ -29,21 +29,21 @@ When a model file already exists in D5 Render, the first time you synchronize it
 
 ## Sync
 
-Use <img src="/files/-MkYT1emzDsDMVcxxVaV" alt="" data-size="line"> button to Sync. Laod model files faster by syncing the current model and corresponding materials with incremental updates. Suitable for changing materials and models with the synchronization function when adjusting details.
+Use  button to Sync. Laod model files faster by syncing the current model and corresponding materials with incremental updates. Suitable for changing materials and models with the synchronization function when adjusting details.
 
 ### Viewport Sync
 
-Use <img src="/files/-MkYTsdr8HTi0icyuKQ7" alt="" data-size="line"> to turn on viewport sync to synchronize the current viewport of 3ds Max with the view of D5 Render
+Use  to turn on viewport sync to synchronize the current viewport of 3ds Max with the view of D5 Render
 
-Use <img src="/files/-MkYV9uzrzwHIK9X90DO" alt="" data-size="line"> to turn off viewport sync and disconnect viewpoint sync between 3ds Max and D5 Render.
+Use  to turn off viewport sync and disconnect viewpoint sync between 3ds Max and D5 Render.
 
 ### Camera Sync
 
-<img src="/files/-MkYVQUG_mUxWmcIjnk2" alt="" data-size="line"> One-click synchronization of 3ds Max standard camera and V-Ray camera to D5 Render scene list.
+ One-click synchronization of 3ds Max standard camera and V-Ray camera to D5 Render scene list.
 
 ### Light Sync
 
-Click the Sync Light <img src="/files/-MkYVomZfEy7Y3svtOAu" alt="" data-size="line"> button to sync the light type (point, spot, strip, area), light position, and area/strip size parameters of the current V-Ray or Corona lights in 3ds Max to D5 Render.
+Click the Sync Light  button to sync the light type (point, spot, strip, area), light position, and area/strip size parameters of the current V-Ray or Corona lights in 3ds Max to D5 Render.
 
 | **D5 Lights**     | **V-Ray Lights**   | **Corona Lights** |
 | ----------------- | ------------------ | ----------------- |

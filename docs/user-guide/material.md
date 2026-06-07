@@ -24,7 +24,7 @@ There are three basic tool buttons:
 
 D5 Render currently has 10 material templates, click on the drop down menu to see the full list:&#x20;
 
-![](/files/-MkeeTuIDhBLr8Z8YPLz)
+
 
 This article explains "custom" template. There will be 9 other documents in this section to explain other templates.
 
@@ -66,7 +66,7 @@ In D5 Render, **when there is a map in the "Base Color Map" slot, the color in t
 
 Click the "Detailed Parameters" button on the right side of "Base Color Map" to expand the base color map editing panel.
 
-![](/files/-Mkef-ylXWx3ysFdMOmh)
+
 
 #### Basic color map detailed parameters
 
@@ -81,14 +81,14 @@ Click the "Detailed Parameters" button on the right side of "Base Color Map" to 
 
 Use normal mapping to make the material surface bumpy without additional modeling work. Normal maps usually look like this:
 
-![](/files/-MkOFzyqckFyM3qcSzFW)
+
 
 > **Success:** If you are using PBR textures, the "blue-purple" image with "Normal" in the file name is the normal map and should be linked to the "Normal" map slot.
 
 
 **Auto-Generated Normal map:** In D5 Render, even if the user does not have a normal map, **D5 automatically generates the normal information based on the base color map** to make the material appear bumpy. As shown below, the normal slot is empty and D5 automatically generates the normal information based on the base color map, so you can adjust the strength of the bump effect through the controls. (For demonstration purposes, the base color mapping was temporarily adjusted to gray.)
 
-![](/files/-Mkef8Ez6KMaBc63BaY3)
+
 
 #### Normal Intensity
 
@@ -98,7 +98,7 @@ Adjust the normal intensity control to enhance or diminish the normal bump effec
 
 When there is a map in the Normal map slot, click the "Detailed parameters" button to expand the Normal map editing parameters panel.
 
-![](/files/-MkefjanD95iovZioLvi)
+
 
 * **Inverted:** flip the direction of the normal.
 * **Individual UV:** This parameter serves the same purpose as the base color map detailed parameter.
@@ -142,13 +142,13 @@ Roughness map values range from 0 to 1, corresponding to a pixel change from bla
 
 As a result, a typical roughness map looks as follows: Macroscopically, "the smoother the surface, the darker it is, while the dirty marks are all bright".
 
-![](/files/-MkOGyhqQMXw01QAwlJz)
+
 
 #### Roughness map detailed parameters
 
 When there is a map in the roughness map slot, click the "Detailed Parameters" button to expand the roughness map editing panel.
 
-![](/files/-Mkeg9xoB6Cmg5wrMuj3)
+
 
 The use of **Inverted**, **Individual UV** and **Triplanar UV** parameters is identical to that of the base color map editing panel, and will not be repeated here.
 
@@ -164,7 +164,7 @@ Metallic=1, material is metal, metallic map is white.
 
 In practice, we first determine whether the material we want is metal or not, and pick one between the values of 0 or 1. For example, when the base color is yellow, metallic=1, the material looks like gold; metallic=0, the material looks like yellow plastic.&#x20;
 
-![](/files/-Mkeh_zKh3I4f3ZhNPqe)
+
 
 > **Warning:** When editing the material, first determine whether the material is metal or not. If the material is metal, the metallic value is set to 1. If the material is non-metal, the metallic value is set to 0.
 
@@ -183,7 +183,7 @@ In addition, in our practice, we make not only pure metal materials, but also bl
 
 Ambient Occlusion channel, many pre-made PBR material package will come with AO channel map. This map will be multiplied with the base color map to enhance the shadow in the corners and seams, enhance the details of the material.
 
-![AO map of a ground material](../files/-MkWgwJa7O5Pi7rKFz9D.md)
+
 
 **AO Multiplier:** Controls how the AO map will affect the base color map. The value range is 0-1. The AO effect is strongest when the value is 1. When the number is 0, the AO map has no effect on the material.
 

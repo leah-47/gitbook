@@ -33,9 +33,9 @@ After the download is complete, double-click the .exe file and follow the prompt
 3. In the pop-up system settings dialog box, click on the "Extensions" option, then click on "Install Extension"
 4. In the pop-up file window, select the D5_Converter_SketchUp_cn_X.X.X.rbz you want to install, then click "Open", click "Yes" in the pop-up dialog box to complete the installation
 
-### <mark style="color:orange;">The difference between version 0.8.5.0001 and 0.8.4.0004</mark>
+### **The difference between version 0.8.5.0001 and 0.8.4.0004**
 
-<mark style="color:orange;">The two versions refer to different ways of grouping lights. For details, please refer to this post:</mark> [<mark style="color:orange;">https://forum.d5render.com/t/light-group-changes-and-different-versions-for-downloading-d5-converter-for-3ds-max-and-sketchup/15616</mark>](https://forum.d5render.com/t/light-group-changes-and-different-versions-for-downloading-d5-converter-for-3ds-max-and-sketchup/15616)
+**The two versions refer to different ways of grouping lights. For details, please refer to this post:** [**https://forum.d5render.com/t/light-group-changes-and-different-versions-for-downloading-d5-converter-for-3ds-max-and-sketchup/15616**](https://forum.d5render.com/t/light-group-changes-and-different-versions-for-downloading-d5-converter-for-3ds-max-and-sketchup/15616)
 
 ## Feature Introduction
 
@@ -57,14 +57,14 @@ After the download is complete, double-click the .exe file and follow the prompt
 
 ### Light Sync
 
-<div align="left"><figure><img src="/files/mJ4TonRsNPsvmEKC9zDU" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * Click the "Add Light Source" button, you can select the D5 light source (point light, spotlight, strip light, rect light) in a new window and add it to the scene.&#x20;
 * The position and related parameters of the added light source will be synchronized to the D5 render in real time.
 
 ### Uninstall
 
-<div align="left"><figure><img src="/files/r7CATZitSdFSBklBRw7o" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * Select "Extensions Manager" in the SketchUp menu bar, select "su_to_d5render" and choose Uninstall.
 * Find the file "su_to_d5render.rb"  in the directory C:\Users\Administrator\AppData\Roaming\SketchUp\current SketchUp version\SketchUp\Plugins, and delete it.

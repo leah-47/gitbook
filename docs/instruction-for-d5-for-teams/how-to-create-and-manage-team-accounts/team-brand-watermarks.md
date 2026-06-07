@@ -12,15 +12,15 @@ Team version supports uploading brand images that can be used as watermarks when
 
 1. Added team brand watermark in Team Details of My Space. (Added by Team Administrators and Owners only)
 
-<figure><img src="/files/PSt2s81KV7dZE3eAfqMC" alt=""><figcaption></figcaption></figure>
+
 
 2. Tick the Watermark option in Client under Render Mode.
 
-<figure><img src="/files/oBzkW9nD37L5gZkMrFZu" alt=""><figcaption></figcaption></figure>
+
 
 3. Supports to adjust the size, position in the image and full-screen state of watermarks.
 
-<figure><img src="/files/E2cX2dVuTw7fszbyTzeK" alt=""><figcaption></figcaption></figure>
+
 
 > **Info:** **Note**
 

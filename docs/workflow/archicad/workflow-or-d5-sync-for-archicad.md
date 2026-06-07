@@ -14,11 +14,11 @@ Archicad21 - Archicad 27
 
 Double click on the .rhi file after the download, and follow the instructions to install [D5 Sync for ArchiCAD](https://www.d5render.com/workflow/archicad?_sasdk=fMjIyNTc)
 
-## Features <a href="#toc-h2-features" id="toc-h2-features"></a>
+## Features 
 
-<div align="left"><figure><img src="/files/UKGbnqqUg9BvZPrlxrvZ" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-#### One-click to launch D5 Render in Archicad <a href="#toc-h3-one-click-to-launch-d5-render-in-rhino" id="toc-h3-one-click-to-launch-d5-render-in-rhino"></a>
+#### One-click to launch D5 Render in Archicad 
 
 * Import the new models into D5 Render to start real-time rendering
 * When a model file needs to be modified during rendering, start sync to create a connection with the original model or replace it with the new model

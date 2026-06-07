@@ -17,13 +17,13 @@ fetched: 2026-06-07
 2. In the top menu of SketchUp, select Extensions -> D5 Lite to open the main interface.
 3. After launching, log into your D5 account, and you can start using D5 Lite.
 
-<figure><img src="/files/BAknBJasRdUUtn4ougR1" alt=""><figcaption></figcaption></figure>
+
 
 ### Toolbar Startup
 
 Supports opening D5 Lite-related functions directly from the LiveSync toolbar.
 
-<figure><img src="/files/7F0BSexMZ5g4G3JLMfWf" alt=""><figcaption></figcaption></figure>
+
 
 ### Known Issues
 

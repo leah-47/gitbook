@@ -15,7 +15,7 @@ There are only two special parameters for the Foliage material:
 * **Opacity Map:** Use map to control the hollow effect of the material.
 * **Opacity Intensity:** Control the light transmission of the sheet material, the value of 0, the material does not transmit light, the value of 1, the light transmission effect becomes maximum.
 
-![](/files/-MkesqAgrv8fJbCUesSr)
+
 
 > **Success:** All the Vegetation in the D5 Asset library use the Foliage material template to ensure the realism of the leaves.
 

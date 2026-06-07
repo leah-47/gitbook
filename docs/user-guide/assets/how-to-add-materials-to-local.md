@@ -8,11 +8,11 @@ fetched: 2026-06-07
 
 After selecting a material, you can add the material to 「Local」 in the material inspector panel, under the material name.
 
-<div align="left"><figure><img src="/files/KcnRhxGWtB965xGbx2zZ" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 To add the currently selected material to the local library, you can find the saved material in the "Material" drop-down menu in the "Assets" > "Local" tab of the navigation bar.
 
-<div align="left"><figure><img src="/files/1XtfLusIyAL1nvt4hI1N" alt="" width="515"><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## FAQs
 

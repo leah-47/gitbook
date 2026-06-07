@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # D5 Render Sync
 
-<figure><img src="/files/S4c1ECbTKcVILRDAaPS1" alt=""><figcaption></figcaption></figure>
+
 
 #### Known Issues
 

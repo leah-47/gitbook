@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## General
 
-![](/files/oPK3GLDgsZUZX66aT4if)
+
 
 ### Language&#x20;
 
@@ -26,7 +26,7 @@ Automatic save project also can open history version from menu file. Go to Menu 
 > **Info:** To configure Auto Save, please save the project first. Auto Save will not be activated until the projects are saved.
 
 
-![](/files/gTGciuXHrYq6na5W16aj)
+
 
 ###
 
@@ -53,7 +53,7 @@ In Menu > Preference > Shortcuts, the shortcut keys can be customized according 
 > **Info:** Notice: The Numeric keypad and the typing keys are separated in this update, and we can set different shortcuts for them separately. The numeric keys on numpad(1, 2, 3, 4) are no longer set to add lights by default.
 
 
-![](/files/y79Ap4i9BiZr5HluMkd0)
+
 
 
 ---

@@ -18,7 +18,7 @@ This document provides installation instructions for the Lab License, designed f
 1. Visit [D5 MySpace](https://myspace.d5render.com) and log in using your Lab Administrator account.
 2. Click `Lab Dashboard` to access your organization's Lab Management Console.
 
-<figure><img src="/files/m4kBNso19lcv1p4vc4MU" alt=""><figcaption></figcaption></figure>
+
 
 ### 1.2 Set Your Organization Address
 
@@ -29,7 +29,7 @@ This document provides installation instructions for the Lab License, designed f
 > **Warning:** If you cannot find your city in the list, please contact our sales team.
 
 
-<figure><img src="/files/0pCTeelJrgvNnR5Rq7DZ" alt=""><figcaption></figcaption></figure>
+
 
 ### 1.3 Download installation files
 
@@ -116,7 +116,7 @@ Enter the following command in the Command Prompt to install using the configura
 * In the config.ini file above, you must use two backslashes: **\\\\**
 * The **“Note”** in the example is provided solely for explanatory purposes; please do not include this comment in actual use.
 
-  <div align="left"><figure><img src="/files/4O4XEaaWjslrxNsLu19Y" alt="" width="420"><figcaption></figcaption></figure></div>
+  <div align="left"></div>
 
 
 **Install Using an .ini Configuration File ↓**
@@ -136,7 +136,7 @@ Even after a successful installation, devices will only be registered in the bac
 * **Run the D5 Launcher** to display the **Device ID**.
 * **Open the D5 Render program** to display the **Last Active Time**.
 
-<figure><img src="/files/1HsqcyXYTpNisCUrpzRg" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

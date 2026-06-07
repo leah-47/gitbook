@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to change the default language?
 
-<figure><img src="/files/1Z6cmXX4tUOON43kJSnw" alt=""><figcaption><p>Language</p></figcaption></figure>
+
 
 In "Menu" -> "Preference" -> "General", you can set the language of D5 interface.&#x20;
 
@@ -15,7 +15,7 @@ In "Menu" -> "Preference" -> "General", you can set the language of D5 interface
 
   * How to install:
 
-  <figure><img src="/files/iIEMvm9Pe0951dfTcQpj" alt=""><figcaption></figcaption></figure>
+  
 
 
 ---

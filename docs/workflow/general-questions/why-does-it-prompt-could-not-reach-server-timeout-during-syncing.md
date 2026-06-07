@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why does it prompt "Could not reach server (timeout)" during syncing?
 
-<figure><img src="/files/exKl2V58QRcCEopM4QgH" alt=""><figcaption></figcaption></figure>
+
 
 This error is usually caused by **port** conflicts. <br>
 

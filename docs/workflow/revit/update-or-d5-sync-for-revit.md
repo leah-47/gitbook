@@ -6,13 +6,13 @@ fetched: 2026-06-07
 
 # Update | D5 Sync for Revit
 
-### What’s New <a href="#toc-h2-whats-new" id="toc-h2-whats-new"></a>
+### What’s New 
 
-#### Ver. 0.4.8.0006 <a href="#toc-h3-ver-0480005" id="toc-h3-ver-0480005"></a>
+#### Ver. 0.4.8.0006 
 
 `release date: 20250717`
 
-#### New and Optimization <a href="#new-and-optimization-4" id="new-and-optimization-4"></a>
+#### New and Optimization 
 
 * Supports Revit 2026
 * Optimized installer program
@@ -26,18 +26,18 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.4.7.0001 <a href="#toc-h3-ver-0470001" id="toc-h3-ver-0470001"></a>
+#### Ver. 0.4.7.0001 
 
 `Release date: 2024.5.16`
 
-#### New and Optimization <a href="#toc-h3-new-and-optimization" id="toc-h3-new-and-optimization"></a>
+#### New and Optimization 
 
 * Supports Revit 2025
 * The models exported in groups will automatically synchronize their relative positions when placed in D5, without the need for manual coordinate synchronization
 
 ***
 
-#### Ver. 0.4.6 <a href="#ver-046-3" id="ver-046-3"></a>
+#### Ver. 0.4.6 
 
 `Release date: 2023.8.4`
 
@@ -60,7 +60,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.4.5 <a href="#ver-045-7" id="ver-045-7"></a>
+#### Ver. 0.4.5 
 
 `Release date: 2023.4.10`
 
@@ -76,7 +76,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.4.2 <a href="#ver-042-10" id="ver-042-10"></a>
+#### Ver. 0.4.2 
 
 `Release date: 2022.11.28`
 
@@ -104,7 +104,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.3.9 <a href="#ver-039-14" id="ver-039-14"></a>
+#### Ver. 0.3.9 
 
 `Release date: 2022.5.31`
 
@@ -123,7 +123,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.3.7 <a href="#ver-037-18" id="ver-037-18"></a>
+#### Ver. 0.3.7 
 
 `Release date: 2022.3.14`
 
@@ -139,7 +139,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.3.6 <a href="#ver-036-21" id="ver-036-21"></a>
+#### Ver. 0.3.6 
 
 `Release date: 2021.12.23`
 
@@ -162,7 +162,7 @@ fetched: 2026-06-07
 
 ***
 
-#### Ver. 0.3.3 <a href="#ver-033-25" id="ver-033-25"></a>
+#### Ver. 0.3.3 
 
 `Release date: 2021.10.10`
 

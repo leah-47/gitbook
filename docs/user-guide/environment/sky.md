@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 ## Geo Sky
 
-<mark style="background-color:purple;">Geographic sky can quickly provide natural lighting for interior and exterior scenes.</mark>
+**Geographic sky can quickly provide natural lighting for interior and exterior scenes.**
 
 ### Simple adjustment
 
@@ -16,7 +16,7 @@ Drag the sun angle control lever to change the time period and the corresponding
 
 * As the sun angle changes, the color of the sky will dynamically change accordingly, showing the light color in the early morning, noon, dusk and other time periods.
 
-<figure><img src="/files/pdxeYNmcZiQRevYnyTWp" alt=""><figcaption></figcaption></figure>
+
 
 ### Precise Simulation
 
@@ -30,7 +30,7 @@ The Geo and Sky system can accurately simulate the real sunlight angle, which is
 
 #### **1.North offset**
 
-<mark style="background-color:purple;">This parameter is used to correct the direction of "north compass".</mark>&#x20;
+**This parameter is used to correct the direction of "north compass".**&#x20;
 
 Drag the control and the sun's orientation will rotate horizontally. The default value of the control is in the middle, meaning no offset. In the top view, dragging to the right or entering a positive value will rotate the north direction clockwise.&#x20;
 
@@ -92,7 +92,7 @@ Supports Sun Caustics to better simulate the visual effects of refraction and re
 >
 > For more details, please refer to: [How to achieve caustics effect](../material/how-to-achieve-caustics-effect.md)
 
-<figure><img src="/files/JdMLgzTAxSBZtUDXluRs" alt=""><figcaption><p>Geo Sky</p></figcaption></figure>
+
 
 ## Custom
 
@@ -126,7 +126,7 @@ Enable the caustics calculation of the sun.
 >
 > For more details, please refer to: [How to achieve caustics effect](../material/how-to-achieve-caustics-effect.md)
 
-<figure><img src="/files/iqUSw7DwBXDkWenIgZZT" alt=""><figcaption><p>Custom Daytime</p></figcaption></figure>
+
 
 ### Custom Night
 
@@ -160,7 +160,7 @@ Adjusts the orientation of the moon in the sky by azimuth.
 
 Adjust the brightness of the stars in the sky.
 
-<figure><img src="/files/amnKcuGlGkq4q9tnM1Vy" alt=""><figcaption><p>Custom Night</p></figcaption></figure>
+
 
 ## HDRI
 
@@ -168,7 +168,7 @@ Adjust the brightness of the stars in the sky.
 
 #### What is HDRI?
 
-<mark style="background-color:purple;">**HDRI is the abbreviation of High Dynamic Range Image.**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">Common image formats are hdr, exr, etc.</mark>&#x20;
+****HDRI is the abbreviation of High Dynamic Range Image.**** ******Common image formats are hdr, exr, etc.**&#x20;
 
 > * The opposite concept is called **"LDRI (Low Dynamic Range Image)"**. Images in jpeg and png formats are all LDRI.
 
@@ -190,7 +190,7 @@ Open the low and high dynamic versions of the same image in Photoshop and place 
 * The upper image is in jpeg format, bit depth: 8 bits/channel.&#x20;
 * The lower image is in hdr format, bit depth: 32 bits/channel.
 
-<img src="/files/-Mkevir-zOlosCJndxb7" alt="" width="563">
+
 
 By default, both images look the same on the screen, because the bit depth of the screen display is also 8 bits/channel.
 
@@ -198,7 +198,7 @@ Information outside of this range will appear on the screen as "overexposed" pur
 
 Let's add \[Exposure] adjustment layers to both images and lower the exposure level by 3 stops:&#x20;
 
-<img src="/files/-Mkevs1PqDSbnajq9BRr" alt="" width="563">
+
 
 The difference is apparent:&#x20;
 
@@ -207,17 +207,17 @@ The difference is apparent:&#x20;
 
 We use these two images, as the sky environment background, to render the model, and the difference is also significant:
 
-<img src="/files/-MkOLw98dbWaGy6qAB1E" alt="Differences in sky details:" width="563">
 
-<img src="/files/-MkOM4EHt-iNmNo569T_" alt="Differences in reflection details:" width="563">
+
+
 
 Most importantly, the sun in HDRI can cast shadows:
 
-<img src="/files/-MkOMFUyeqLwcuhlzqft" alt="HDRI can cast shadows" width="563">
+
 
 #### What should I look for when selecting HDRI?
 
-<mark style="background-color:purple;">The HDRI environment used in D5 Render are "spherical projection" panoramas.</mark> In addition, there are other common panorama projection methods such as cubic and mirror ball.
+**The HDRI environment used in D5 Render are "spherical projection" panoramas.** In addition, there are other common panorama projection methods such as cubic and mirror ball.
 
 The spherical projection panorama is characterized by:
 
@@ -229,7 +229,7 @@ Here is what a typical HDRI image suitable for D5 Render would look like (compre
 
 (HDR image credit: [Sunflowers HDRI • Poly Haven](https://polyhaven.com/a/sunflowers))
 
-![](/files/-MkOMVjHNPM5psMOAFwg)
+
 
 ### Detailed explanation of parameters
 
@@ -241,11 +241,11 @@ Note: If Auto Exposure is turned on, it will always compensate for changes in ov
 
 * Skylight: Adjusts the effects of light and material diffuse reflections individually. Does not affect material reflections.
 
-<figure><img src="/files/AEU9XW5286LIVlPnOr0S" alt=""><figcaption></figcaption></figure>
+
 
 * Background: Adjust the brightness and darkness of the background individually. Affect the material reflection.
 
-<figure><img src="/files/Xw0Xk1f8ln6LM4TQCcaV" alt=""><figcaption></figcaption></figure>
+
 
 #### 2. Rotate
 
@@ -255,7 +255,7 @@ Rotates the HDRI sky environment map horizontally, this affects the content of t
 
 Supports flipping the current HDRI.
 
-<div align="left"><figure><img src="/files/jFYG5FZUXK0ot8CP7A10" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### 4. Sky Temperature and Sky Color adjustment option
 
@@ -273,11 +273,11 @@ Note:&#x20;
 1. Right click to reset the parameters after adjusting Temperature/Sky Color.
 2. The white color has no Hue, so a white HDRI is not affected by the Hue parameter.
 
-<div align="left"><figure><img src="/files/al1YkgOlb6ovD1NezP0V" alt=""><figcaption><p>Sky Color</p></figcaption></figure></div>
+<div align="left"></div>
 
 #### 5. HDRI Resolution Control
 
-<figure><img src="/files/sdTwqJd5z3zuDFGi3Njk" alt=""><figcaption></figcaption></figure>
+
 
 * Added HDRI Resolution to **Preference > Rendering** with 2K, 4K, 8K, and Actual Resolution options. The resolution setting affects both real-time viewport and image/video output.
 * The Default setting, Adaptive (recommended), inherits the logic of previous versions, which compresses HDRI to 2K resolution for viewport to boost FPS and reduce VRAM consumption, while supporting a panoramic background up to 8K resolution for image/video renders.
@@ -299,13 +299,13 @@ There are two ways to achieve this in the current version:
 
 The HDRI images used in the archive are saved in the corresponding asset path, which allows you to find the HDRI images you need directly.
 
-<figure><img src="/files/EGtMp3oWvQF3ozPwkLNK" alt="" width="563"><figcaption><p>Where HDRI images are saved in archive files</p></figcaption></figure>
+
 
 2. Save environment and effect presets&#x20;
 
 Through Studio-save preset feature, you can add the environment/effect parameters of the current scene to My Space/Team Space. (If you only tick Effect when adding environment and effect preset, the preset parameters added successfully will only contain effect information, without environment information such as HDRI).
 
-<figure><img src="/files/P01YBGG8rPSEPQnZ57ZL" alt="" width="563"><figcaption><p>Creating environment and effect preset</p></figcaption></figure>
+
 
 
 ---

@@ -10,7 +10,7 @@ To enhance details of rendered images (lighting, materials, characters, vehicles
 
 > **Info:** **Note**
 
-1. AI Post-Processing features only support <mark style="background-color:green;">‘Rendered images’</mark> within 6K resolution (no more than 6200 pixels on any side) in the <mark style="background-color:green;">‘Saved archives’</mark>.
+1. AI Post-Processing features only support **‘Rendered images’** within 6K resolution (no more than 6200 pixels on any side) in the **‘Saved archives’**.
 2. To enhance images for many times, please iterate over the original rather than the enhanced images.
 
 
@@ -23,13 +23,13 @@ To enhance details of rendered images (lighting, materials, characters, vehicles
 
 * Click the 'AI Post-Processing' feature from the navigation bar.
 
-<figure><img src="/files/MJcE5wLeA9BPKuK5rp8T" alt=""><figcaption></figcaption></figure>
+
 
 
 
 ## AI Enhancer
 
-<mark style="background-color:purple;">Enhance the details of lighting, materials, characters, vehicles, and plants in rendered images.</mark>
+**Enhance the details of lighting, materials, characters, vehicles, and plants in rendered images.**
 
 ### 1. Enhance Content
 
@@ -39,30 +39,30 @@ Supports selecting specific regions of an image to be enhanced, keeping the rema
 
 Users can drag the slider bar according to their needs to select different processing effects.
 
-<figure><img src="/files/iPsOtpaYxr99h18EldhO" alt=""><figcaption><p>Enhancement Weight</p></figcaption></figure>
+
 
 ### 3. Texture Strength
 
 Users can freely adjust the enhancement strength of the texture according to their creative needs.
 
-<figure><img src="/files/W0b3DcTSVf2vy6phpPH2" alt=""><figcaption><p>Texture Strength</p></figcaption></figure>
+
 
 ### 4. Adjust Content
 
 Choose 'Enhance Content', adjust the relevant parameters, and click to save the partition. This allows you to assign different weights to various areas, addressing the enhancement needs of different materials simultaneously.
 
-<figure><img src="/files/33abQOIP2p4szEKxvrpS" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
 ## AI Style Transfer
 
-<mark style="background-color:purple;">Select the desired post style, adjust the AI settings, and click the AI Style Transfer button to complete the style transfer.</mark>
+**Select the desired post style, adjust the AI settings, and click the AI Style Transfer button to complete the style transfer.**
 
 * **Stylized:** Supports one-click transfer to watercolor/cartoon/scale model/pen sketch/pencil sketch/voxel styles without material or model adjustments.
 * **Realistic:** Supports rapid transfer to photorealistic sunset/night/spring/summer/autumn/winter styles. Supports adapting to reference image styles.
 
-<figure><img src="/files/n8lKr2nqR7WCwDiw0VbT" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -79,7 +79,7 @@ Added new local inpainting feature to automatically recognize and inpaint sky, w
 >
 > **Seed:** A seed is an integer between 1 and 2147483648. When you use the same prompt and seed, you will get the same result.
 
-<figure><img src="/files/J1sCmwges6cw3FahELxv" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -87,7 +87,7 @@ Added new local inpainting feature to automatically recognize and inpaint sky, w
 
 ### Post-production
 
-<mark style="background-color:purple;">Select the area to be adjusted, then adjust the</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**sharpening, denoising and transparency**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">parameters, and click the Save button to save the effect.</mark>
+**Select the area to be adjusted, then adjust the** ********sharpening, denoising and transparency**** ******parameters, and click the Save button to save the effect.**
 
 * **Sharpening:** Improves image clarity by amplifying high-frequency details, enhancing edges and contours to highlight critical features and details.
 * **Denoising**: Reduces noise in the generated image to improve overall quality while maintaining the integrity of the original image’s key characteristics.
@@ -114,7 +114,7 @@ Supports adding Motion Blur to characters and vehicles with one click.
 * Clicked to select regions for processing
 
 
-<figure><img src="/files/HEr7vDYh9QMykB2y5nKi" alt=""><figcaption></figcaption></figure>
+
 
 ***
 
@@ -122,7 +122,7 @@ Supports adding Motion Blur to characters and vehicles with one click.
 
 The **AI Post Channel** in the channels improves the accuracy of region selection during AI Enhancer.
 
-<figure><img src="/files/6gTNjZA8kfvufxQdXO1Y" alt=""><figcaption></figcaption></figure>
+
 
 > **Info:** Note:
 
@@ -130,7 +130,7 @@ AI Enhancer & AI Enhancer Channel only support **rendered images within 6K resol
 
 *Over-sized images can't be ticked with “AI Post Channel” and won't show the 'AI Post-Processing' entrance after rendering.*
 
-![](/files/DRj2f0vhDkoEVAzG1Yf5)  ![](/files/wAG1swhRF4ufk8ITFWcH)
+  
 
 
 

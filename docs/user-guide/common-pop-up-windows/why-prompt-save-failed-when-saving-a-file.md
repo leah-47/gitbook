@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Why prompt 'Save Failed' when saving a file?
 
-<figure><img src="/files/8UABx0XF6wneWSj5WX6Y" alt=""><figcaption><p>Save Failed</p></figcaption></figure>
+
 
 Common reason for the error: The save path of the scene file was changed in the computer folder (the file was moved to another location, or the file name was modified), or the files in the scene folder were deleted, in the case of not saving the current scene file (maybe by accident).
 

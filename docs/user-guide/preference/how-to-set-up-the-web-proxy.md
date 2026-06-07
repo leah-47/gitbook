@@ -10,7 +10,7 @@ In "Preference" - "General", you can set different proxy parameters.&#x20;
 
 In addition to the system proxy, also can choose HTTP, HTTPS and PAC proxy settings.
 
-<figure><img src="/files/ekzLqiAtpsSeqjUUgdmI" alt=""><figcaption><p>Web Proxy</p></figcaption></figure>
+
 
 
 ---

@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to adjust the weather in D5?backup
 
-<mark style="background-color:purple;">The second item in the "Environment" panel on the right sidebar contains three settings for the weather:</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Cloud, Fog , Wind and Precipitation**</mark><mark style="background-color:purple;">.</mark>
+**The second item in the "Environment" panel on the right sidebar contains three settings for the weather:** ********Cloud, Fog , Wind and Precipitation******.**
 
 ## Volumetric Clouds:
 
@@ -16,7 +16,7 @@ Introduces Volumetric Clouds with cloud presets and advanced settings, enabling 
 * Contains multiple built-in cloud presets including Cumulus, Stratocumulus, Stratus, Altocumulus, Cumulonimbus, Cirrus Clouds, and Clear Blue Sky.
 * **Advanced Cloud Settings:** Contains advanced options to customize the cloud appearance for different weather and lighting conditions.
 
-<figure><img src="/files/JwdTHBYNKJn19N9aK2TW" alt="" width="362"><figcaption></figcaption></figure>
+
 
 ### Cloud parameters
 
@@ -50,9 +50,9 @@ Introduces Volumetric Clouds with cloud presets and advanced settings, enabling 
 
 ## Fog
 
-<mark style="background-color:purple;">Fog controls the fog effect in the scene, adding realism and layers to the scene.</mark>
+**Fog controls the fog effect in the scene, adding realism and layers to the scene.**
 
-<div align="center"><figure><img src="/files/qBCfVo6apbSdyZVmzRqj" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 ### Colour
 
@@ -82,7 +82,7 @@ Start Distance controls the start position of the fog relative to the distance f
 
 The Tyndall effect is a phenomenon in which light is scattered by particles in the air, allowing pathways of light to be seen. The Tyndall effect is often referred to as "God's light".
 
-<div align="center" data-full-width="true"><figure><img src="/files/Xv3yFpF5oBZwnKH2edzT" alt="" width="540"><figcaption></figcaption></figure></div>
+<div align="center" data-full-width="true"></div>
 
 ### Scattering
 
@@ -94,7 +94,7 @@ Turning on the "Volume Light" option will increase the memory usage.
 
 ## Wind
 
-<div align="center"><figure><img src="/files/CltbAVVk6YAcNdPTIY2T" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 ### Strength
 
@@ -110,9 +110,9 @@ Please enable Dynamic in the display mode to preview the wind effect.
 
 ## Precipitation
 
-<mark style="background-color:purple;">Precipitation function includes both rain and snow. Support to adjust the strength of rain and snow and the effect of water on the ground.</mark>
+**Precipitation function includes both rain and snow. Support to adjust the strength of rain and snow and the effect of water on the ground.**
 
-<div align="left"><figure><img src="/files/bxuvSzWXWMiOFPsneXPx" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Parameters for rain and snow
 

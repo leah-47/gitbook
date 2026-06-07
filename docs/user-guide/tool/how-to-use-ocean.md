@@ -14,9 +14,9 @@ Introduces Ocean to simulate realistic waves, coastlines, foam, water materials,
 
 * Supports adding ocean from the top toolbar > Terrain.
 
-<figure><img src="/files/0tSeT9lh2DB70SgsA40d" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="/files/AdYEALWWO7Bjim7gLXJQ" alt=""><figcaption></figcaption></figure>
+
+
 
 * An ocean object is automatically created upon selection and appears in the Resource List.
 * When ocean is selected, its corresponding control panel appears on the right sidebar, enabling adjustments to coastline range, waves, and materials.
@@ -27,7 +27,7 @@ The ocean divides the water body into two logical areas for fine control: the **
 
 |                                      Surface                                      |             Coastline            |
 | :-------------------------------------------------------------------------------: | :------------------------------: |
-| <p></p><p><img src="/files/iiPylIOGJRVpy9E6gWJs" alt="" data-size="original"></p> | ![](/files/GnO1XrkPCx9tuVHQZkdk) |
+| <p></p><p></p> |  |
 
 #### **1. Ocean Surface**
 
@@ -44,7 +44,7 @@ It is used to control the behavior of deep water away from the coast, primarily 
 
 Affects the entire ocean surface material.
 
-<figure><img src="/files/0AIy2tqYzNjUvaqfJPcw" alt=""><figcaption><p>Ocean Material Parameters</p></figcaption></figure>
+
 
 * Absorption: Controls the degree of light absorption in water. Higher values result in deeper water color.
 * Scattering: Controls the light scattering effect, affecting water turbidity and volumetric effect.
@@ -60,7 +60,7 @@ Controls the effects of nearshore waves, foams, intertidal zone, and transition 
 
 **Automatic Coastline Generation**
 
-<figure><img src="/files/IB9Gr0MubkjiXzud0GHr" alt=""><figcaption></figcaption></figure>
+
 
 Supports automatic detection of intersections between terrain/geometry and the ocean surface to generate a coastline with tidal and caustic effects near the shore.
 
@@ -75,7 +75,7 @@ Supports automatic detection of intersections between terrain/geometry and the o
 
 **Material Settings:**
 
-<figure><img src="/files/LsltDueV9I8UXRpPNCNs" alt=""><figcaption></figcaption></figure>
+
 
 * Based on the height difference between the ocean surface and the ground: as the distance decreases, the color shifts toward the coastline material; as the distance increases, it shifts toward the ocean surface material.
 * Absorption: Controls the dark-to-light transition of nearshore water material.
@@ -83,7 +83,7 @@ Supports automatic detection of intersections between terrain/geometry and the o
 
 **Foam Parameters:**
 
-<figure><img src="/files/ZhbcWGU9gEo5yuJbnguQ" alt=""><figcaption></figcaption></figure>
+
 
 * Nearshore Foam Intensity: Adjusts the visibility and brightness of foam in nearshore areas, defined as the coastal zone where the model meets the sea surface, including island edges, structures, or terrain intersecting with seawater. Increased values result in more pronounced nearshore spray and whiter foam.
 * Offshore Foam Intensity: Adjusts the overall visibility and brightness of foam in offshore waters. Higher values produce a more distinct spray in distant waves and whiter foam.
@@ -104,7 +104,7 @@ Y-axis Offset: Adjusts the depth (front-back) translation of foam.
 * The coastline area updates dynamically with any addition/deletion/modification of anchor objects, similar to the cull effect of D5 Scatter.
 * Allows up to 50 objects to be set as Coastline Anchors.
 
-<figure><img src="/files/9ENLQAdRbFxew2UFHlJb" alt=""><figcaption><p>operation</p></figcaption></figure>
+
 
 **Auto-refresh of Coastline Range:**
 
@@ -121,7 +121,7 @@ The following actions require manual refresh of the coastline rage:
 
 * Delete/edit Coastline Anchor objects
 
-<figure><img src="/files/aSCe3DyZ3XpkCPTATIIR" alt=""><figcaption><p>Refresh button</p></figcaption></figure>
+
 
 
 ---

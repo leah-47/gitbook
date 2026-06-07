@@ -15,9 +15,9 @@ Please choose the next steps according to your own situation.
 
 Please sign up a new D5 account with your edu address. And then apply for EDU license again. You can sign up directly in D5 Client or [Myspace](https://myspace.d5render.com/login). Here is a tutorial on how to apply for EDU license, please refer to: [Education Version FAQs | User Manual (d5render.com)](./education-version-faqs.md)&#x20;
 
-<figure><img src="/files/wPs3Pcsg8n8tnpQK7BIM" alt=""><figcaption><p>Sign up in D5 Cilent</p></figcaption></figure>
 
-<figure><img src="/files/jEVUr94Yn9sCyVl82nl8" alt=""><figcaption><p>Sign up in MySpace</p></figcaption></figure>
+
+
 
 ## Do not have educational institution's email
 

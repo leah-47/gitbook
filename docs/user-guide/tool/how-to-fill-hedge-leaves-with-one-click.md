@@ -14,11 +14,11 @@ In the production of outdoor scenes, for the regular hedge scene, it is recommen
 
 By selecting the model and choosing the Brush tool, you can use the currently selected hedge leaf material to paint in the scene.
 
-<div align="center"><figure><img src="/files/A6bU9vZEcLNBPiFkp8C0" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 1. Assets selection
 
-A variety of new leaf materials have been added to <mark style="background-color:purple;">the "Library" -> "Nature" -> "Hedges" category in the online library, and those with "single" in their names</mark> are suitable for use with the Scatter feature to achieve the hedging effect.
+A variety of new leaf materials have been added to **the "Library" -> "Nature" -> "Hedges" category in the online library, and those with "single" in their names** are suitable for use with the Scatter feature to achieve the hedging effect.
 
 2. Parameter setting:&#x20;
 
@@ -34,7 +34,7 @@ A variety of new leaf materials have been added to <mark style="background-color
 * Set the radius to the maximum value to clear the current scattered leaves.
 * When selecting the radius between 0.01 and 1, you can make local detail deletion and adjustments in the hedge bush.
 
-<div align="center"><figure><img src="/files/VabnnMk9qW0HH20wfwxd" alt=""><figcaption></figcaption></figure></div>
+<div align="center"></div>
 
 4. Precautions
 
@@ -45,7 +45,7 @@ A variety of new leaf materials have been added to <mark style="background-color
 * **The height of the material is about 15-20cm when the size is 1.** For scenes that require strict dimension, it is recommended to leave a certain amount of height space in the modeling process or reduce the size to get a suitable effect.
 * **For efficiency issues, it is recommended that the single fill area should not be too large.** Otherwise, it will result in long scatter generation time or lag in real-time preview.
 
-<figure><img src="/files/dLHrQE2nTtUhLuVxHnez" alt=""><figcaption><p>Effect before &#x26; after one-click filli</p></figcaption></figure>
+
 
 
 ---

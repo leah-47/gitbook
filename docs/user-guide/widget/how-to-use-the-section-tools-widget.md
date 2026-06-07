@@ -8,9 +8,9 @@ fetched: 2026-06-07
 
 After enabling the "Sectional Tools" in "Preference" - "Widget", you can add two types of sectional tools, Section Plane and Section Cube, to the top bar to view the internal structure of the model.
 
-<figure><img src="/files/xUFL7RM1pmAdvQwp58tf" alt=""><figcaption><p>Section Tool</p></figcaption></figure>
 
-<figure><img src="/files/EmG8EWb7G2NnMtwi3wGO" alt=""><figcaption><p>Add Sections</p></figcaption></figure>
+
+
 
 Layer Visibility: Combined with the layer's scene resource management, you can target part of the model in the scene for profiling.&#x20;
 
@@ -22,7 +22,7 @@ Influence Light / Influence Weather: Controls whether a section can be profiled 
 
 >
 
-<figure><img src="/files/0yXJdu27czYk5onwbHap" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

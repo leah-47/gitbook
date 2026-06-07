@@ -28,13 +28,13 @@ If the models are from the same model file, you can multi-select the models and 
 
 The rule of alignment is that the model selected later will move to the first selected model. That is, the position of the first selected model is fixed and the coordinates of other models will move.
 
-<div align="left"><figure><img src="/files/HQsdMcOWh37ZNgDEMmhs" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 #### Sync Coordinates
 
 If the models are from different model files or even different modeling softwares, you can use the "Sync Coordinates" feature to restore the model directly to the absolute modeling coordinates. This function is in the resource list menu on the left side.
 
-<figure><img src="/files/Yd6vWvlkvPTDeBjvPz93" alt=""><figcaption></figcaption></figure>
+
 
 When you click on "Sync Coordinates", the view will move to the model's position at the same time.
 

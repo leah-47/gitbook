@@ -10,11 +10,11 @@ fetched: 2026-06-07
 
 [**Hardware and Solution** (prompts 'Unknown Graphics Card')](#hardware-and-solution)
 
-<figure><img src="/files/yhWIYHa38kmsvpXdl4l9" alt="" width="563"><figcaption></figcaption></figure>
+
 
 [**Software and Solution** ('Driver Version' or 'System' column is greyed out)](#software-and-solution)
 
-<figure><img src="/files/MBLBMCHQLwjHCcngYp2M" alt="" width="563"><figcaption></figcaption></figure>
+
 
 [**Checklist Overview**](#checklist)
 
@@ -22,9 +22,9 @@ fetched: 2026-06-07
 
 ## Hardware and Solution
 
-*<mark style="color:orange;">Prompt: You did not meet the minimum requirements, please upgrade your current hardware.</mark>*
+***Prompt: You did not meet the minimum requirements, please upgrade your current hardware.***
 
-<figure><img src="/files/1Mnl3Mn5rNZmeypsYl8Z" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### 1. The graphics card does not meet the requirements to run D5.
 
@@ -40,7 +40,7 @@ D5 Render is based on real-time raytracing technology, so the current graphics c
 | AMD    | RX 6400 and above              |
 | Intel  | Arc A3 and above               |
 
-<mark style="background-color:red;">For specific system requirements and</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">**supported GPU types**</mark><mark style="background-color:red;">, please refer to:</mark> [<mark style="background-color:red;">System Requirements for D5 Render | User Manual</mark>](./system-requirements-for-d5-render.md)
+**For specific system requirements and** ********supported GPU types******, please refer to:** [**System Requirements for D5 Render | User Manual**](./system-requirements-for-d5-render.md)
 
 **Solution:**
 
@@ -74,9 +74,9 @@ D5 only supports Discrete Graphics Card (GPU), not integrated graphics Card (GPU
 
 ## Software and Solution
 
-*<mark style="color:orange;">Prompt: The current graphics card driver cannot support D5 Render due to compatibility issues. Please upgrade the driver to the latest version.</mark>*
+***Prompt: The current graphics card driver cannot support D5 Render due to compatibility issues. Please upgrade the driver to the latest version.***
 
-<figure><img src="/files/YyUqI8gzduzy0rqn4GTF" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### 1. The driver version is too low/out-of-date
 

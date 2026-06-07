@@ -6,11 +6,11 @@ fetched: 2026-06-07
 
 # How to view and optimize graphics card usage?
 
-### View graphics card usage <a href="#header-0" id="header-0"></a>
+### View graphics card usage 
 
 * Open Task Manager - Performance - GPU - View Dedicated GPU Memory Usage
 
-<figure><img src="/files/4ICgfXYu2pMbRgosKs9E" alt=""><figcaption><p>GPU</p></figcaption></figure>
+
 
 * Windows' own video memory detection data may not be accurate, we recommend using [GPU-Z](https://www.techpowerup.com/gpuz/).
 
@@ -21,7 +21,7 @@ fetched: 2026-06-07
 
 ***
 
-### Optimize graphics memory usage <a href="#header-1" id="header-1"></a>
+### Optimize graphics memory usage 
 
 The following settings are available for optimization：
 

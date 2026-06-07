@@ -11,7 +11,7 @@ Directly create terrain in D5, using brush tool for sculpting and texture painti
 * Added Terrain tool in the top menu bar. Upon clicking, the default terrain will appear in the viewport, featuring an endless plane and an editable area within the white wireframe. The editable terrain spans 4000m x 4000m.
 * Terrain can be selected, hidden, or deleted from the resource list on the left via right-click. After selecting the terrain in the object list, terrain sculpting, texture painting and heightmap management can be enabled in the right sidebar.
 
-<figure><img src="/files/43JZG3JOg25lmrW9dw9e" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 
@@ -29,7 +29,7 @@ Directly create terrain in D5, using brush tool for sculpting and texture painti
 >
 > Users can use **the shortcut key Alt** to switch Sculpt-Upward/Downward.
 
-<figure><img src="/files/45eykZsltQlsTjjUlt0d" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### **Sculpt brush settings**
 
@@ -39,7 +39,7 @@ Directly create terrain in D5, using brush tool for sculpting and texture painti
 * **Angle:** Controls the angle of the brush texture map.
 * **Brush texture:** Control the shape drawn by the Sculpt tool using the preset maps in the brush library.
 
-<figure><img src="/files/bekjEUOzwEmkBAutQRgb" alt=""><figcaption></figcaption></figure>
+
 
 ### **Heightmap Resources**
 
@@ -48,7 +48,7 @@ Added 'Terrain' library into D5 Asset Library, providing preset terrain template
 * Currently, a maximum of 10 height map resources can be added simultaneously.
 * After placement, height map can be replaced (supporting formats include .png, .r16, and .raw), along with height settings, edge falloff, and other parameters.
 
-<figure><img src="/files/I5pH6KhMqTsypCeYk82E" alt="" width="563"><figcaption></figcaption></figure>
+
 
 * Supports to bake all height maps to total height
 
@@ -56,13 +56,13 @@ Added Apply to terrain option in Height maps column, which applies all height ma
 
 > Supports Undo
 
-<figure><img src="/files/8EUaY4fJGrBFpJGSZUEP" alt=""><figcaption></figcaption></figure>
+
 
 ### **Reset Height**
 
 Click the 'More' button on the right side of the Landscape panel to reset the terrain height. All terrain effects created with the Sculpt brush will revert to the initial flat state
 
-<figure><img src="/files/4woiquKoaQKTkXsJlTPv" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -84,7 +84,7 @@ The Paint tool provides several parameters available for blending materials:
 * **Edge Falloff:** Control the transition between different materials for an organic appearance along edges.
 * **Brush texture:** Support using preset maps from the brush library to control the shape of the brush tool.
 
-<figure><img src="/files/9i7j6MDabRhLhdFird7s" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### **Slope**
 
@@ -97,13 +97,13 @@ Peak texture appears in the higher elevation areas of the model and supports mai
 > * All the **material channels** support custom maps, base color, normal, roughness, and random UV.
 > * Right-click or hover over the material channel and click the **'More'** button to replace or delete the current material. This allows you to replace/delete the current material, enable/disable template override, add the current texture to local, and create a scatter area on the current material.
 
-<figure><img src="/files/2lAQ4qvCB7y0nPOTGHmA" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ### **Material Template**
 
 Available in Assets > Terrain and can be applied with one click.
 
-<figure><img src="/files/AIPGziY1sRgF3XCLIEzo" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -117,7 +117,7 @@ Added Erosion Mask to Paint > Surface Texture for accurate control over the eros
 * Supports Undo
 
 
-<figure><img src="/files/NasU8AvUuoJ0wBFD6aQy" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -130,7 +130,7 @@ Supports importing custom height maps to generate corresponding 3D terrain model
 
 > \*Heightmap can represent terrain height with grayscale values. Typically, black (value 0) indicates the lowest point, while white (value 255) indicates the highest point.
 
-<figure><img src="/files/gltDzUjmihlQDcDfigBT" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -146,7 +146,7 @@ Supports setting terrain range and Z-axis position. Added Terrain Range Settings
 Changing the terrain size will affect the painted materials and heights. Please operate with caution.
 
 
-<figure><img src="/files/S0f7UiBqDBmF1Fzno5e6" alt="" width="563"><figcaption></figcaption></figure>
+
 
 ***
 
@@ -160,7 +160,7 @@ Changing the terrain size will affect the painted materials and heights. Please 
 The **"Select Model"** method is not supported for creating Scatter on the terrain.
 
 
-<figure><img src="/files/KvQivHBHdr6qwV16UM0M" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
 ---

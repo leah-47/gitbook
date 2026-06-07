@@ -34,7 +34,7 @@ To add a new point in the middle of a path, you can click directly in the path t
 
 Press and hold the control point to drag the control point to any position.
 
-![](/files/-MkXmWl9m7P0VSCBPk3T)
+
 
 ## Path Editing
 

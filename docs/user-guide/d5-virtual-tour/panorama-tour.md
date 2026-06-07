@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Panorama Tour
 
-## **Introduction** <a href="#header-0" id="header-0"></a>
+## **Introduction** 
 
 **What is Virtual Tour?**
 
@@ -25,15 +25,15 @@ D5 supports two types of Virtual Tour:
 
 1. Click to create a "Panoramic Tour" under the \[Create] tab in the Cloud Project.
 
-<figure><img src="/files/dHzmyIQEzlQ7XxKbY2YU" alt=""><figcaption></figcaption></figure>
+
 
 2. After clicking, an empty panorama sequence will be created and the user needs to manually upload the panoramas in the browser (panorama files output in D5 or other renderers).
 
-<figure><img src="/files/nyNN2uNIS3ddI6gUTXQn" alt=""><figcaption><p>Upload panorama images manually</p></figcaption></figure>
+
 
 3. After successful uploading, the system will automatically convert the spherical image into a format that can be viewed with a 720° rotation, and support for uploading multiple images.
 
-<figure><img src="/files/w3S6LR9TByV6UM7FvybF" alt=""><figcaption></figcaption></figure>
+
 
 4. Most of the editing operations of \[Panorama Tour] are the same as those of \[Spatial Tour], and the differences between the two are as follows ↓:\
    \- \[Panorama Tour] supports adding panoramas to the gallery, \[Spatial Tour] does not support adding panoramas to the gallery. \

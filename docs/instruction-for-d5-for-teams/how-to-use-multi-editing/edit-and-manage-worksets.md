@@ -10,21 +10,21 @@ fetched: 2026-06-07
 
    This can reduce the project's use of computer resources, making editing smoother, but some display effects may be affected. If you want to switch to the full display mode, please exit and reopen the project, and uncheck the performance mode option.
 
-<div align="left"><figure><img src="/files/98uGSOul34532q9DvOGe" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-<figure><img src="/files/thLUHRBTJKGyP00WvKpF" alt=""><figcaption></figcaption></figure>
+
 
 2. After opening a workset, the name of the workset you are editing will be displayed in the upper-left corner of the D5 editing window.
 
-<figure><img src="/files/qKRNvwm2wTWWFIdg9D6o" alt=""><figcaption></figcaption></figure>
+
 
 Note: Resources in a read-only workset cannot be edited and can only be viewed. You cannot modify the parameters of models from worksets other than the current workset you opened (including size, position, and material), and you cannot use brushes and scatter tools on models from worksets other than the current workset.
 
-<figure><img src="/files/2pXZMGjHiqrWpRjzdqxy" alt=""><figcaption></figcaption></figure>
+
 
 3. The changes you made to the scene in a workset will be automatically merged into the central file upon saving. Members working on other worksets for the same project will receive notifications of updates in the software and can view the changes made by others to the project.
 
-<div align="left"><figure><img src="/files/mkkOHUGhCHfkMKbVEOtO" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

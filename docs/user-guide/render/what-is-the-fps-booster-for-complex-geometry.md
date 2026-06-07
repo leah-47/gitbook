@@ -15,7 +15,7 @@ Added 'FPS Booster for Complex Geometry' option in Menu.&#x20;
 > * In the latest version, it only affects the real-time preview without affecting rendering outputs.
 > * The FPS improvement from this feature depends on the GPU's ray-tracing performance and the mesh configuration in the scene; not all scenes will experience an increase.
 
-<figure><img src="/files/5DuLoSDsPq5SCEVZqx9i" alt=""><figcaption></figcaption></figure>
+
 
 ## FAQs
 
@@ -25,7 +25,7 @@ If the situation in the ↓ image occurs, it is very likely to be related to the
 
 If the dark area model has been grouped in the modelling software, please try to ungroup/explode it in the modelling software and then update it to D5.
 
-<figure><img src="/files/rf14NlygLTNiibpnIrLQ" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

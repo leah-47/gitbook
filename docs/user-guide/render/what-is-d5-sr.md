@@ -19,7 +19,7 @@ Enable this option in "widgets" of "Preferences".&#x20;
 > 3\. It is not recommended to turn on D5 SR rendering for scenes with post effects such as depth of field and foaming;\
 > 4\. **Image rendering with D5 SR turned on will result in faster rendering while losing some rendering detail.**
 
-<figure><img src="/files/iPUvSEW3w28C2vQyDq76" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

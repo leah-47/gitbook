@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Locked and unlocked are the two most commonly used states in the list. For models, they cannot be selected in the scene after locking, cannot be moved, rotated, scaled, etc., and can only be saved to the local library, exported, or updated and replaced after being selected in the list.
 
-<div align="left"><figure><img src="/files/TC9Nma4tBNlwfEmIOYTo" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Locked models can be edited by selecting the material with the mouse instead of using the "Select Material Tool".&#x20;
 

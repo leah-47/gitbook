@@ -10,7 +10,7 @@ Reduce the size of D5 scene files by compressing data storage files to further s
 
 This option is enabled in Preference > General.
 
-<figure><img src="/files/VAX7JouMA99a8EqFvfaR" alt=""><figcaption><p>Save Compressed Project</p></figcaption></figure>
+
 
 > **Warning:** Compressed project files will not open properly in older (under 2.6) versions of the D5, and the model may be disappeared after opening.
 

@@ -14,7 +14,7 @@ Added Procedurally-generated Vines in Model>Nature>Vine, including Boston Ivy, C
 * Place the blue ray detection lever perpendicular to the model surface until the blue leaf decal appears on the model surface, then it enters the generatable state.
 * At this time, click the Generate button on the right sidebar, and the vines can be attached to the model surface for parametric growth.
 
-<div align="left"><figure><img src="/files/C5R1pjRtOtdAKS41PH9i" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Parameter adjustment
 

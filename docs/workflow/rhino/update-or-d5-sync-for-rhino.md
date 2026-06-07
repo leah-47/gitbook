@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # Update | D5 Sync for Rhino
 
-## Ver. 0.12.0.0028 <a href="#header-0" id="header-0"></a>
+## Ver. 0.12.0.0028 
 
 `Release date: 2024.1.4`
 
@@ -15,13 +15,13 @@ fetched: 2026-06-07
 * Support Rhino 8
 * Optimized texture UV mapping
 
-#### Fixes <a href="#fixes-3" id="fixes-3"></a>
+#### Fixes 
 
 * Fixed some known bugs
 
 ***
 
-## Ver. 0.10.0 <a href="#toc-h3-ver-0100" id="toc-h3-ver-0100"></a>
+## Ver. 0.10.0 
 
 `Release date: 2022.10.25`
 
@@ -42,7 +42,7 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 0.9.0 <a href="#toc-h3-ver-090" id="toc-h3-ver-090"></a>
+## Ver. 0.9.0 
 
 `Release date: 2022.4.26`
 
@@ -60,7 +60,7 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 0.8.0 <a href="#toc-h3-ver-080" id="toc-h3-ver-080"></a>
+## Ver. 0.8.0 
 
 `Release date: 2022. 2. 28`
 
@@ -78,18 +78,18 @@ fetched: 2026-06-07
 
 ***
 
-## Ver. 0.7.0 <a href="#ver-070-15" id="ver-070-15"></a>
+## Ver. 0.7.0 
 
 `Release date: 2021. 11. 10`
 
-#### Features <a href="#features-16" id="features-16"></a>
+#### Features 
 
-#### One-click to launch D5 Render in Rhino <a href="#one-click-to-launch-d5-render-in-rhino-17" id="one-click-to-launch-d5-render-in-rhino-17"></a>
+#### One-click to launch D5 Render in Rhino 
 
 * Import the new models into D5 Render to start real-time rendering
 * When a model file needs to be modified during rendering, start sync to create a connection with the original model or replace it with the new model
 
-#### Model/Material/Scene Sync <a href="#modelmaterialscene-sync-18" id="modelmaterialscene-sync-18"></a>
+#### Model/Material/Scene Sync 
 
 * After the current model has been edited in Rhino, quickly sync the new model and materials to D5 Render by the Sync button, while keeping the materials and scene parameters that had been adjusted in D5 Render
   * Support the mapping of PBR materials for Rhino 7
@@ -97,18 +97,18 @@ fetched: 2026-06-07
   * Support the sync of VisualARQ data
 * Support the sync of all scenes from NamedView
 
-#### View Sync <a href="#view-sync-19" id="view-sync-19"></a>
+#### View Sync 
 
 * Keep the views of Rhino and D5 Render consistent when syncing
 * Support one-click to turn view sync on or off
 
-#### Light Sync <a href="#light-sync-20" id="light-sync-20"></a>
+#### Light Sync 
 
 * Support the sync of Spotlight, Point light, Rectangular light, and Linear light.
 
-#### AutoUpdate Notification <a href="#autoupdate-notification-21" id="autoupdate-notification-21"></a>
+#### AutoUpdate Notification 
 
-## Known Issues & Solutions <a href="#known-issues-solutions-22" id="known-issues-solutions-22"></a>
+## Known Issues & Solutions 
 
 1. It is not supported to directly sync the world coordinate data for textures’ UV, so we need to turn on \[Triplanar] for materials in D5 Render manually.
 2. Texture offset is not supported for now.
@@ -116,7 +116,7 @@ fetched: 2026-06-07
 
 ***
 
-## Supported versions <a href="#toc-h2-supported-versions" id="toc-h2-supported-versions"></a>
+## Supported versions 
 
 Rhino 6.1 and above
 

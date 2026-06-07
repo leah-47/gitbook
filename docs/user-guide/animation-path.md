@@ -14,7 +14,7 @@ This section explains the Animation Path system in the D5 Render. Using paths, w
 
 :point_up_2:Characters, Vehicles, and Vegetation all have their corresponding path tools. The finished paths can be further edited.
 
-## :person_walking:Character Path <a href="#character-path" id="character-path"></a>
+## :person_walking:Character Path 
 
 [Character Path](./animation-path/character-path.md)
 

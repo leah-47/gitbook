@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to set custom background color?
 
-<figure><img src="/files/kilVxc7d4xVuW7miq0lc" alt=""><figcaption></figcaption></figure>
+
 
 Added Custom Background Color to **Effect>Style** for a flexible control over the background color in the 3D viewport.
 
@@ -18,7 +18,7 @@ Added Custom Background Color to **Effect>Style** for a flexible control over th
 * This parameter only affects the viewport background and does not change models, environment lighting, or reflections.
 
 
-<figure><img src="/files/nGDFUoGodo9hTi4rIbg2" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

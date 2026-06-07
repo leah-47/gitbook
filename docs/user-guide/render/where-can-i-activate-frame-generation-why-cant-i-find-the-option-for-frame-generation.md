@@ -10,11 +10,11 @@ fetched: 2026-06-07
 
 * Added DLSS Frame Generation in Menu > Frame Generation.
 
-<figure><img src="/files/0yKmx0Ulr8fYtO5eMQTh" alt=""><figcaption></figcaption></figure>
+
 
 * Only GeForce RTX 40 series GPUs support DLSS Frame Generation. You can switch on the "Hardware-accelerated GPU scheduling" in "System > Settings > Display > Graphics settings".
 
-<figure><img src="/files/yfqSiROBwpliS2eOajCt" alt="" width="563"><figcaption></figcaption></figure>
+
 
 * 2.10 Version supports **DLSS 4** Frame Generation to enhance FPS by utilizing AI to generate extra frames.
 
@@ -42,9 +42,9 @@ Situation 3: Partial scenes have blurry/shaking at the edges of the preview inte
 
 Suggestion: This is a known issue with the current version of NV GPUs. If you encounter this kind of scene, it is recommended that you turn off the ‘Frame Generation’ when previewing/outputting.
 
-<figure><img src="/files/580Baow0xQrz4lT02XZU" alt=""><figcaption><p>Situation 1: shaking preview of scenes with regular meshes/textures</p></figcaption></figure>
 
-<figure><img src="/files/zmntazMBFNSZQyxuCKuK" alt=""><figcaption><p>Situation 2: Partial scenes occasionally have stuck/shaking preview</p></figcaption></figure>
+
+
 
 
 ---

@@ -36,7 +36,7 @@ The "Direction" parameter controls the direction of the model rotation, which is
 
 The "Random Direction" is based on the existing Direction, and then rotate each model randomly.
 
-![](/files/-MkZIaehO9KqO9PrhXpf)
+
 
 ### Random Spacing and Random Offset
 
@@ -46,7 +46,7 @@ By default, models are equally spaced along the centerline of the path. Adjust t
 
 "Random Offset" is when the model moves perpendicular to the centerline of the path, randomly increasing the distance from the centerline and increasing the width of the path.
 
-![](/files/-MkZJSHskbMX089OVZtp)
+
 
 ### Size and Rrandom Size
 

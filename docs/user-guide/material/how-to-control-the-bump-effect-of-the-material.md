@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 Using normal maps can create a bumpy visual effect on the material surface without the need for additional modeling work. Normal maps usually look like this:
 
-<figure><img src="/files/a0Dp5yXGrH4rHqS3plys" alt=""><figcaption><p>Normal map</p></figcaption></figure>
+
 
 When using PBR texture mapping resources, the blue-purple images with "Normal" in the filename are normal maps, which need to be linked to the "Normal" map column.
 
@@ -16,15 +16,15 @@ When using PBR texture mapping resources, the blue-purple images with "Normal" i
 
 In the D5 renderer, even if the user does not have a normal map, D5 will automatically generate normal information based on the base color map, allowing the material to reflect bumps and dents. As shown in the figure below, the normal field is empty, D5 automatically generates normal information based on the base color map, and you can adjust the strength of the bump effect through the control. (For demonstration purposes, the base color map has been temporarily adjusted to gray.)
 
-<figure><img src="/files/Ppg8Zds0Pbg5uZjHm0U2" alt=""><figcaption></figcaption></figure>
+
 
 Adjusting the Normal Intensity Control Widget can enhance or weaken the normal bump effect, you can even drag it to the left to input a negative value, reversing the bump effect.
 
-<figure><img src="/files/sLTeeTzepVnp1KvCWXRr" alt=""><figcaption></figcaption></figure>
+
 
 ## Detailed parameters of normal mapping
 
-<figure><img src="/files/k5LlJLq54G0styzw2BXm" alt=""><figcaption></figcaption></figure>
+
 
 * Inverted: This flips the direction of the normal bumps.
 * Individual UV: This parameter has the same function as the detailed parameters of the base color.

@@ -8,7 +8,7 @@ fetched: 2026-06-07
 
 D5 Converter-3Ds MAX helps you to link 3Ds MAX smoothly.
 
-<div align="left"><figure><img src="/files/ThTYhDPFsNP5svTTmWBq" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 <https://www.youtube.com/watch?v=xrXakSqLt0Y>
 
@@ -26,7 +26,7 @@ After downloading, unzip the file, double-click on the .exe file, and follow the
 
 ## Feature Introduction
 
-<div align="left"><figure><img src="/files/UF1NAT3A2gYi2Q7Rq7Aq" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ### Start Sync
 
@@ -69,9 +69,9 @@ The specific parameters of the lights need to be adjusted in the D5 render.
 | Arnold Light                        |                                                                            | Point light |
 | Photometric light                   |                                                                            | Point light |
 
-### Export .d5a files <a href="#toc-h3-export-d5a-files" id="toc-h3-export-d5a-files"></a>
+### Export .d5a files 
 
-<div align="left"><figure><img src="/files/imfmgKsw2wRoHTN4NyCq" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * Export 3ds Max models in .d5a format to directly open them in D5 Render.
 * Export .d5a files without compressing texture resolution.
@@ -79,9 +79,9 @@ The specific parameters of the lights need to be adjusted in the D5 render.
 * The Auto Collapse feature is added and the last setting will be saved (to solve most problems of model dislocation, normal UV and closed line export).
 * Select keep group hierarchy and import the exported .d5a file into D5, which will be displayed as a group structure.
 
-### Export .skp files <a href="#toc-h3-export-skp-files" id="toc-h3-export-skp-files"></a>
+### Export .skp files 
 
-<div align="left"><figure><img src="/files/w6MM6MyaB7wTO8FbnBLL" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 * Support model export in .skp format to import into SketchUp and D5 Render
 * Resize Bitmap: 512 \* 512, 1024 \* 1024
@@ -94,7 +94,7 @@ The specific parameters of the lights need to be adjusted in the D5 render.
 * Automatically save scenes after sync: when there are materials with the same name in the 3ds max file, after synchronization of first time, the converter will automatically change the material name to a unique one to prevent the material assigned in D5 from getting overwritten next time.
 * Sync Method
 
-<div align="left"><figure><img src="/files/c6zPl5CydHpwj88OhwQq" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 New method (recommended): It is for all new projects that did not use previous versions of 3ds Max plugin (2.98 and older), which can synchronize the model coordinates and align them automatically.
 
@@ -104,17 +104,17 @@ Compatible method: It is only for projects that once have been linked to D5 scen
 
 Features can be found in the menu bar
 
-<div align="left"><figure><img src="/files/mGBQIRheqyKx5DcYFB5n" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
-### Uninstall <a href="#toc-h2-uninstall" id="toc-h2-uninstall"></a>
+### Uninstall 
 
 Method 1: Click "window System Start Menu - Plugin Uninstaller - Uninstall D5 Converter for 3ds Max".
 
-<div align="left"><figure><img src="/files/e0gQ2gz6mS6KkDU3n4eW" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 Method 2: Uninstall in "Computer Control Panel - Programs - Uninstall a programme".
 
-<div align="left"><figure><img src="/files/JiW61AoyeBcMEMww3ciI" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 
 ---

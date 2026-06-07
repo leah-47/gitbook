@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to adjust the weather in D5?
 
-<mark style="background-color:purple;">The second item in the "Environment" panel on the right sidebar contains three settings for the weather:</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**Cloud, Fog , Wind and Precipitation**</mark><mark style="background-color:purple;">.</mark>
+**The second item in the "Environment" panel on the right sidebar contains three settings for the weather:** ********Cloud, Fog , Wind and Precipitation******.**
 
 ## Volumetric Clouds:
 
@@ -16,7 +16,7 @@ Introduces Volumetric Clouds with cloud presets and advanced settings, enabling 
 * Contains multiple built-in cloud presets including Cumulus, Stratocumulus, Stratus, Altocumulus, Cumulonimbus, Cirrus Clouds, and Clear Blue Sky.
 * **Advanced Cloud Settings:** Contains advanced options to customize the cloud appearance for different weather and lighting conditions.
 
-<figure><img src="/files/JwdTHBYNKJn19N9aK2TW" alt="" width="362"><figcaption></figcaption></figure>
+
 
 ### Cloud parameters
 
@@ -50,7 +50,7 @@ Introduces Volumetric Clouds with cloud presets and advanced settings, enabling 
 
 Control the fog effect in the scene to add realism and depth to the scene.
 
-<figure><img src="/files/jYNfDFmIFI1hgGi3024G" alt=""><figcaption></figcaption></figure>
+
 
 ### **Color**
 
@@ -93,9 +93,9 @@ When opening files saved in version 3.0 using previous versions of D5, fog effec
 
 Control the wind movement effect of the plant. The higher the value, the more obvious the wind-driven effect.
 
-![Strength: 0.3](../../files/-MkOOOqecxS0ZC1tlJkR.md)
 
-![Strength: 0.5](../../files/-MkOOYMcnMiyGDjwN5A1.md)
+
+
 
 ### **Direction**
 
@@ -108,7 +108,7 @@ Freely change the wind direction, the control value range is 0°-360°.
 
 Precipitation Contains snow and rain system , with adjustable strength and puddle effects.
 
-<figure><img src="/files/YT22p4KywxgrHMkzNtSp" alt=""><figcaption></figcaption></figure>
+
 
 ### **Rain and snow parameters**
 
@@ -131,7 +131,7 @@ Ponding parameter is to control the degree of the ground affected by precipitati
 Due to the changes in the rain and snow effects in version 2.10, the rain, snow and puddle effects may change when opening old archives (archives from versions before 2.10) in version 2.10 Client, so users need to manually re-adjust them or continue to use previous versions of Client.
 
 
-<figure><img src="/files/4P6uazUkEQUmxVFrCQkX" alt=""><figcaption><p>2.10 | 2.9</p></figcaption></figure>
+
 
 ### Raindrop Transparency
 
@@ -149,7 +149,7 @@ Customize the size of the snowflake as the effect requires, the larger the value
 
 Simulates water mist in humid air to enhance the realism of rainy day scenes. The larger the density parameter, the more intense the water mist will be.
 
-<figure><img src="/files/HUjW6v4W70iMwZYRaZwz" alt=""><figcaption></figcaption></figure>
+
 
 ## Milky Way
 
@@ -160,7 +160,7 @@ Adjust the brightness and angle of Milky Way as needed to enhance the realism of
 Milky Way is only displayed in night environments.
 
 
-<figure><img src="/files/wI18C1B5gQwKzrmIJjJn" alt=""><figcaption></figcaption></figure>
+
 
 
 ---

@@ -6,15 +6,15 @@ fetched: 2026-06-07
 
 # Update | D5 LiveSync for Rhino
 
-## Ver. 1.1.3.0016 <a href="#toc-h3-ver1120009" id="toc-h3-ver1120009"></a>
+## Ver. 1.1.3.0016 
 
 `Release date: 20251117`
 
-#### Feature Adjustments <a href="#feature-adjustments-2" id="feature-adjustments-2"></a>
+#### Feature Adjustments 
 
 * Removed support for parallel projection mapping (to be reintroduced in a future update)
 
-#### Fixes <a href="#fixes-3" id="fixes-3"></a>
+#### Fixes 
 
 * Fixed an occasional crash caused by specific scene linkage
 * Fixed a crash caused by conflicts with Grasshopper third-party plugins
@@ -22,7 +22,7 @@ fetched: 2026-06-07
 
 ***
 
-## Ver: 1.1.2.0005 <a href="#toc-h3-ver-1120005" id="toc-h3-ver-1120005"></a>
+## Ver: 1.1.2.0005 
 
 `Release date: 20251104`
 
@@ -42,7 +42,7 @@ fetched: 2026-06-07
 
 `Release date: 20241025`
 
-#### New <a href="#toc-h3-new" id="toc-h3-new"></a>
+#### New 
 
 1. Supports LiveSync for Rhino
 2. Supports SubD Tools, mesh edit: curve piping, thickness, edge softening, etc.
@@ -56,11 +56,11 @@ fetched: 2026-06-07
 
 ***
 
-## Ver: 1.0.0.0029 <a href="#toc-h3-ver-1000029" id="toc-h3-ver-1000029"></a>
+## Ver: 1.0.0.0029 
 
 `Release date: 20240703`
 
-#### New <a href="#new-2" id="new-2"></a>
+#### New 
 
 1. Supports LiveSync for Rhino
 2. Supports SubD Tools, mesh edit: curve piping, thickness, edge softening, etc.

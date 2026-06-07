@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # What are the material tools? What are they used for?
 
-<div align="left"><figure><img src="/files/5OVwtkZWSxCovs2H3jie" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 ## Duplicate
 
@@ -18,11 +18,11 @@ Add the currently selected material to the local library. You can find the saved
 
 ## Batch Import PBR Textures
 
-<div align="left"><figure><img src="/files/oJWpV7ifja5hlqvrf30c" alt=""><figcaption></figcaption></figure></div>
+<div align="left"></div>
 
 In the texture editing panel, click the "Import" button, you can select multiple PBR textures in the folder with one click to import them automatically.
 
-> **Info:** The PBR material system contains two sets of workflows : the metallic/roughness system and the specularity/glossiness system, which <mark style="background-color:purple;">D5 supports belongs to the metallic/roughness workflow</mark>.&#x20;
+> **Info:** The PBR material system contains two sets of workflows : the metallic/roughness system and the specularity/glossiness system, which **D5 supports belongs to the metallic/roughness workflow**.&#x20;
 
 The texture imported by the user should **conform to the suffix naming rules of this workflow** in order to correctly identify the material effect.&#x20;
 

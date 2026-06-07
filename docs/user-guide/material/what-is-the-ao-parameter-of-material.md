@@ -10,7 +10,7 @@ fetched: 2026-06-07
 
 In reality, light scatters in all directions, and its intensity constantly changes, so the part of the scene that is indirectly illuminated should also have varying intensities, not just a constant ambient light. One simulation of indirect lighting is called Ambient Occlusion. Its principle is to approximate the simulation of indirect lighting by darkening the folds, holes, and very close walls. These areas are largely obscured by surrounding geometries, making it difficult for light to escape, so these places will appear darker.
 
-<figure><img src="/files/g6vdKsmaxu3IykHj4OtI" alt=""><figcaption></figcaption></figure>
+
 
 AO is used to depict the effect of objects blocking the surrounding diffuse light when they intersect or are close to each other. It can comprehensively improve details, especially the shadows in the dark parts, enhance the sense of space, realism, and at the same time, strengthen and improve the contrast of light and dark in the picture, enhancing the artistic quality of the image.
 

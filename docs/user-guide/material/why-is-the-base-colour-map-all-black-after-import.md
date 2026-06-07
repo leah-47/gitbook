@@ -12,7 +12,7 @@ fetched: 2026-06-07
 
 This usually happens with 3Ds max models.&#x20;
 
-You need to go back to the modelling software and <mark style="background-color:purple;">check the normal orientation</mark>.
+You need to go back to the modelling software and **check the normal orientation**.
 
 
 ---

@@ -6,7 +6,7 @@ fetched: 2026-06-07
 
 # How to create and manage Team accounts
 
-> **Warning:** This guide is largely applicable only to non-SSO (Single Sign-On) methods. For SSO configuration, please consult [<mark style="color:red;">SSO Handbook</mark>](./single-sign-on-sso/microsoft-azure-sso-login.md)
+> **Warning:** This guide is largely applicable only to non-SSO (Single Sign-On) methods. For SSO configuration, please consult [**SSO Handbook**](./single-sign-on-sso/microsoft-azure-sso-login.md)
 
 
 [Apply for and set up a Teams account](./how-to-create-and-manage-team-accounts/apply-for-and-set-up-a-teams-account.md)
