@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/leah-47/gitbook#readme",
   "devDependencies": {
-    "vitepress": "^1.6.4"
-  },
-  "dependencies": {
+    "vitepress": "^1.6.4",
     "playwright": "^1.60.0"
   }
 }
