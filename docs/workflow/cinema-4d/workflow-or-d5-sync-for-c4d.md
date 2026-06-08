@@ -78,10 +78,6 @@ Unzip the file after downloading it and run the installer following the instruct
 * Method 2\
   Go to Control Panel > Programs and Features > Uninstall a program, and then run the uninstaller.<br>
 
-  [i](/159d76cec5570196623a059229989ef549a74e8e.png)
-
-  
-
 ## Support 
 
 If you encounter any problems when using C4D and D5 Render workflow, feel free to visit D5 Forum, where you can read release notes and known issues/solutions, communicate with each other, and seek help from D5 Support.

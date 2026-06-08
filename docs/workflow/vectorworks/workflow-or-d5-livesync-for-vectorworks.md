@@ -30,8 +30,6 @@ fetched: 2026-06-07
 
 #### Features 
 
-<img src="/c1e86b0a82416c2ddb1b1f8d28d79767c8001dc4.png" alt="" height="40" width="239">
-
 **Connect to the D5 Render**
 
 * Click “Connect to the D5 Render” to launch the D5 Render from Vectorworks with one click, and synchronize the current Vectorworks 3D models and materials with D5.

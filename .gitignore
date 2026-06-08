@@ -4,6 +4,7 @@ __pycache__/
 venv/
 node_modules/
 dist/
+docs/.vitepress/cache/
 
 # Scripts & temp files (not part of the documentation)
 resolve-*.js
