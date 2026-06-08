@@ -1,32 +1,32 @@
 # How to achieve caustics effect
 
-To achieve the caustic effect, the ‘Caustics’ option must be enabled simultaneously for **both the material and the light source**\.
+要实现焦散效果，必须同时为**材质和光源**启用“焦散”选项。
 
-- Among the materials, only the **\&\#34;Custom\&\#34;, \&\#34;Transparent\&\#34; and \&\#34;Water\&\#34; material templates** currently support caustics\.
+- 在这些材质中，目前只有**\&\#34;自定义\&\#34;、\&\#34;透明\&\#34;和\&\#34;水\&\#34;材质模板**支持焦散效果。
 
-> The Custom material supports reflective caustics; 
+> 自定义材质支持反射焦散；
 > 
-> the Transparent and Water materials support both reflective and refractive caustics;
+> 透明和水材质同时支持反射和折射焦散；
 > 
 > 
 
-- **Four types of light sources and the sun\(Geo Sky, and HDRI\-Sun\)** support the caustic effect\.
+- **四种光源和太阳（地理天空和HDRI太阳）**支持焦散效果。
 
-1. The morphology of the caustics spot is affected by the model\&\#39;s bump variations as well as the normal texture map, which can be adjusted with the intensity and softness parameters\.
+1. 焦散光斑的形态受模型的凹凸变化以及法线纹理图的影响，这些可以通过强度和柔和度参数进行调整。
 
-2. The parameters supported for adjustment in Light Sources \(4 Basic Light, Geo Sky and HDRI\-Sun\) when caustics is turned on: 
+2. 当焦散效果开启时，光源（4种基本光源、地理天空和HDRI太阳）中支持调整的参数：
 
-- **Caustics Intensity:** The multiplier value of the Caustics effect, the higher the value, the brighter the caustics\.
+- **焦散强度：**焦散效果的乘数，数值越高，焦散越亮。
 
-- **Softness:** The degree of Caustics softening which takes effect at the Light Source Radius greater than 0\.
+- **柔和度：**在光源半径大于0时生效的焦散软化程度。
 
-> Note:
+> 注意：
 > 
-> 1. The caustics effect on transparent materials is not compatible with their individual UV and triplanar effects\.
+> 1. 透明材质上的焦散效果与它们各自的UV和三平面效果不兼容。
 > 
-> 2. Currently supports **up to 64 light sources** at the same time with the caustics effect on\.
+> 2. 当前支持**最多64个光源**同时开启焦散效果。
 > 
-> 3. The caustics effect increases the rendering performance overhead, so please choose and adjust it according to the actual need when using it\.
+> 3. 焦散效果会增加渲染性能开销，因此使用时请根据实际需求进行选择和调整。
 > 
 > 
 
@@ -34,6 +34,6 @@ To achieve the caustic effect, the ‘Caustics’ option must be enabled simulta
 
 # FAQ
 
-## Why do the sunlight caustics flicker? 
+## 为什么阳光焦散会闪烁？
 
-Sunlight caustics consume huge computation resources\. To reduce the consumption, Sunlight Caustics may slightly flicker in preview, but will appear static in rendered images\.
+阳光焦散效果会消耗大量计算资源。为减少消耗，阳光焦散效果在预览时可能会稍有闪烁，但在渲染图像中会保持静止。
