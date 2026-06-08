@@ -1,39 +1,35 @@
 # How to achieve caustics effect
 
-要实现焦散效果，必须同时为**材质和光源**启用“焦散”选项。
+To achieve the caustics effect, you must enable the "Caustics" option for both **materials and light sources**.
 
-- 在这些材质中，目前只有**\&\#34;自定义\&\#34;、\&\#34;透明\&\#34;和\&\#34;水\&\#34;材质模板**支持焦散效果。
+- Among these materials, currently only the **"Custom", "Transparent", and "Water" material templates** support the caustics effect.
 
-> 自定义材质支持反射焦散；
+> Custom materials support reflection caustics;
 > 
-> 透明和水材质同时支持反射和折射焦散；
-> 
-> 
-
-- **四种光源和太阳（地理天空和HDRI太阳）**支持焦散效果。
-
-1. 焦散光斑的形态受模型的凹凸变化以及法线纹理图的影响，这些可以通过强度和柔和度参数进行调整。
-
-2. 当焦散效果开启时，光源（4种基本光源、地理天空和HDRI太阳）中支持调整的参数：
-
-- **焦散强度：**焦散效果的乘数，数值越高，焦散越亮。
-
-- **柔和度：**在光源半径大于0时生效的焦散软化程度。
-
-> 注意：
-> 
-> 1. 透明材质上的焦散效果与它们各自的UV和三平面效果不兼容。
-> 
-> 2. 当前支持**最多64个光源**同时开启焦散效果。
-> 
-> 3. 焦散效果会增加渲染性能开销，因此使用时请根据实际需求进行选择和调整。
-> 
+> Transparent and Water materials support both reflection and refraction caustics;
 > 
 
+- **Four types of light sources and the Sun (Geographic Sky and HDRI Sun)** support the caustics effect.
 
+1. The shape of caustic spots is affected by the bump variations of the model and the normal texture map, which can be adjusted via the Intensity and Softness parameters.
+
+2. When the caustics effect is enabled, the adjustable parameters in light sources (4 basic light sources, Geographic Sky, and HDRI Sun) include:
+
+- **Caustics Intensity:** A multiplier for the caustics effect; the higher the value, the brighter the caustics.
+
+- **Softness:** The degree of caustic softening that takes effect when the light source radius is greater than 0.
+
+> Note:
+> 
+> 1. The caustics effect on Transparent materials is incompatible with their respective UV and Tri-Planar effects.
+> 
+> 2. Currently, a maximum of **64 light sources** can have the caustics effect enabled simultaneously.
+> 
+> 3. The caustics effect increases rendering performance overhead, so please select and adjust it according to your actual needs when using it.
+> 
 
 # FAQ
 
-## 为什么阳光焦散会闪烁？
+## Why does sunlight caustics flicker?
 
-阳光焦散效果会消耗大量计算资源。为减少消耗，阳光焦散效果在预览时可能会稍有闪烁，但在渲染图像中会保持静止。
+The sunlight caustics effect consumes a large amount of computing resources. To reduce resource consumption, the sunlight caustics effect may flicker slightly during preview, but it will remain static in rendered images.
