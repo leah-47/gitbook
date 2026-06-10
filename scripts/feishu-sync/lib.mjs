@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { convertDocumentToMarkdown } from './blocks-to-markdown.mjs'
 
 export const FEISHU_HOST = 'https://open.feishu.cn'
 
@@ -107,6 +108,23 @@ export async function resolveDocToken(accessToken, source) {
   return { docToken: objToken, wikiNodeToken: source.token }
 }
 
+export async function fetchDocumentMarkdown(accessToken, documentId) {
+  const assetsDir = path.join(repoRoot(), 'docs/public/feishu', documentId)
+  const assetUrlPrefix = `/feishu/${documentId}`
+
+  try {
+    const markdown = await convertDocumentToMarkdown(accessToken, documentId, {
+      assetsDir,
+      assetUrlPrefix,
+    })
+    if (markdown.trim()) return markdown
+  } catch (err) {
+    console.warn(`blocks 转换失败，回退 raw_content: ${err.message}`)
+  }
+
+  return fetchDocumentRawContent(accessToken, documentId)
+}
+
 export async function fetchDocumentRawContent(token, documentId) {
   const res = await fetch(
     `${FEISHU_HOST}/open-apis/docx/v1/documents/${documentId}/raw_content`,
@@ -207,7 +225,7 @@ export async function syncOne({
   const outputPath = path.join(repoRoot(), targetPath)
   console.log(`同步: ${docToken} → ${targetPath}`)
 
-  const rawContent = await fetchDocumentRawContent(accessToken, docToken)
+  const rawContent = await fetchDocumentMarkdown(accessToken, docToken)
 
   let existing = { meta: {}, body: '' }
   if (fs.existsSync(outputPath)) {
