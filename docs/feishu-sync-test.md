@@ -1,13 +1,11 @@
 ---
 feishu_doc_token: GmUydRjMZoyl0GxmdGRc7PdCnOg
-feishu_synced_at: "2026-06-10T15:08:04.299Z"
+feishu_synced_at: "2026-06-10T15:15:05.826Z"
 feishu_wiki_token: C1snwEs4hiVZtNk1fZlcCfTEnRe
 title: feishu-sync-test
 ---
 
 # feishu-sync-test
-
-https://youtu.be/0YY3vqoIFv4
 
 To achieve the caustic effect, the ‘Caustics’ option must be enabled simultaneously for **both the material and the light source**.
 
