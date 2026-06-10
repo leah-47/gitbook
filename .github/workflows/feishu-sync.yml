@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: feishu-sync
@@ -74,5 +75,12 @@ jobs:
             exit 0
           fi
           git status --short
+          git status --short
           git commit -m "docs(feishu): auto sync from feishu"
           git push
+
+      - name: Trigger site deploy
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy VitePress to GitHub Pages" --repo "${{ github.repository }}" --ref main

@@ -248,7 +248,7 @@ function createConverter(accessToken, assetsDir, assetUrlPrefix) {
     return out
   }
 
-  return { blockMap, renderBlock }
+  return { blockMap, renderBlock, imageMarkdown }
 }
 
 export async function convertDocumentToMarkdown(accessToken, documentId, options) {
@@ -259,7 +259,7 @@ export async function convertDocumentToMarkdown(accessToken, documentId, options
     throw new Error('blocks 列表为空')
   }
 
-  const { blockMap, renderBlock } = createConverter(accessToken, assetsDir, assetUrlPrefix)
+  const { blockMap, renderBlock, imageMarkdown } = createConverter(accessToken, assetsDir, assetUrlPrefix)
 
   for (const block of blocks) {
     blockMap.set(block.block_id, block)
@@ -270,7 +270,29 @@ export async function convertDocumentToMarkdown(accessToken, documentId, options
     throw new Error('找不到文档根 block')
   }
 
-  const markdown = await renderBlock(root)
+  let markdown = await renderBlock(root)
+
+  // 补全树遍历未覆盖的孤立图片块（如在分栏/表格内）
+  for (const block of blocks) {
+    if (block.block_type === BLOCK.IMAGE && block.image?.token) {
+      const token = block.image.token
+      const caption = block.image?.caption?.content?.trim() ?? ''
+      const needle = `${assetUrlPrefix}/${token}`
+      if (!markdown.includes(needle) && !markdown.includes(`(${token}`)) {
+        console.log(`  补全孤立图片块: ${token}`)
+        markdown += `\n\n${await imageMarkdown(token, caption)}`
+      }
+    }
+    if (block.block_type === BLOCK.FILE && block.file?.token) {
+      const token = block.file.token
+      const name = block.file?.name ?? 'file'
+      if (!markdown.includes(token)) {
+        console.log(`  补全孤立文件块: ${name}`)
+        markdown += `\n\n${await imageMarkdown(token, name)}`
+      }
+    }
+  }
+
   if (!markdown.trim()) {
     throw new Error('blocks 转换结果为空')
   }
