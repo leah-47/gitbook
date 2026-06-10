@@ -1,0 +1,77 @@
+name: Feishu Sync
+
+on:
+  schedule:
+    # 每 15 分钟检查飞书更新（UTC；北京时间 = UTC+8）
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [feishu-doc-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feishu-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+
+      - name: Sync single doc (repository_dispatch)
+        if: github.event_name == 'repository_dispatch'
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        run: |
+          WIKI="${{ github.event.client_payload.wiki_token }}"
+          DOC="${{ github.event.client_payload.doc_token }}"
+          URL="${{ github.event.client_payload.url }}"
+          GPATH="${{ github.event.client_payload.github_path }}"
+
+          ARGS=""
+          if [ -n "$URL" ]; then ARGS="--url \"$URL\""; fi
+          if [ -n "$WIKI" ]; then ARGS="--wiki \"$WIKI\""; fi
+          if [ -n "$DOC" ]; then ARGS="--doc \"$DOC\""; fi
+          if [ -n "$GPATH" ]; then ARGS="$ARGS --path \"$GPATH\""; fi
+
+          if [ -z "$ARGS" ]; then
+            echo "repository_dispatch 缺少 wiki_token / doc_token / url"
+            exit 1
+          fi
+
+          eval node scripts/feishu-sync/sync.mjs $ARGS
+
+      - name: Sync all mapped docs
+        if: github.event_name != 'repository_dispatch'
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        run: node scripts/feishu-sync/sync-all.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "feishu-sync-bot"
+          git config user.email "feishu-sync-bot@users.noreply.github.com"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "没有变更，飞书内容与 GitHub 已一致"
+            exit 0
+          fi
+          git commit -m "docs(feishu): auto sync from feishu"
+          git push

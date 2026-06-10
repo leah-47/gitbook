@@ -9,7 +9,9 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "sync:feishu": "node scripts/feishu-sync/sync.mjs",
+    "sync:feishu:all": "node scripts/feishu-sync/sync-all.mjs"
   },
   "repository": {
     "type": "git",

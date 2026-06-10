@@ -1,0 +1,75 @@
+name: Feishu Sync Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      wiki_token:
+        description: '知识库 wiki token（/wiki/ 后面那段）'
+        required: false
+        type: string
+      doc_token:
+        description: 'docx token（/docx/ 后面那段）'
+        required: false
+        type: string
+      url:
+        description: '完整飞书链接（优先于 token）'
+        required: false
+        type: string
+      github_path:
+        description: 'GitHub 文件路径'
+        required: false
+        default: 'docs/feishu-sync-test.md'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+
+      - name: Sync from Feishu
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.url }}" ]; then
+            ARGS="--url \"${{ inputs.url }}\""
+          elif [ -n "${{ inputs.wiki_token }}" ]; then
+            ARGS="--wiki \"${{ inputs.wiki_token }}\""
+          elif [ -n "${{ inputs.doc_token }}" ]; then
+            ARGS="--doc \"${{ inputs.doc_token }}\""
+          else
+            ARGS="--wiki \"C1snwEs4hiVZtNk1fZlcCfTEnRe\""
+          fi
+          if [ -n "${{ inputs.github_path }}" ]; then
+            ARGS="$ARGS --path \"${{ inputs.github_path }}\""
+          fi
+          eval node scripts/feishu-sync/sync.mjs $ARGS
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "feishu-sync-bot"
+          git config user.email "feishu-sync-bot@users.noreply.github.com"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "没有变更"
+            exit 0
+          fi
+          git commit -m "docs(feishu): manual sync test"
+          git push

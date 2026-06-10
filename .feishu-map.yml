@@ -1,0 +1,12 @@
+# 飞书文档 ↔ GitHub 路径映射
+# 新增文档：在此追加一条，并在飞书页面「添加文档应用 → 帮助中心同步助手」
+
+version: 1
+
+mappings:
+  - feishu:
+      wiki_token: "C1snwEs4hiVZtNk1fZlcCfTEnRe"
+      doc_token: "GmUydRjMZoyl0GxmdGRc7PdCnOg"
+    github:
+      path: "docs/feishu-sync-test.md"
+      title: "Feishu Sync Test"

@@ -1,0 +1,12 @@
+# 飞书文档 ↔ GitHub 路径映射示例
+# wiki_token = /wiki/ 后面那段；doc_token = 解析后的 docx id（可选，便于排查）
+
+version: 1
+
+mappings:
+  - feishu:
+      wiki_token: "C1snwEs4hiVZtNk1fZlcCfTEnRe"
+      doc_token: "GmUydRjMZoyl0GxmdGRc7PdCnOg"
+    github:
+      path: "docs/feishu-sync-test.md"
+      title: "Feishu Sync Test"
