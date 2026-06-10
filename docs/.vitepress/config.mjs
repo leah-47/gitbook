@@ -11,12 +11,12 @@ export default defineConfig({
 
   srcExclude: ['**/SUMMARY.md'],
 
-  search: {
-    provider: 'local',
-  },
-  
   themeConfig: {
     logo: '/logo-dark.svg',
+
+    search: {
+      provider: 'local',
+    },
 
     nav: [
       { text: 'Getting Started', link: '/getting-started/d5-workflow' },
