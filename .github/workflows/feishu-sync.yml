@@ -75,12 +75,16 @@ jobs:
             exit 0
           fi
           git status --short
-          git status --short
           git commit -m "docs(feishu): auto sync from feishu"
           git push
 
-      - name: Trigger site deploy
+      # bot 的 GITHUB_TOKEN push 不会触发 deploy.yml，必须手动触发
+      - name: Trigger VitePress deploy
         if: success()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Deploy VitePress to GitHub Pages" --repo "${{ github.repository }}" --ref main
+        run: |
+          gh workflow run "Deploy VitePress to GitHub Pages" \
+            --repo "${{ github.repository }}" \
+            --ref main
+          echo "已触发 Deploy，约 1 分钟后站点会更新"
