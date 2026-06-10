@@ -1,9 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { convertDocumentToMarkdown } from './blocks-to-markdown.mjs'
-
-export const FEISHU_HOST = 'https://open.feishu.cn'
+import { FEISHU_HOST } from './constants.mjs'
 
 const libDir = path.dirname(fileURLToPath(import.meta.url))
 
@@ -112,17 +110,20 @@ export async function fetchDocumentMarkdown(accessToken, documentId) {
   const assetsDir = path.join(repoRoot(), 'docs/public/feishu', documentId)
   const assetUrlPrefix = `/feishu/${documentId}`
 
+  const { convertDocumentToMarkdown } = await import('./blocks-to-markdown.mjs')
+
   try {
+    console.log('  使用 blocks API 转换（含图片下载）')
     const markdown = await convertDocumentToMarkdown(accessToken, documentId, {
       assetsDir,
       assetUrlPrefix,
     })
-    if (markdown.trim()) return markdown
+    return markdown
   } catch (err) {
-    console.warn(`blocks 转换失败，回退 raw_content: ${err.message}`)
+    console.error(`  blocks 转换失败: ${err.message}`)
+    console.warn('  回退 raw_content（图片将丢失）')
+    return fetchDocumentRawContent(accessToken, documentId)
   }
-
-  return fetchDocumentRawContent(accessToken, documentId)
 }
 
 export async function fetchDocumentRawContent(token, documentId) {

@@ -73,5 +73,6 @@ jobs:
             echo "没有变更，飞书内容与 GitHub 已一致"
             exit 0
           fi
+          git status --short
           git commit -m "docs(feishu): auto sync from feishu"
           git push

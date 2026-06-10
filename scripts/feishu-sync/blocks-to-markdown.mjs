@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { FEISHU_HOST } from './lib.mjs'
+import { FEISHU_HOST } from './constants.mjs'
 
 const BLOCK = {
   PAGE: 1,
@@ -20,6 +20,9 @@ const BLOCK = {
   QUOTE: 15,
   TODO: 17,
   DIVIDER: 22,
+  FILE: 23,
+  GRID: 24,
+  GRID_COLUMN: 25,
   IMAGE: 27,
   QUOTE_CONTAINER: 34,
 }
@@ -41,7 +44,6 @@ export async function fetchAllBlocks(accessToken, documentId) {
   do {
     const url = new URL(`${FEISHU_HOST}/open-apis/docx/v1/documents/${documentId}/blocks`)
     url.searchParams.set('page_size', '500')
-    url.searchParams.set('document_revision_id', '-1')
     if (pageToken) url.searchParams.set('page_token', pageToken)
 
     const res = await fetch(url, { headers: { Authorization: `Bearer ${accessToken}` } })
@@ -53,6 +55,9 @@ export async function fetchAllBlocks(accessToken, documentId) {
     blocks.push(...(json.data?.items ?? []))
     pageToken = json.data?.has_more ? json.data?.page_token : undefined
   } while (pageToken)
+
+  const imageCount = blocks.filter((b) => b.block_type === BLOCK.IMAGE).length
+  console.log(`  blocks 共 ${blocks.length} 个，其中图片块 ${imageCount} 个`)
 
   return blocks
 }
@@ -102,11 +107,6 @@ function parseBlockText(block, blockType) {
   const key = blockTextKey(blockType)
   const payload = key ? block[key] : null
   if (!payload) return ''
-
-  if (blockType === BLOCK.CODE) {
-    return parseTextElements(payload.elements ?? [])
-  }
-
   return parseTextElements(payload.elements ?? [])
 }
 
@@ -118,30 +118,32 @@ async function downloadImage(accessToken, fileToken, destDir) {
     redirect: 'follow',
   })
 
+  const contentType = res.headers.get('content-type') ?? ''
+
+  if (contentType.includes('application/json')) {
+    const json = await res.json()
+    throw new Error(`${json.code} ${json.msg}`)
+  }
+
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`)
   }
 
-  const mime = res.headers.get('content-type')?.split(';')[0]?.trim() ?? 'image/png'
+  const mime = contentType.split(';')[0]?.trim() || 'image/png'
   const ext = EXT_BY_MIME[mime] ?? '.png'
   const filename = `${fileToken}${ext}`
   const destPath = path.join(destDir, filename)
 
-  const buffer = Buffer.from(await res.arrayBuffer())
-  fs.writeFileSync(destPath, buffer)
-
+  fs.writeFileSync(destPath, Buffer.from(await res.arrayBuffer()))
   return { filename, mime, destPath }
 }
 
-function createConverter(accessToken, documentId, assetsDir, assetUrlPrefix) {
+function createConverter(accessToken, assetsDir, assetUrlPrefix) {
   const blockMap = new Map()
   const downloaded = new Map()
 
-  async function imageMarkdown(imageBlock) {
-    const token = imageBlock?.token
+  async function imageMarkdown(token, caption = '') {
     if (!token) return ''
-
-    const caption = imageBlock?.caption?.content?.trim() ?? ''
 
     try {
       if (!downloaded.has(token)) {
@@ -152,10 +154,11 @@ function createConverter(accessToken, documentId, assetsDir, assetUrlPrefix) {
 
       const filename = downloaded.get(token)
       const alt = caption || 'image'
-      return `![${alt}](${assetUrlPrefix}/${filename})\n`
+      return `![${alt}](${assetUrlPrefix}/${filename})\n\n`
     } catch (err) {
       console.warn(`  图片下载失败 (${token}): ${err.message}`)
-      return caption ? `*${caption}*\n` : `<!-- feishu image ${token} -->\n`
+      const label = caption || token
+      return `![${label}](${assetUrlPrefix}/${token}.png)\n\n`
     }
   }
 
@@ -208,12 +211,19 @@ function createConverter(accessToken, documentId, assetsDir, assetUrlPrefix) {
         out += `---\n\n`
         break
       case BLOCK.IMAGE:
-        out += await imageMarkdown(block.image)
+        out += await imageMarkdown(
+          block.image?.token,
+          block.image?.caption?.content?.trim() ?? '',
+        )
         break
+      case BLOCK.FILE: {
+        const name = block.file?.name ?? 'file'
+        out += await imageMarkdown(block.file?.token, name)
+        break
+      }
+      case BLOCK.GRID:
+      case BLOCK.GRID_COLUMN:
       case BLOCK.QUOTE_CONTAINER:
-        for (const childId of block.children ?? []) {
-          out += `> ${(await renderBlock(blockMap.get(childId), indent)).replace(/\n/g, '\n> ')}\n`
-        }
         break
       default:
         break
@@ -222,21 +232,23 @@ function createConverter(accessToken, documentId, assetsDir, assetUrlPrefix) {
     if (type !== BLOCK.QUOTE_CONTAINER) {
       for (const childId of block.children ?? []) {
         const child = blockMap.get(childId)
-        if (child?.block_type === BLOCK.BULLET || child?.block_type === BLOCK.ORDERED) {
+        if (!child) continue
+        if (child.block_type === BLOCK.BULLET || child.block_type === BLOCK.ORDERED) {
           out += await renderBlock(child, indent + 1)
-        } else if (type !== BLOCK.IMAGE) {
+        } else if (type !== BLOCK.IMAGE && type !== BLOCK.FILE) {
           out += await renderBlock(child, indent)
         }
+      }
+    } else {
+      for (const childId of block.children ?? []) {
+        out += `> ${(await renderBlock(blockMap.get(childId), indent)).replace(/\n/g, '\n> ')}\n`
       }
     }
 
     return out
   }
 
-  return {
-    blockMap,
-    renderBlock,
-  }
+  return { blockMap, renderBlock }
 }
 
 export async function convertDocumentToMarkdown(accessToken, documentId, options) {
@@ -244,15 +256,10 @@ export async function convertDocumentToMarkdown(accessToken, documentId, options
   const blocks = await fetchAllBlocks(accessToken, documentId)
 
   if (!blocks.length) {
-    return ''
+    throw new Error('blocks 列表为空')
   }
 
-  const { blockMap, renderBlock } = createConverter(
-    accessToken,
-    documentId,
-    assetsDir,
-    assetUrlPrefix,
-  )
+  const { blockMap, renderBlock } = createConverter(accessToken, assetsDir, assetUrlPrefix)
 
   for (const block of blocks) {
     blockMap.set(block.block_id, block)
@@ -264,5 +271,9 @@ export async function convertDocumentToMarkdown(accessToken, documentId, options
   }
 
   const markdown = await renderBlock(root)
+  if (!markdown.trim()) {
+    throw new Error('blocks 转换结果为空')
+  }
+
   return markdown.replace(/\n{3,}/g, '\n\n').trim()
 }
