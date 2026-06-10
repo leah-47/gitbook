@@ -6,7 +6,7 @@ hero:
   text: "Documentation"
   tagline: "Official documentation for D5 Render — real-time ray tracing renderer"
   image:
-    src: /logo-dark.svg
+    src: /logo-dark.png
     alt: D5 Render
   actions:
     - text: "Get Started"

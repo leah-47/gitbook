@@ -6,13 +6,13 @@ export default defineConfig({
   description: 'Official documentation for D5 Render',
   base: '/gitbook/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/gitbook/favicon.png', type: 'image/png' }],
   ],
 
   srcExclude: ['**/SUMMARY.md'],
 
   themeConfig: {
-    logo: '/logo-dark.svg',
+    logo: '/logo-dark.png',
 
     search: {
       provider: 'local',
