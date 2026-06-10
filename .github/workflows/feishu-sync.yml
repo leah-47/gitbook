@@ -72,11 +72,11 @@ jobs:
           git add docs/
           if git diff --staged --quiet; then
             echo "没有变更，飞书内容与 GitHub 已一致"
-            exit 0
+          else
+            git status --short
+            git commit -m "docs(feishu): auto sync from feishu"
+            git push
           fi
-          git status --short
-          git commit -m "docs(feishu): auto sync from feishu"
-          git push
 
       # bot 的 GITHUB_TOKEN push 不会触发 deploy.yml，必须手动触发
       - name: Trigger VitePress deploy
@@ -87,4 +87,4 @@ jobs:
           gh workflow run "Deploy VitePress to GitHub Pages" \
             --repo "${{ github.repository }}" \
             --ref main
-          echo "已触发 Deploy，约 1 分钟后站点会更新"
+          echo "已触发 Deploy VitePress，约 1 分钟后站点会更新"
