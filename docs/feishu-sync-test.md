@@ -1,6 +1,6 @@
 ---
 feishu_doc_token: GmUydRjMZoyl0GxmdGRc7PdCnOg
-feishu_synced_at: "2026-06-10T14:53:11.512Z"
+feishu_synced_at: "2026-06-10T15:02:05.953Z"
 feishu_wiki_token: C1snwEs4hiVZtNk1fZlcCfTEnRe
 title: feishu-sync-test
 ---
@@ -35,7 +35,7 @@ To achieve the caustic effect, the ‘Caustics’ option must be enabled simulta
 > 
 ![light caustics](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/ZnOdbbMEVov5D8xMS1jc4C6Unkc.png)
 ![material caustics](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/YDSfbYWnvoMaBNxdUpOc29GDnne.png)
-# FA
+# FAQs
 
 ## Why do the sunlight caustics flicker?
 
