@@ -11,6 +11,10 @@ export default defineConfig({
 
   srcExclude: ['**/SUMMARY.md'],
 
+  search: {
+    provider: 'local',
+  },
+  
   themeConfig: {
     logo: '/logo-dark.svg',
 
@@ -36,9 +40,6 @@ export default defineConfig({
       copyright: 'Copyright © 2024 D5 Render',
     },
 
-    search: {
-      provider: 'local',
-    },
   },
 
   ignoreDeadLinks: true,
