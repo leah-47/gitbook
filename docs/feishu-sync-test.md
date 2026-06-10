@@ -1,6 +1,6 @@
 ---
 feishu_doc_token: GmUydRjMZoyl0GxmdGRc7PdCnOg
-feishu_synced_at: "2026-06-10T15:02:05.953Z"
+feishu_synced_at: "2026-06-10T15:08:04.299Z"
 feishu_wiki_token: C1snwEs4hiVZtNk1fZlcCfTEnRe
 title: feishu-sync-test
 ---
@@ -20,6 +20,7 @@ To achieve the caustic effect, the ‘Caustics’ option must be enabled simulta
 > 
   - **Four types of light sources and the sun(Geo Sky, and HDRI-Sun)** support the caustic effect.
 ![image](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/J8YTbwmtAoSnEGxcqwtc6Yu4nSf.png)
+
   1. The morphology of the caustics spot is affected by the model's bump variations as well as the normal texture map, which can be adjusted with the intensity and softness parameters.
   1. The parameters supported for adjustment in Light Sources (4 Basic Light, Geo Sky and HDRI-Sun) when caustics is turned on:
   - **Caustics Intensity:** The multiplier value of the Caustics effect, the higher the value, the brighter the caustics.
@@ -34,7 +35,9 @@ To achieve the caustic effect, the ‘Caustics’ option must be enabled simulta
 > 1. The caustics effect increases the rendering performance overhead, so please choose and adjust it according to the actual need when using it.
 > 
 ![light caustics](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/ZnOdbbMEVov5D8xMS1jc4C6Unkc.png)
+
 ![material caustics](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/YDSfbYWnvoMaBNxdUpOc29GDnne.png)
+
 # FAQs
 
 ## Why do the sunlight caustics flicker?
