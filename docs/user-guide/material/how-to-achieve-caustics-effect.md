@@ -1,19 +1,28 @@
-# How to Achieve Caustics Effect
-To achieve the caustics effect, you must enable the "Caustics" option for both **materials and light sources**.
+# How to Implement Caustic Effects?
 
-- Among these materials, currently only the **"Custom", "Transparent", and "Water" material templates** support the caustics effect.
+To implement caustic effects, you must enable the "Caustics" option for both **materials and light sources**.
 
-> Custom materials need to adjust parameters such as roughness and refractive index to achieve better caustics results.
+- Among materials, only the **"Custom", "Transparent", and "Water" material templates** currently support caustic effects.
 
-### Enable Caustics for Materials
-1. In the **Material Editor**, select a material that supports caustics.
-2. Check the **Caustics** option at the bottom of the **Basic Parameters** tab.
+> Custom materials support reflection caustics;
+> 
+> Transparent and Water materials support both reflection and refraction caustics;
+> 
 
-### Enable Caustics for Light Sources
-1. In the **Light Panel**, select a light source (sunlight, point light, or spotlight).
-2. Check the **Caustics** option in the light settings.
+- **Four types of light sources and the Sun (Geographic Sky and HDRI Sun)** support caustic effects.
 
-### Notes
-- The caustics effect has high requirements on hardware performance. It is recommended to use a graphics card with strong computing power.
-- The quality of caustics can be adjusted in the **Render Settings** under the **Advanced** tab.
+1. The shape of caustic spots is affected by the bump variations of the model and the normal texture map, which can be adjusted via the Intensity and Softness parameters.
 
+2. When caustic effects are enabled, the following adjustable parameters are available for light sources (4 basic light sources, Geographic Sky, and HDRI Sun):
+
+- **Caustic Intensity:** A multiplier for the caustic effect; the higher the value, the brighter the caustics.
+
+- **Softness:** The degree of caustic softening that takes effect when the light source radius is greater than 0.
+
+> Notes:
+> 
+> 1. Caustic effects on Transparent materials are incompatible with their respective UV and tri-planar effects.
+> 
+> 2. Currently, a maximum of **64 light sources** can have caustic effects enabled simultaneously.
+> 
+> 3. Caustic effects increase rendering performance overhead, so please select and adjust them according to actual needs when using them.
