@@ -1,6 +1,6 @@
 ---
 feishu_doc_token: GmUydRjMZoyl0GxmdGRc7PdCnOg
-feishu_synced_at: "2026-08-13T06:06:06.914Z"
+feishu_synced_at: "2026-08-13T07:57:10.085Z"
 feishu_wiki_token: C1snwEs4hiVZtNk1fZlcCfTEnRe
 title: feishu-sync-test
 ---
@@ -17,7 +17,7 @@ To achieve the caustic effect, the ‘Caustics’ option must be enabled simulta
 > 
 > 
   - **Four types of light sources and the sun(Geo Sky, and HDRI-Sun)** support the caustic effect.
-![image](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/J8YTbwmtAoSnEGxcqwtc6Yu4nSf.png)
+![J8YTbwmtAoSnEGxcqwtc6Yu4nSf](/feishu/GmUydRjMZoyl0GxmdGRc7PdCnOg/J8YTbwmtAoSnEGxcqwtc6Yu4nSf.png)
 
   1. The morphology of the caustics spot is affected by the model's bump variations as well as the normal texture map, which can be adjusted with the intensity and softness parameters.
   1. The parameters supported for adjustment in Light Sources (4 Basic Light, Geo Sky and HDRI-Sun) when caustics is turned on:
